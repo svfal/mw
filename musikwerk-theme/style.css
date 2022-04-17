@@ -1,0 +1,62 @@
+/*
+Theme Name: Musikwerk
+Author: admin (all of the glorious ones) 
+Version: 0.5
+*/
+
+body
+{
+text-align: left;
+color: #2c3e50;
+font-size: 0.9375rem;
+font-family: "Montserrat", "Arial", "Helvetica Neue", "Helvetica", sans-serif !important;
+font-size: 100%;
+
+}
+#title
+{
+	margin-bottom:2em;
+}
+/*
+#sidebar
+{
+border-left: 1px solid black;
+}
+*/
+#footer
+{
+width: 100%;
+border-top: 1px #a2a2a2 solid;
+text-align: center;
+}
+.bg-light {
+    background-color: white !important;
+}
+
+p {
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav{
+    font-size: 1.3rem;
+    padding-left: 15%;
+    font-family: "AntiqueOli-Lig", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    line-height: 1;
+    font-weight: normal;
+}
+
+.nav-link{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.dropdown-item {
+    font-size: 1.3rem;
+    font-family: "AntiqueOli-Lig", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
