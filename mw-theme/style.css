@@ -62,31 +62,30 @@ img {
 }
 
 .rectangle_red { 
-    height: 20px; 
-    width: 30px; 
     background-color: #EC5F6A;
 }
 
 .rectangle_green { 
-    height: 20px; 
-    width: 30px; 
     background-color: #57BCB3;  
 }
 
 .rectangle_yellow { 
-    height: 20px; 
-    width: 30px; 
     background-color: #EEE24A; 
 }
 
 .rectangle_dark_blue { 
-    height: 20px; 
-    width: 30px;  
     background-color: #5C79BB; 
 }
 
 .rectangle_light_blue { 
+    background-color: #A2D9F1; 
+}
+
+.rectangle{ 
     height: 20px; 
     width: 30px; 
-    background-color: #A2D9F1; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transform: translateY(20%);
+    float: right;
 }
