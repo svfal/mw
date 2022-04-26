@@ -61,14 +61,32 @@ img {
     font-family: "AntiqueOli-Lig", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
 
-#square {
-    width: 100px !important;
-    height: 100px !important;
-    background: red !important;
+.rectangle_red { 
+    height: 20px; 
+    width: 30px; 
+    background-color: #EC5F6A;
 }
 
-.quadrat { 
-    height: 100px; 
-    width: 100px; 
-    background-color: #FF0000; 
-} 
+.rectangle_green { 
+    height: 20px; 
+    width: 30px; 
+    background-color: #57BCB3;  
+}
+
+.rectangle_yellow { 
+    height: 20px; 
+    width: 30px; 
+    background-color: #EEE24A; 
+}
+
+.rectangle_dark_blue { 
+    height: 20px; 
+    width: 30px;  
+    background-color: #5C79BB; 
+}
+
+.rectangle_light_blue { 
+    height: 20px; 
+    width: 30px; 
+    background-color: #A2D9F1; 
+}
