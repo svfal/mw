@@ -10,17 +10,8 @@
 </head>
 
 <body>
-    <div class="container col-lg-10 col-sm-10 col-md-10 col-xs-10">
-        <div class="rectangle_green rectangle"></div>
-        <div class="rectangle_yellow rectangle"></div> 
-        <div class="rectangle_red rectangle"></div> 
-        <div class="rectangle_dark_blue rectangle"></div> 
-        <div class="rectangle_light_blue rectangle"></div> 
-    </div>
     <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
         <div class="container">
-            <!-- Colored Boxes -->
-
             <!-- Brand and toggle get grouped for better mobile display -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
                 <span class="navbar-toggler-icon"></span>
@@ -49,6 +40,12 @@
                 'walker'            => new WP_Bootstrap_Navwalker(),
             ));
             ?>
+            <!-- Colored Boxes -->
+            <div class="rectangle_green rectangle"></div>
+            <div class="rectangle_yellow rectangle"></div> 
+            <div class="rectangle_red rectangle"></div> 
+            <div class="rectangle_dark_blue rectangle"></div> 
+            <div class="rectangle_light_blue rectangle"></div> 
         </div>
     </nav>
     <div class="container">
