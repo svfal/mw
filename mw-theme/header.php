@@ -10,13 +10,13 @@
 </head>
 
 <body>
-
-    <div class="rectangle_green rectangle"></div>
-    <div class="rectangle_yellow rectangle"></div> 
-    <div class="rectangle_red rectangle"></div> 
-    <div class="rectangle_dark_blue rectangle"></div> 
-    <div class="rectangle_light_blue rectangle"></div> 
-
+    <div class="container">
+        <div class="rectangle_green rectangle"></div>
+        <div class="rectangle_yellow rectangle"></div> 
+        <div class="rectangle_red rectangle"></div> 
+        <div class="rectangle_dark_blue rectangle"></div> 
+        <div class="rectangle_light_blue rectangle"></div> 
+    </div>
     <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
         <div class="container">
             <!-- Colored Boxes -->
