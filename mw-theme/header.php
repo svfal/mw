@@ -40,12 +40,14 @@
                 'walker'            => new WP_Bootstrap_Navwalker(),
             ));
             ?>
-            <!-- Colored Boxes -->
-            <div class="rectangle_green rectangle"></div>
-            <div class="rectangle_yellow rectangle"></div> 
-            <div class="rectangle_red rectangle"></div> 
-            <div class="rectangle_dark_blue rectangle"></div> 
-            <div class="rectangle_light_blue rectangle"></div> 
         </div>
     </nav>
+    <div class="container">
+        <!-- Colored Boxes -->
+        <div class="rectangle_green rectangle"></div>
+        <div class="rectangle_yellow rectangle"></div> 
+        <div class="rectangle_red rectangle"></div> 
+        <div class="rectangle_dark_blue rectangle"></div> 
+        <div class="rectangle_light_blue rectangle"></div> 
+    </div>
     <div class="container">

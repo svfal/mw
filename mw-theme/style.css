@@ -84,8 +84,8 @@ img {
 .rectangle{ 
     height: 20px; 
     width: 30px; 
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     transform: translateY(50%);
     transform: translateX(400%);
     float: right;
