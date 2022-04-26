@@ -42,12 +42,14 @@
             ?>
         </div>
     </nav>
-    <div class="container col-lg-10 col-sm-10 col-md-10 col-xs-10">
+    <div class="container">
+        <div id="content" class="col-lg-10 col-sm-10 col-md-10 col-xs-10">
         <!-- Colored Boxes -->
-        <div class="rectangle_green rectangle"></div>
-        <div class="rectangle_yellow rectangle"></div> 
-        <div class="rectangle_red rectangle"></div> 
-        <div class="rectangle_dark_blue rectangle"></div> 
-        <div class="rectangle_light_blue rectangle"></div> 
+            <div class="rectangle_green rectangle"></div>
+            <div class="rectangle_yellow rectangle"></div> 
+            <div class="rectangle_red rectangle"></div> 
+            <div class="rectangle_dark_blue rectangle"></div> 
+            <div class="rectangle_light_blue rectangle"></div> 
+        </div>
     </div>
     <div class="container">
