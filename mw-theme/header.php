@@ -42,7 +42,7 @@
             ?>
         </div>
     </nav>
-    <div class="container">
+    <div class="container col-lg-10 col-sm-10 col-md-10 col-xs-10">
         <!-- Colored Boxes -->
         <div class="rectangle_green rectangle"></div>
         <div class="rectangle_yellow rectangle"></div> 
