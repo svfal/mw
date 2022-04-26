@@ -62,7 +62,7 @@ img {
 }
 
 #square {
-    width: 100px;
-    height: 100px;
-    background: red;
+    width: 100px !important;
+    height: 100px !important;
+    background: red !important;
 }
