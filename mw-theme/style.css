@@ -63,6 +63,7 @@ img {
 
 .rectangle_red { 
     background-color: #EC5F6A;
+    float: right;
 }
 
 .rectangle_green { 
@@ -70,15 +71,18 @@ img {
 }
 
 .rectangle_yellow { 
-    background-color: #EEE24A; 
+    background-color: #EEE24A;
+    float: right;
 }
 
 .rectangle_dark_blue { 
-    background-color: #5C79BB; 
+    background-color: #5C79BB;
+    float: right;
 }
 
 .rectangle_light_blue { 
     background-color: #A2D9F1; 
+    float: right;
 }
 
 .rectangle{ 
@@ -87,5 +91,4 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
     transform: translateY(-200%);
-    float: right;
 }
