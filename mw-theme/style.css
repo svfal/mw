@@ -60,3 +60,9 @@ img {
     font-size: 1.3rem;
     font-family: "AntiqueOli-Lig", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
+
+#square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
