@@ -15,6 +15,8 @@
 
     <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
         <div class="container">
+            <!-- Colored Boxes -->
+            <div class="square square-lg">...</div>
             <!-- Brand and toggle get grouped for better mobile display -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
                 <span class="navbar-toggler-icon"></span>
