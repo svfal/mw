@@ -86,6 +86,6 @@ img {
     width: 30px; 
     padding-left: 1rem;
     padding-right: 1rem;
-    transform: translateY(20%);
+    transform: translateY(-200%);
     float: right;
 }
