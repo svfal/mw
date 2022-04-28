@@ -30,7 +30,7 @@
 
         <div class="row">
 
-            <div class="col-md-12">
+            <div class="col-md-9">
 
                 <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
                     
