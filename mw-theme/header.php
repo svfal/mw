@@ -15,7 +15,7 @@
 
         <div class="row">
 
-            <div class="col-md-10">
+            <div class="col-md-12">
 
                 <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
                     
