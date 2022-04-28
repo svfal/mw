@@ -65,9 +65,7 @@ img {
 .rectangle{ 
     height: 30px; 
     width: 50px; 
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem 1rem 0rem 1rem;
    /* transform: translateX(-240%) translateY(-100%); */
     float: right;
 }
