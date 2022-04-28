@@ -86,8 +86,8 @@ img {
     width: 30px; 
     margin-left: 1rem;
     margin-right: 1rem;
-    transform: translateX(-240%) translateY(-100%);
-    float: right;
+   /* transform: translateX(-240%) translateY(-100%);
+    float: right; */
 }
 
 .testClass{
