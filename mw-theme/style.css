@@ -79,7 +79,8 @@ img {
 }
 
 .rectangle_light_blue { 
-    background-color: #A2D9F1; 
+    background-color: #A2D9F1;
+    margin-left: 0; 
 }
 
 .rectangle{ 

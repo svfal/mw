@@ -58,7 +58,7 @@
 
         <div class="row">
 
-            <div class="col-md-10">
+            <div class="col-md-8">
             
                 <!-- Colored Boxes -->
                 <div class="rectangle_green rectangle"></div>
