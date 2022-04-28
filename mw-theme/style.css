@@ -43,12 +43,13 @@ img {
     height: auto;
 }
 
-.navbar-nav{
+.navbar-nav {
     font-size: 1.3rem;
     padding-left: 15%;
     font-family: "AntiqueOli-Lig", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     line-height: 1;
     font-weight: normal;
+    float: right;
 }
 
 .nav-link{
