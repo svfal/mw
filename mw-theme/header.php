@@ -13,6 +13,21 @@
 
     <div class="container">
 
+    <div class="row">
+
+        <div class="col-md-8">
+
+            <!-- Colored Boxes -->
+            <div class="rectangle_green rectangle"></div>
+            <div class="rectangle_yellow rectangle"></div> 
+            <div class="rectangle_red rectangle"></div> 
+            <div class="rectangle_dark_blue rectangle"></div> 
+            <div class="rectangle_light_blue rectangle"></div> 
+
+        </div>
+
+    </div>
+
         <div class="row">
 
             <div class="col-md-12">
@@ -56,20 +71,7 @@
  
         </div>
 
-        <div class="row">
-
-            <div class="col-md-8">
-            
-                <!-- Colored Boxes -->
-                <div class="rectangle_green rectangle"></div>
-                <div class="rectangle_yellow rectangle"></div> 
-                <div class="rectangle_red rectangle"></div> 
-                <div class="rectangle_dark_blue rectangle"></div> 
-                <div class="rectangle_light_blue rectangle"></div> 
-            
-            </div>
-
-        </div>
+        
 
     </div>
 
