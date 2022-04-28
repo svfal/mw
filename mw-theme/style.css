@@ -83,10 +83,11 @@ img {
 }
 
 .rectangle{ 
-    height: 20px; 
-    width: 30px; 
+    height: 30px; 
+    width: 50px; 
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 2rem;
    /* transform: translateX(-240%) translateY(-100%); */
     float: right;
 }
