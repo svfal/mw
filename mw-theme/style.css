@@ -53,8 +53,8 @@ img {
 }
 
 .nav-link{
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: 0 !important;
+    padding-right: 2rem !important;
 }
 
 .dropdown-item {
