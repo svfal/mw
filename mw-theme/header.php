@@ -58,11 +58,11 @@
         <div class="row">
             
             <!-- Colored Boxes -->
-            <div class="rectangle_green rectangle col-md-2"></div>
-            <div class="rectangle_yellow rectangle col-md-2"></div> 
-            <div class="rectangle_red rectangle col-md-2"></div> 
-            <div class="rectangle_dark_blue rectangle col-md-2"></div> 
-            <div class="rectangle_light_blue rectangle col-md-2"></div> 
+            <div class="rectangle_green rectangle col-md-3"></div>
+            <div class="rectangle_yellow rectangle col-md-3"></div> 
+            <div class="rectangle_red rectangle col-md-3"></div> 
+            <div class="rectangle_dark_blue rectangle col-md-3"></div> 
+            <div class="rectangle_light_blue rectangle col-md-3"></div> 
 
 
         </div>
