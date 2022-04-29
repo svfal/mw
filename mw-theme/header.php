@@ -26,7 +26,7 @@
                         </button> 
                                                                       
                         <?php if ( !is_front_page() ) { ?>
-                            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                            <div class="col-lg-3 col-md-4 col-sm-3">
                                 <a class="navbar-brand" href="/">
                                     <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="40"  alt="Home">
                                 </a>
