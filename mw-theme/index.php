@@ -1,7 +1,7 @@
  <?php get_header(); ?>
  
      
-     <div id="content" class="col-lg-10 col-xs-10">    
+     <div id="content" class="col-lg-10 col-sm-10 col-md-10 col-xs-10">    
      	
      	<p>
      		<img src= "<?php echo get_stylesheet_directory_uri().'/img/mw-start-2018.jpg'; ?>">
