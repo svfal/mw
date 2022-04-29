@@ -20,6 +20,10 @@ font-size: 100%;
     font-style: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'AntiqueOlive';   
+}
+
 #title
 {
 	margin-bottom:2em;
@@ -51,7 +55,7 @@ img {
 }
 
 .navbar-nav {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding-left: 15%;
     font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     line-height: 1;
@@ -65,7 +69,7 @@ img {
 }
 
 .dropdown-item {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
 
