@@ -74,8 +74,8 @@ img {
 }
 
 .rectangle{ 
-    height: 30px; 
-    width: 56.6px; 
+    height: 1.6rem; 
+    width: 3.3rem; 
     margin: 2rem 1rem 1rem 1rem;
    /* transform: translateX(-240%) translateY(-100%); */
     float: right;
