@@ -44,7 +44,7 @@
                         <div class="col-sm-8 ">
                             <div class="container">
                                 <!-- Rectangles and Menu get grouped for better display -->
-                                <div class="row align-items-right text-nowrap">
+                                <div class="row justify-content-end text-nowrap">
 
                                     <!-- Colored Boxes -->
                                     <div class="rectangle_green rectangle"></div>
@@ -53,7 +53,7 @@
                                     <div class="rectangle_dark_blue rectangle"></div> 
                                     <div class="rectangle_light_blue rectangle"></div> 
                                 </div>
-                                <div class="row align-items-right text-nowrap">
+                                <div class="row justify-content-end text-nowrap">
                         
                                 <?php
                                 wp_nav_menu(array(
