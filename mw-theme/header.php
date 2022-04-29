@@ -15,7 +15,7 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
 
                 <nav class="navbar navbar-expand-md navbar-light bg-light flex-nowrap" role="navigation">
                     
