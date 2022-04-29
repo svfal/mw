@@ -44,7 +44,7 @@
                         <div class="col-sm-8 ">
                             <div class="container">
                                 <!-- Rectangles and Menu get grouped for better display -->
-                                <div class="row justify-content-between flex-nowrap">
+                                <div class="row justify-content-around flex-nowrap">
 
                                     <!-- Colored Boxes -->
                                     <div class="rectangle_green rectangle"></div>
