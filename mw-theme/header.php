@@ -15,7 +15,7 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-sm-12">
+            <div class="col-sm-10">
 
                 <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
                     
