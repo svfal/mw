@@ -42,7 +42,7 @@
                         }	
                         ?>
                         <div class="col-sm-8 ">
-                            <div class="container">
+                            <div class="container-fluid">
                                 <!-- Rectangles and Menu get grouped for better display -->
                                 <div class="row justify-content-end flex-nowrap">
 
