@@ -42,19 +42,19 @@
                         }	
                         ?>
                         <div class="col-sm-8 ">
-                            <div class="container">
+                            <div class="container-fluid">
                                 <!-- Rectangles and Menu get grouped for better display -->
                                 <div class="row justify-content-end flex-nowrap">
-                                    <div class="col-lg-12 col-md-12 col-sm-12">
-                                        <!-- Colored Boxes -->
-                                        <div class="rectangle_green rectangle"></div>
-                                        <div class="rectangle_yellow rectangle"></div> 
-                                        <div class="rectangle_red rectangle"></div> 
-                                        <div class="rectangle_dark_blue rectangle"></div> 
-                                        <div class="rectangle_light_blue rectangle"></div> 
-                                    </div>
-                                
-                                 <div class="col-lg-12 col-md-12 col-sm-12">
+
+                                    <!-- Colored Boxes -->
+                                    <div class="rectangle_green rectangle"></div>
+                                    <div class="rectangle_yellow rectangle"></div> 
+                                    <div class="rectangle_red rectangle"></div> 
+                                    <div class="rectangle_dark_blue rectangle"></div> 
+                                    <div class="rectangle_light_blue rectangle"></div> 
+                                </div>
+                                <div class="row justify-content-end flex-nowrap">
+                        
                                 <?php
                                 wp_nav_menu(array(
                                     'theme_location'    => 'primary',
@@ -67,7 +67,6 @@
                                     'walker'            => new WP_Bootstrap_Navwalker(),
                             ));
                             ?>
-                                    </div>
                                 </div>
                             </div>
                         </div>
