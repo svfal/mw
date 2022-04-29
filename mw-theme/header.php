@@ -15,7 +15,7 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-md-9">
+            <div class="col-sm-9">
 
                 <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
                     
@@ -26,7 +26,7 @@
                         </button> 
                                                                       
                         <?php if ( !is_front_page() ) { ?>
-                            <div class="col-md-4">
+                            <div class="col-sm-4">
                                 <a class="navbar-brand" href="/">
                                     <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="40"  alt="Home">
                                 </a>
@@ -35,12 +35,12 @@
                         }
                         else {
                         ?>
-                            <div class="col-md-1">
+                            <div class="col-sm-1">
                                 <img src=" <?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" >
                             </div>
                         <?php
                         }	
-                        <div class="col-md-8">
+                        <div class="col-sm-8">
 
                             <!-- Colored Boxes -->
                             <div class="rectangle_green rectangle"></div>
