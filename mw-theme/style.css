@@ -14,8 +14,8 @@ font-size: 100%;
 
 }
 @font-face {
-    font-family: 'AntiqueOliT_3892';
-    src: url('fonts/AntiqueOliT_3892.woff') format('woff');
+    font-family: 'AntiqueOlive';
+    src: url('assets/fonts/AntiqueOliT_3892.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ img {
 .navbar-nav {
     font-size: 1.3rem;
     padding-left: 15%;
-    font-family: "AntiqueOliT_3892", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     line-height: 1;
     font-weight: normal;
     float: right;
@@ -66,7 +66,7 @@ img {
 
 .dropdown-item {
     font-size: 1.3rem;
-    font-family: "AntiqueOli-Lig", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
 
 .rectangle{ 
