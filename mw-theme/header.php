@@ -13,11 +13,11 @@
 
   <div class="container">  
 
-        <div class="row justify-content-center">
+        <div class="row ">
 
             <div class="col-sm-10">
 
-                <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
+                <nav class="navbar navbar-expand-md navbar-light bg-light flex-nowrap" role="navigation">
                     
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
