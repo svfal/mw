@@ -17,7 +17,7 @@
 
             <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
 
-                <nav class="navbar navbar-expand-md navbar-light bg-light flex-nowrap" role="navigation">
+                <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
                     
                     <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
