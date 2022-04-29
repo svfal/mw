@@ -60,9 +60,9 @@
                                     'theme_location'    => 'primary',
                                     'depth'             => 2,
                                     'container'         => 'div',
-                                    'container_class'   => 'collapse navbar-collapse col-md-8 flex-nowrap',
+                                    'container_class'   => 'collapse navbar-collapse col-md-8',
                                     'container_id'      => 'bs-example-navbar-collapse-1',
-                                    'menu_class'        => 'nav navbar-nav',
+                                    'menu_class'        => 'nav navbar-nav flex-nowrap',
                                     'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                     'walker'            => new WP_Bootstrap_Navwalker(),
                             ));
