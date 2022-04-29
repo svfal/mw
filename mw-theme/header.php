@@ -15,7 +15,7 @@
 
         <div class="row ">
 
-            <div class="col-sm-10">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
 
                 <nav class="navbar navbar-expand-md navbar-light bg-light flex-nowrap" role="navigation">
                     
@@ -26,7 +26,7 @@
                         </button> 
                                                                       
                         <?php if ( !is_front_page() ) { ?>
-                            <div class="col-sm-4">
+                            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                                 <a class="navbar-brand" href="/">
                                     <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="40"  alt="Home">
                                 </a>
