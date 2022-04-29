@@ -42,29 +42,32 @@
                         }	
                         ?>
                         <div class="col-sm-8">
-                            <div class="row">
+                            <div class="container">
+                                <!-- Rectangles and Menu get grouped for better display -->
+                                <div class="row align-items-right">
 
-                                <!-- Colored Boxes -->
-                                <div class="rectangle_green rectangle"></div>
-                                <div class="rectangle_yellow rectangle"></div> 
-                                <div class="rectangle_red rectangle"></div> 
-                                <div class="rectangle_dark_blue rectangle"></div> 
-                                <div class="rectangle_light_blue rectangle"></div> 
-                            </div>
-                            <div class="row">
+                                    <!-- Colored Boxes -->
+                                    <div class="rectangle_green rectangle"></div>
+                                    <div class="rectangle_yellow rectangle"></div> 
+                                    <div class="rectangle_red rectangle"></div> 
+                                    <div class="rectangle_dark_blue rectangle"></div> 
+                                    <div class="rectangle_light_blue rectangle"></div> 
+                                </div>
+                                <div class="row align-items-right">
                         
-                            <?php
-                            wp_nav_menu(array(
-                                'theme_location'    => 'primary',
-                                'depth'             => 2,
-                                'container'         => 'div',
-                                'container_class'   => 'collapse navbar-collapse col-md-8',
-                                'container_id'      => 'bs-example-navbar-collapse-1',
-                                'menu_class'        => 'nav navbar-nav',
-                                'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-                                'walker'            => new WP_Bootstrap_Navwalker(),
+                                <?php
+                                wp_nav_menu(array(
+                                    'theme_location'    => 'primary',
+                                    'depth'             => 2,
+                                    'container'         => 'div',
+                                    'container_class'   => 'collapse navbar-collapse col-md-8',
+                                    'container_id'      => 'bs-example-navbar-collapse-1',
+                                    'menu_class'        => 'nav navbar-nav',
+                                    'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                                    'walker'            => new WP_Bootstrap_Navwalker(),
                             ));
                             ?>
+                                </div>
                             </div>
                         </div>
                     </div>
