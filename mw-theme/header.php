@@ -11,7 +11,7 @@
 
 <body>
 
-    
+  <div class="container">  
 
         <div class="row justify-content-center">
 
@@ -40,6 +40,7 @@
                             </div>
                         <?php
                         }	
+                        ?>
                         <div class="col-sm-8">
 
                             <!-- Colored Boxes -->
@@ -50,6 +51,7 @@
                             <div class="rectangle_light_blue rectangle"></div> 
 
                         </div>
+                        <?php
                         wp_nav_menu(array(
                             'theme_location'    => 'primary',
                             'depth'             => 2,
@@ -71,6 +73,6 @@
         
 
     </div>
-
+</div>
 
     
