@@ -11,22 +11,22 @@
 
 <body>
 
-  <div class="container">  
 
-        <div class="row justify-content-center">
 
-            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+        <div class="row justify-content-center ">
+
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
 
                 <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
                     
-                    <div class="container">
+                    <div class="row">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
                             <span class="navbar-toggler-icon"></span>
                         </button> 
                                                                       
                         <?php if ( !is_front_page() ) { ?>
-                            <div class="col-lg-3 col-md-4 col-sm-3">
+                            <div class="col-lg-3 col-md-4 col-sm-3 flex-start">
                                 <a class="navbar-brand" href="/">
                                     <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="40"  alt="Home">
                                 </a>
@@ -77,9 +77,5 @@
  
         </div>
 
-        
-
-    </div>
-</div>
 
     
