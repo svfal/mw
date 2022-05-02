@@ -35,7 +35,7 @@
                         }
                         else {
                         ?>
-                            <div class="col-sm-4">
+                            <div class="col-sm-4 col-md-3 col-lg-4">
                                 <img src=" <?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" >
                             </div>
                         <?php
