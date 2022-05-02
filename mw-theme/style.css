@@ -60,12 +60,12 @@ img {
     font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     line-height: 1;
     font-weight: normal;
-    float: right;
+    
 }
 
 .nav-link{
     padding-left: 0 !important;
-    padding-right: 2rem !important;
+    padding-right: 0 !important;
 }
 
 .dropdown-item {

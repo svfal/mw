@@ -13,9 +13,9 @@
 
 
 
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 
                 <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
                     
@@ -41,10 +41,10 @@
                         <?php
                         }	
                         ?>
-                        <div class="col-sm-8 ">
-                            <div class="container-fluid">
+                        <div class="col-lg-8 col-md-8">
+                            <div class="row">
                                 <!-- Rectangles and Menu get grouped for better display -->
-                                <div class="row justify-content-end flex-nowrap">
+                                <div class="row justify-content-start flex-nowrap">
 
                                     <!-- Colored Boxes -->
                                     <div class="rectangle_green rectangle"></div>
@@ -53,14 +53,14 @@
                                     <div class="rectangle_dark_blue rectangle"></div> 
                                     <div class="rectangle_light_blue rectangle"></div> 
                                 </div>
-                                <div class="row justify-content-end flex-nowrap">
+                                <div class="row ">
                         
                                 <?php
                                 wp_nav_menu(array(
                                     'theme_location'    => 'primary',
                                     'depth'             => 2,
                                     'container'         => 'div',
-                                    'container_class'   => 'collapse navbar-collapse col-md-8 flex-nowrap',
+                                    'container_class'   => 'collapse navbar-collapse col-md-8',
                                     'container_id'      => 'bs-example-navbar-collapse-1',
                                     'menu_class'        => 'nav navbar-nav',
                                     'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
