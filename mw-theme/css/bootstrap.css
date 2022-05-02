@@ -4007,7 +4007,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
-  vertical-align:middle;
+  
   position: relative;
   display: flex;
   flex-wrap: nowrap;
