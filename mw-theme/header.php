@@ -54,7 +54,7 @@
                                     <div class="rectangle_dark_blue rectangle"></div> 
                                     <div class="rectangle_light_blue rectangle"></div> 
                                 </div>
-                                <div class="row justify-content-start flex-nowrap">
+                                <div class="row justify-content-start ">
                         
                                 <?php
                                 wp_nav_menu(array(
@@ -63,7 +63,7 @@
                                     'container'         => 'div',
                                     'container_class'   => 'collapse navbar-collapse',
                                     'container_id'      => 'bs-example-navbar-collapse-1',
-                                    'menu_class'        => 'nav navbar-nav flex-nowrap px-0',
+                                    'menu_class'        => 'nav navbar-nav flex-md-nowrap px-0',
                                     'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                     'walker'            => new WP_Bootstrap_Navwalker(),
                             ));
