@@ -62,6 +62,10 @@ img {
     font-weight: normal;
     
 }
+.navbar-toggler {
+    width:3em;
+    margin-left: 0.75rem;
+}
 
 .nav-link{
     padding-left: 0 !important;

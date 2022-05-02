@@ -1,7 +1,5 @@
  <?php get_header(); ?>
- 
-     
-     <div id="content" >  
+ 	<div id="content" >  
 		<div class="container">
 
 			<div class="row justify-content-center">
