@@ -60,7 +60,7 @@ img {
     font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     line-height: 1;
     font-weight: normal;
-    float: right;
+    
 }
 
 .nav-link{
@@ -77,7 +77,7 @@ img {
     height: 1.6rem; 
     width: 3.09rem;
     margin: 1rem 1rem 1rem 1rem;
-   /* transform: translateX(-240%) translateY(-100%); */
+    /*transform: translateX(-240%) translateY(-100%); */
     /*float: right;*/
    
 }
@@ -100,7 +100,7 @@ img {
 
 .rectangle_light_blue { 
     background-color: #A2D9F1;
-    margin-left: 0; 
+    
 }
 
 

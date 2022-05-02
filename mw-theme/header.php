@@ -17,18 +17,18 @@
 
             <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
 
-                <nav class="navbar navbar-expand-md navbar-light bg-light" role="navigation">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light" role="navigation">
                     
-                    <div class="container">
+                    <div class="row">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
                             <span class="navbar-toggler-icon"></span>
                         </button> 
                                                                       
                         <?php if ( !is_front_page() ) { ?>
-                            <div class="col-lg-3 col-md-4 col-sm-3">
+                            <div class="col-lg-2 col-md-1 col-sm-3">
                                 <a class="navbar-brand" href="/">
-                                    <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="40"  alt="Home">
+                                    <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="100%"  alt="Home">
                                 </a>
                             </div>
                         <?php
@@ -41,10 +41,11 @@
                         <?php
                         }	
                         ?>
-                        <div class="col-sm-8 ">
-                            <div class="container-fluid">
+                        
+                        <div class="col-lg-7 col-md-7">
+                            <div class="row">
                                 <!-- Rectangles and Menu get grouped for better display -->
-                                <div class="row justify-content-end flex-nowrap">
+                                <div class="row  flex-nowrap">
 
                                     <!-- Colored Boxes -->
                                     <div class="rectangle_green rectangle"></div>
@@ -53,16 +54,16 @@
                                     <div class="rectangle_dark_blue rectangle"></div> 
                                     <div class="rectangle_light_blue rectangle"></div> 
                                 </div>
-                                <div class="row justify-content-end flex-nowrap">
+                                <div class="row justify-content-start flex-nowrap">
                         
                                 <?php
                                 wp_nav_menu(array(
                                     'theme_location'    => 'primary',
                                     'depth'             => 2,
                                     'container'         => 'div',
-                                    'container_class'   => 'collapse navbar-collapse col-md-8',
+                                    'container_class'   => 'collapse navbar-collapse',
                                     'container_id'      => 'bs-example-navbar-collapse-1',
-                                    'menu_class'        => 'nav navbar-nav flex-nowrap',
+                                    'menu_class'        => 'nav navbar-nav flex-nowrap px-0',
                                     'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                     'walker'            => new WP_Bootstrap_Navwalker(),
                             ));

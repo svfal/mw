@@ -4009,11 +4009,12 @@ textarea.form-control-lg {
 .navbar {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4025,7 +4026,7 @@ textarea.form-control-lg {
   display: flex;
   flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
 }
 .navbar-brand {
   padding-top: 0.3125rem;
@@ -4037,7 +4038,7 @@ textarea.form-control-lg {
 }
 .navbar-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
