@@ -39,10 +39,10 @@
                         }	
                         ?>
                         
-                        <div class="col-lg-7 col-md-7 px-lg-3">
+                        <div class="col-lg-7 col-md-7 col-xs-9 px-lg-3">
                             <div class="row">
                                 <!-- Rectangles and Menu get grouped for better display -->
-                                <div class="row  flex-nowrap">
+                                <div class="row  flex-nowrap justify-content-between justify-content-sm-start">
 
                                     <!-- Colored Boxes -->
                                     <div class="rectangle_green rectangle"></div>
