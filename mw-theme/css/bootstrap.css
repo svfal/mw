@@ -4029,6 +4029,7 @@ textarea.form-control-lg {
   justify-content: start;
 }
 .navbar-brand {
+  vertical-align:baseline;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
