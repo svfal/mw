@@ -48,11 +48,11 @@
                                 <div class="col d-none d-sm-flex d-md-none flex-row flex-nowrap ">
                                     
                                     <!-- Colored Boxes (Small Screens)-->
-                                    <div class="rectangle_green rectangle"></div>
-                                    <div class="rectangle_yellow rectangle"></div> 
-                                    <div class="rectangle_red rectangle"></div> 
-                                    <div class="rectangle_dark_blue rectangle"></div> 
-                                    <div class="rectangle_light_blue rectangle"></div> 
+                                    <div class="rectangle_green rectangle small"></div>
+                                    <div class="rectangle_yellow rectangle small"></div> 
+                                    <div class="rectangle_red rectangle small"></div> 
+                                    <div class="rectangle_dark_blue rectangle small"></div> 
+                                    <div class="rectangle_light_blue rectangle small"></div> 
                                     
                                 </div>
                         

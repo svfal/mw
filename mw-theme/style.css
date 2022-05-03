@@ -90,11 +90,14 @@ img {
     height: 1.4rem; 
     width: 2.7rem;
     margin: 0.8rem 0.8rem 0.8rem 0.8rem;
-    /*transform: translateX(-240%) translateY(-100%); */
-    /*float: right;*/
+    
    
 }
-
+.rectangle.small {
+    height: 1.2rem; 
+    width: 2.3rem; 
+    margin: 1.8rem 0 0 0.8rem;  
+}
 .rectangle_red { 
     background-color: #EC5F6A;
 }
