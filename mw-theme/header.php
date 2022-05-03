@@ -13,48 +13,63 @@
 
   <div class="container">  
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center ">
 
             <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
 
-                <nav class="navbar navbar-expand-sm navbar-light bg-light" role="navigation">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light p-0" role="navigation">
                     
                     <div class="row">
                         
+                            <!-- Toggle for mobile menu -->
+                            <a class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
+                            <span> </span>
+                            <span> </span>
+                            <span> </span>
+                            </a> 
                                                                       
-                        <?php if ( !is_front_page() ) { ?>
-                            <div class="col-lg-2 col-md-1 col-sm-3">
+                            <?php if ( !is_front_page() ) { ?>
+                                <div class="col-lg-2 col-md-1 col-sm-3">
                                 <a class="navbar-brand" href="/">
                                     <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="100%"  alt="Home">
                                 </a>
-                            </div>
-                        <?php
-                        }
-                        else {
-                        ?>
-                            <div class="col-sm-4 col-md-3 col-lg-4">
-                                <img src=" <?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" >
-                            </div>
-                        <?php
-                        }	
-                        ?>
-                        
-                        <div class="col-lg-7 col-md-7 col-xs-9 px-lg-3">
-                            <div class="row">
-                                <!-- Rectangles and Menu get grouped for better display -->
-                                <div class="row  flex-nowrap justify-content-between justify-content-sm-start">
+                                </div>
+                            <?php
+                            }
+                            else {
+                            ?>
+                                <div class="navbar-brand">
+                                    <img src=" <?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" >
+                                </div>
+                            <?php
+                            }	
+                            ?>
 
-                                    <!-- Colored Boxes -->
+                                <div class="col d-none d-sm-flex d-md-none flex-row flex-nowrap ">
+                                    
+                                    <!-- Colored Boxes (Small Screens)-->
                                     <div class="rectangle_green rectangle"></div>
                                     <div class="rectangle_yellow rectangle"></div> 
                                     <div class="rectangle_red rectangle"></div> 
                                     <div class="rectangle_dark_blue rectangle"></div> 
                                     <div class="rectangle_light_blue rectangle"></div> 
+                                    
                                 </div>
-                                <!-- Toggle for mobile menu -->
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button> 
+                        
+                        <div class="col-md-7 col-xs-9 offset-xl-1 ">
+                            
+                                <!-- Rectangles and Menu get grouped for better display -->
+                                <div class="row d-none d-md-flex flex-row flex-nowrap ">
+                                    
+                                    <!-- Colored Boxes (Medium and Large Screens)-->
+                                    <div class="rectangle_green rectangle"></div>
+                                    <div class="rectangle_yellow rectangle"></div> 
+                                    <div class="rectangle_red rectangle"></div> 
+                                    <div class="rectangle_dark_blue rectangle"></div> 
+                                    <div class="rectangle_light_blue rectangle"></div> 
+                                    
+                                </div>
+                                
                                 <div class="row justify-content-start ">
                         
                                 <?php
@@ -64,13 +79,13 @@
                                     'container'         => 'div',
                                     'container_class'   => 'collapse navbar-collapse',
                                     'container_id'      => 'bs-example-navbar-collapse-1',
-                                    'menu_class'        => 'nav navbar-nav flex-sm-nowrap px-0',
+                                    'menu_class'        => 'nav navbar-nav flex-column flex-sm-row flex-sm-nowrap px-0',
                                     'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                     'walker'            => new WP_Bootstrap_Navwalker(),
                             ));
                             ?>
                                 </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </nav>

@@ -3,7 +3,7 @@
 		<div class="container">
 
 			<div class="row justify-content-center">
- 				<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+ 				<div class="col-12 col-lg-10 ">
      	     		<img src= "<?php echo get_stylesheet_directory_uri().'/img/mw-start-2018.jpg'; ?>">
 				</div>
 			</div>
