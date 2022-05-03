@@ -17,12 +17,12 @@
 
             <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
 
-                <nav class="navbar navbar-expand-sm navbar-light bg-light p-0" role="navigation">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light p-0 " role="navigation">
                     
-                    <div class="row">
+                    <div class="row align-items-baseline">
                         
                             <!-- Toggle for mobile menu -->
-                            <a class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
+                            <a class="navbar-toggler collapsed border-0 " type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
                             <span> </span>
                             <span> </span>
                             <span> </span>
