@@ -1,5 +1,5 @@
  <?php get_header(); ?>
- <div id="content" >  
+ 	<div id="content" >  
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 mt-1">	  	
@@ -11,7 +11,7 @@
     			</div>
 			</div>
 		</div>
-     <?php get_sidebar(); ?>
+     
  </div>
-
- <?php get_footer(); ?>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
