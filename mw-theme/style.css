@@ -4,15 +4,14 @@ Author: admin (all of the glorious ones)
 Version: 0.5
 */
 
-body
-{
-text-align: left;
-color: #2c3e50;
-font-size: 0.9375rem;
-font-family: "Montserrat", "Arial", "Helvetica Neue", "Helvetica", sans-serif !important;
-font-size: 100%;
-
+body {
+    text-align: left;
+    color: #2c3e50;
+    font-size: 0.9375rem;
+    font-family: "Montserrat", "Arial", "Helvetica Neue", "Helvetica", sans-serif !important;
+    font-size: 100%;
 }
+
 @font-face {
     font-family: 'AntiqueOlive';
     src: url('assets/fonts/AntiqueOli-Lig.woff') format('woff');
@@ -20,26 +19,102 @@ font-size: 100%;
     font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'AntiqueOlive';   
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'AntiqueOlive';
 }
 
-#title
-{
-	margin-bottom:2em;
+h1,
+h2,
+h3,
+h4 {
+    margin-top: 2.125rem;
 }
-/*
-#sidebar
-{
-border-left: 1px solid black;
+
+h5,
+h6 {
+    margin-top: 1rem;
 }
-*/
-#footer
-{
-width: 100%;
-border-top: 1px #a2a2a2 solid;
-text-align: center;
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif
 }
+
+h1,
+.h1 {
+    font-size: 2.125rem;
+}
+
+h2,
+.h2 {
+    font-size: 1.75rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.625rem
+}
+
+h4,
+.h4 {
+    font-size: 1.125rem
+}
+
+h5,
+.h5 {
+    font-size: 1rem
+}
+
+h6,
+.h6 {
+    font-size: 0.875rem
+}
+
+#title {
+    margin-bottom: 2em;
+}
+
+a {
+    text-decoration: underline;
+    color: #16a085;
+    cursor: pointer
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a.arrow:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.4em 0.15em 0;
+    height: 0;
+    width: 0;
+    padding: 0;
+    text-indent: -999px;
+    background: none;
+    border: solid transparent;
+    border-width: 0.25em 0 0.25em 0.5em;
+    border-left-color: #000
+}
+
+#footer {
+    width: 100%;
+    border-top: 1px #a2a2a2 solid;
+    text-align: center;
+}
+
 .bg-light {
     background-color: white !important;
 }
@@ -60,26 +135,26 @@ img {
     font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     line-height: 1;
     font-weight: normal;
-    
 }
+
 .navbar-toggler {
-    width:3em;
+    width: 3em;
     margin-left: 0rem;
-    margin-right:2rem;
+    margin-right: 2rem;
     margin-bottom: 1rem;
 }
 
 .navbar-brand {
-    width:30%;
-    max-width:14em;
-    min-width:10em;
+    width: 30%;
+    max-width: 14em;
+    min-width: 10em;
     margin-top: 0.8em;
     margin-bottom: 0.3em;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.nav-link{
+.nav-link {
     padding-left: 0 !important;
     padding-right: 2rem !important;
 }
@@ -89,41 +164,42 @@ img {
     font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
 }
 
-.rectangle{ 
-    height: 1.4rem; 
+.rectangle {
+    height: 1.4rem;
     width: 2.7rem;
     margin: 0.8rem 0.8rem 0.8rem 0.8rem;
-    
-   
 }
+
 .rectangle.small {
-    height: 1.2rem; 
-    width: 2.3rem; 
-    margin: 1.8rem 0 0 0.8rem;  
+    height: 1.2rem;
+    width: 2.3rem;
+    margin: 1.8rem 0 0 0.8rem;
 }
-.rectangle_red { 
+
+.rectangle_red {
     background-color: #EC5F6A;
 }
 
-.rectangle_green { 
-    background-color: #57BCB3;  
+.rectangle_green {
+    background-color: #57BCB3;
 }
 
-.rectangle_yellow { 
-    background-color: #EEE24A; 
+.rectangle_yellow {
+    background-color: #EEE24A;
 }
 
-.rectangle_dark_blue { 
-    background-color: #5C79BB; 
+.rectangle_dark_blue {
+    background-color: #5C79BB;
 }
 
-.rectangle_light_blue { 
+.rectangle_light_blue {
     background-color: #A2D9F1;
-   margin-right: -0.75rem;
-    
+    margin-right: -0.75rem;
 }
+
 
 /* Define the shape and color of the hamburger lines */
+
 .navbar-toggler span {
     display: block;
     background-color: #4f4f4f;
@@ -140,25 +216,35 @@ img {
 
 
 /* top line needs a little padding */
+
 .navbar-toggler span:nth-child(1) {
     margin-top: 0.3em;
 }
+
 
 /**
  * Animate collapse into X.
  */
 
+
 /* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
+
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
     transform: translate(15%, -33%) rotate(45deg);
 }
+
+
 /* center line goes transparent */
+
 .navbar-toggler:not(.collapsed) span:nth-child(2) {
     opacity: 0;
 }
+
+
 /* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
+
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
-    transform: translate(15%, 33%) rotate(-45deg) ;
+    transform: translate(15%, 33%) rotate(-45deg);
 }
 
 
@@ -166,20 +252,27 @@ img {
  * Animate collapse open into hamburger menu
  */
 
+
 /* top line moves back to initial position and rotates back to 0 degrees */
+
 .navbar-toggler span:nth-child(1) {
-    transform: translate(0%, 0%) rotate(0deg) ;
+    transform: translate(0%, 0%) rotate(0deg);
 }
+
+
 /* middle line goes back to regular color and opacity */
+
 .navbar-toggler span:nth-child(2) {
     opacity: 1;
 }
+
+
 /* bottom line goes back to initial position and rotates back to 0 degrees */
+
 .navbar-toggler span:nth-child(3) {
-    transform: translate(0%, 0%) rotate(0deg) ;
+    transform: translate(0%, 0%) rotate(0deg);
 }
 
-
-.testClass{
+.testClass {
     color: orange;
 }
