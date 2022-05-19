@@ -32,7 +32,7 @@ h1,
 h2,
 h3,
 h4 {
-    margin-top: 2.125rem;
+    margin-bottom: 1.125rem;
 }
 
 h5,
@@ -156,7 +156,7 @@ img {
 
 .nav-link {
     padding-left: 0 !important;
-    padding-right: 2rem !important;
+    padding-right: 1.6rem !important;
 }
 
 .dropdown-item {
@@ -173,7 +173,7 @@ img {
 .rectangle.small {
     height: 1.2rem;
     width: 2.3rem;
-    margin: 1.8rem 0 0 0.8rem;
+    margin: 0 0 0 0.8rem;
 }
 
 .rectangle_red {
@@ -198,7 +198,7 @@ img {
 }
 
 
-/* Define the shape and color of the hamburger lines */
+/* Animiertes Hamburger-Menü */
 
 .navbar-toggler span {
     display: block;

@@ -13,11 +13,11 @@
 
   <div class="container">  
 
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center">
 
-            <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-12 col-lg-10 px-lg-0">
 
-                <nav class="navbar navbar-expand-sm navbar-light bg-light p-0 " role="navigation">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light" role="navigation">
                     
                     <div class="row align-items-baseline">
                         
@@ -39,13 +39,13 @@
                             else {
                             ?>
                                 <div class="navbar-brand">
-                                    <img src=" <?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" >
+                                    <img src=" <?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" width=100%>
                                 </div>
                             <?php
                             }	
                             ?>
 
-                                <div class="col d-none d-sm-flex d-md-none flex-row flex-nowrap ">
+                                <div class="col d-none d-sm-flex d-lg-none flex-row flex-nowrap ">
                                     
                                     <!-- Colored Boxes (Small Screens)-->
                                     <div class="rectangle_green rectangle small"></div>
@@ -56,10 +56,10 @@
                                     
                                 </div>
                         
-                        <div class="col-md-7 col-xs-9 offset-xl-1 ">
+                        <div class="col-lg-8 col-xl-7 offset-xl-1 ">
                             
                                 <!-- Rectangles and Menu get grouped for better display -->
-                                <div class="row d-none d-md-flex flex-row flex-nowrap ">
+                                <div class="row d-none d-lg-flex flex-row flex-nowrap ">
                                     
                                     <!-- Colored Boxes (Medium and Large Screens)-->
                                     <div class="rectangle_green rectangle"></div>
@@ -77,9 +77,9 @@
                                     'theme_location'    => 'primary',
                                     'depth'             => 2,
                                     'container'         => 'div',
-                                    'container_class'   => 'collapse navbar-collapse',
+                                    'container_class'   => 'collapse navbar-collapse ',
                                     'container_id'      => 'bs-example-navbar-collapse-1',
-                                    'menu_class'        => 'nav navbar-nav flex-column flex-sm-row flex-sm-nowrap px-0',
+                                    'menu_class'        => 'nav navbar-nav flex-column flex-sm-row  flex-sm-nowrap px-0 ',
                                     'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
                                     'walker'            => new WP_Bootstrap_Navwalker(),
                             ));
