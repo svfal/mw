@@ -29,10 +29,11 @@
                             </a> 
                                                                       
                             <?php if ( !is_front_page() ) { ?>
-                                <div class="col-lg-2 col-md-1 col-sm-3">
-                                <a class="navbar-brand" href="/">
-                                    <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="100%"  alt="Home">
-                                </a>
+                                
+                                <div class="navbar-brand" >
+                                    <a href="/">
+                                        <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="100px"  alt="Home">
+                                    </a>
                                 </div>
                             <?php
                             }
