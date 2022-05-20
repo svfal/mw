@@ -57,7 +57,7 @@
                                     
                                 </div>
                         
-                        <div class="col-lg-8 col-xl-7 offset-xl-1 ">
+                        <div class="col-lg-8 col-xl-7 offset-xl-2 ">
                             
                                 <!-- Rectangles and Menu get grouped for better display -->
                                 <div class="row d-none d-lg-flex flex-row flex-nowrap ">
