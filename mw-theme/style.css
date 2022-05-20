@@ -41,7 +41,8 @@ h6 {
 }
 
 h2:first-of-type,
-h3:first-of-type {
+h3:first-of-type,
+h4:first-of-type {
     margin-top: 0.125rem;
 }
 
