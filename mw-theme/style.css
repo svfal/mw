@@ -30,8 +30,7 @@ h6 {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
     margin-top: 2.125rem;
     margin-bottom: 1.125rem;
 }
@@ -42,7 +41,8 @@ h6 {
 }
 
 .musikwerkverbindet{
-    margin-top:0.125em;
+    margin-top:0.125rem;
+    margin-bottom: 1.125rem
 }
 
 
