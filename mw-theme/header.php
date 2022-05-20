@@ -28,7 +28,7 @@
                             <span> </span>
                             </a> 
                                                                       
-                            <?php if ( !is_front_page() ) { ?>
+                            <?php if ( !is_front_page() and 1==2) { ?>
                                 
                                 <div class="navbar-brand" >
                                     <a href="/">
