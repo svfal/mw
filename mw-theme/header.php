@@ -32,7 +32,7 @@
                                 
                                 <div class="navbar-brand" >
                                     <a href="/">
-                                        <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" width="100px"  alt="Home">
+                                        <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" width="100%"  alt="Home">
                                     </a>
                                 </div>
                             <?php
