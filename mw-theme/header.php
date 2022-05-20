@@ -28,11 +28,11 @@
                             <span> </span>
                             </a> 
                                                                       
-                            <?php if ( !is_front_page() and 1==2) { ?>
+                            <?php if ( !is_front_page() ) { ?>
                                 
                                 <div class="navbar-brand" >
                                     <a href="/">
-                                        <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.png'; ?>" width="100px"  alt="Home">
+                                        <img src="<?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" width="100px"  alt="Home">
                                     </a>
                                 </div>
                             <?php
