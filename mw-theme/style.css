@@ -15,7 +15,7 @@ body {
 @font-face {
     font-family: 'AntiqueOlive';
     src: url('assets/fonts/AntiqueOli-Lig.woff') format('woff');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -182,25 +182,28 @@ img {
     margin: 0 0 0 0.8rem;
 }
 
-.rectangle_red {
+.pop {
     background-color: #EC5F6A;
 }
 
-.rectangle_green {
+.kinder {
     background-color: #57BCB3;
 }
 
-.rectangle_yellow {
+.jugend {
     background-color: #EEE24A;
 }
 
-.rectangle_dark_blue {
+.offener {
     background-color: #5C79BB;
 }
 
-.rectangle_light_blue {
+.projekt {
     background-color: #A2D9F1;
     margin-right: -0.75rem;
+}
+.ensemble {
+    padding: 1rem .5rem .5rem 1rem;
 }
 
 
