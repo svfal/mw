@@ -202,8 +202,14 @@ img {
     background-color: #A2D9F1;
     margin-right: -0.75rem;
 }
-.ensemble {
-    padding: 1rem .5rem .5rem 1rem;
+.ensemblefahne {
+    padding: .2rem .6rem .2rem .6rem;
+    font-family: AntiqueOlive;
+    font-size:2.125rem;
+    color:#000;
+    display:inline-block;
+    margin:0rem;
+
 }
 
 
