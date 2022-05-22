@@ -282,3 +282,18 @@ img {
 .testClass {
     color: orange;
 }
+
+/* Mobile menu styles */
+@media (max-width: 576px) {
+    #menu-hauptmenue li a {
+        border-bottom: 1px solid #999;
+    }
+    .dropdown-menu {
+        border: 0;
+        padding-left: 20px;
+    }
+    .dropdown-menu li a {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
