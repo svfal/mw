@@ -15,7 +15,7 @@ body {
 @font-face {
     font-family: 'AntiqueOlive';
     src: url('assets/fonts/AntiqueOli-Lig.woff') format('woff');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -30,8 +30,7 @@ h6 {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
     margin-top: 2.125rem;
     margin-bottom: 1.125rem;
 }
@@ -42,7 +41,8 @@ h6 {
 }
 
 .musikwerkverbindet{
-    margin-top:0.125em;
+    margin-top:0.125rem;
+    margin-bottom: 1.125rem
 }
 
 
@@ -182,25 +182,35 @@ img {
     margin: 0 0 0 0.8rem;
 }
 
-.rectangle_red {
+.pop {
     background-color: #EC5F6A;
 }
 
-.rectangle_green {
+.kinder {
     background-color: #57BCB3;
 }
 
-.rectangle_yellow {
+.jugend {
     background-color: #EEE24A;
 }
 
-.rectangle_dark_blue {
+.offener {
     background-color: #5C79BB;
 }
 
-.rectangle_light_blue {
+.projekt {
     background-color: #A2D9F1;
     margin-right: -0.75rem;
+}
+.ensemblefahne {
+    padding: .2rem .6rem;
+    font-family: AntiqueOlive;
+    font-size:2.125rem;
+    color:#000;
+    display:inline-block;
+    margin:0rem 1rem 1rem 0rem;
+    align-items: center;
+
 }
 
 

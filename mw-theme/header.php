@@ -49,11 +49,11 @@
                                 <div class="col d-none d-sm-flex d-lg-none flex-row flex-nowrap ">
                                     
                                     <!-- Colored Boxes (Small Screens)-->
-                                    <div class="rectangle_green rectangle small"></div>
-                                    <div class="rectangle_yellow rectangle small"></div> 
-                                    <div class="rectangle_red rectangle small"></div> 
-                                    <div class="rectangle_dark_blue rectangle small"></div> 
-                                    <div class="rectangle_light_blue rectangle small"></div> 
+                                    <div class="kinder rectangle small"></div>
+                                    <div class="jugend rectangle small"></div> 
+                                    <div class="pop rectangle small"></div> 
+                                    <div class="offener rectangle small"></div> 
+                                    <div class="projekt rectangle small"></div> 
                                     
                                 </div>
                         
@@ -63,11 +63,11 @@
                                 <div class="row d-none d-lg-flex flex-row flex-nowrap ">
                                     
                                     <!-- Colored Boxes (Medium and Large Screens)-->
-                                    <div class="rectangle_green rectangle"></div>
-                                    <div class="rectangle_yellow rectangle"></div> 
-                                    <div class="rectangle_red rectangle"></div> 
-                                    <div class="rectangle_dark_blue rectangle"></div> 
-                                    <div class="rectangle_light_blue rectangle"></div> 
+                                    <div class="kinder rectangle"></div>
+                                    <div class="jugend rectangle"></div> 
+                                    <div class="pop rectangle"></div> 
+                                    <div class="offener rectangle"></div> 
+                                    <div class="projekt rectangle"></div> 
                                     
                                 </div>
                                 
