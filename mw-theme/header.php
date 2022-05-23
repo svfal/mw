@@ -11,7 +11,7 @@
 
 <body>
 <!-- Animation-Demo -->
-<a href=" <?php echo get_stylesheet_directory_uri() . '/intro.php' ?>" target=_NEW>Demo</a>
+<a href=" <?php echo get_stylesheet_directory_uri() . '/intro.php' ?>" target=_NEW>Demo Intro</a>
   
     <div class="container">  
 
