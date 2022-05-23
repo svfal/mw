@@ -278,7 +278,7 @@ img {
         opacity: 100%;
     }
     70% {
-        transform:translate(2rem,3.5rem) scale(100%);
+        transform:translate(2rem,4.5rem) scale(100%);
         background-size:90rem;
     }
     100% {
