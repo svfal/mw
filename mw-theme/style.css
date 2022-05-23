@@ -212,7 +212,185 @@ img {
     align-items: center;
 
 }
+/* Animierter Fahnenflug */
 
+
+
+.kinder.anim {
+    animation: fly-kinder 5s ease-in-out forwards;
+}
+
+
+.jugend.anim {
+    animation: fly-jugend 5s ease-in-out forwards;
+}
+
+.pop.anim {
+    animation: fly-pop 5s ease-in-out forwards;
+}
+
+
+.offener.anim {
+    animation: fly-offener 5s ease-in-out forwards;
+}
+
+
+.projekt.anim {
+    animation: fly-projekt 5s ease-in-out forwards;
+}
+
+.ensemblefahne {
+    padding: .2rem .6rem;
+    font-family: AntiqueOlive;
+    font-size:2.0rem;
+    color:#000;
+    display:inline;
+    margin:0rem 1rem 1rem 0rem;
+    align-items: center;
+    white-space:nowrap;
+
+}
+.move {
+    position:absolute;
+    
+}
+
+
+
+.startanimation{
+    background-image: url("<?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>");
+    background-repeat: no-repeat;
+    background-size: 90rem;
+    width:22rem;
+    height:22rem;
+   
+    
+    animation: shrink-logo 5s ease-in-out forwards;
+}
+@keyframes shrink-logo {
+    0% {
+        transform:translate(20rem,10rem) scale(100%);
+        
+        opacity: 0%;
+    }
+    30% {
+        
+        opacity: 100%;
+    }
+    70% {
+        transform:translate(20rem,10rem) scale(100%);
+        background-size:90rem;
+    }
+    100% {
+        transform:translate(3rem) scale(80%);
+        background-size:70%;
+    }
+
+}
+
+@keyframes fly-kinder {
+    0% {
+        transform:translate(15rem,-5.5rem);
+       
+        opacity: 0%;
+    }
+    30% {
+         opacity: 100%;
+    }
+    70%{
+        transform:translate(15rem,-5.5rem);
+        color:#000;
+        
+    }
+    100% {
+        transform:translate(20rem,0.5rem) scale(0.45,0.8);
+        color: #57BCB3;
+        
+    }
+    
+}
+@keyframes fly-jugend {
+    0% {
+        transform:translate(15rem,-2.3rem);
+        
+        opacity: 0%;
+    }
+    30% {
+         opacity: 100%;
+    }
+    70%{
+        transform:translate(15rem,-2.3rem);
+        color:#000;
+    }
+    100% {
+        transform:translate(28rem,0.5rem) scale(0.4,0.8);
+        color: #EEE24A;
+    }
+    
+}
+
+
+
+@keyframes fly-pop {
+    0% {
+        transform:translate(15rem,0.9rem);
+        
+        opacity: 0%;
+    }
+    30% {
+         opacity: 100%;
+    }
+    70%{
+        transform:translate(15rem,0.9rem);
+        color:#000;
+    }
+    100% {
+        transform:translate(38rem,0.5rem) scale(0.5,0.8);
+        
+        color:#EC5F6A;
+    }
+    
+}
+@keyframes fly-offener {
+    0% {
+        transform:translate(15rem,4.1rem);
+       
+        opacity: 0%;
+    }
+    30% {
+         opacity: 100%;
+    }
+    70%{
+        transform:translate(15rem,4.1rem);
+        color:#000;
+    }
+    100% {
+        transform:translate(46rem,0.5rem) scale(0.35,0.8);
+        color: #5C79BB;
+        
+    }
+    
+}
+@keyframes fly-projekt {
+    0% {
+        transform:translate(15rem,7.3rem);
+       
+        opacity: 0%;
+    }
+    30% {
+         opacity: 100%;
+    }
+    70%{
+        transform:translate(15rem,7.3rem);
+        color:#000;
+        
+    }
+    100% {
+        transform:translate(55rem,0.5rem) scale(0.35,0.8);
+        color: #A2D9F1;
+    }
+    
+}
 
 /* Animiertes Hamburger-Menü */
 
