@@ -279,6 +279,10 @@ img {
     }
     70% {
         transform:translate(2rem,5rem) scale(100%);
+        
+    }
+    90%{
+        transform:translate(3rem) scale(100%);
         background-size:90rem;
     }
     100% {
