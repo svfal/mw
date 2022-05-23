@@ -258,7 +258,7 @@ img {
 
 
 .startanimation{
-    background-image: url("<?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>");
+    background-image: url("./img/logo.svg'; ?>");
     background-repeat: no-repeat;
     background-size: 90rem;
     width:22rem;
