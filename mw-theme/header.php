@@ -10,8 +10,10 @@
 </head>
 
 <body>
-
-  <div class="container">  
+<!-- Animation-Demo -->
+<a href=" <?php echo get_stylesheet_directory_uri() . '/intro.php' ?>" target=_NEW>Demo</a>
+  
+    <div class="container">  
 
         <div class="row justify-content-center">
 
@@ -45,8 +47,7 @@
                             <?php
                             }	
                             ?>
-                            <!-- Animation-Demo -->
-                            <a href=" <?php echo get_stylesheet_directory_uri() . 'intro.php' ?>" target=_NEW>Demo</a>
+                            
 
                                 <!-- Colored Boxes (Small Screens)-->
                                 <div class="col d-none d-sm-flex d-lg-none flex-row flex-nowrap ">
