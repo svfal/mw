@@ -269,7 +269,7 @@ img {
 }
 @keyframes shrink-logo {
     0% {
-        transform:translate(20rem,10rem) scale(100%);
+        transform:translate(5rem,5rem) scale(100%);
         
         opacity: 0%;
     }
