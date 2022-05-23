@@ -260,9 +260,9 @@ img {
 .startanimation{
     background-image: url("./img/logo.svg");
     background-repeat: no-repeat;
-    background-size: 90rem;
-    width:22rem;
-    height:22rem;
+    background-size: 80rem;
+    width:19rem;
+    height:19rem;
    
     
     animation: shrink-logo 5s ease-in-out forwards;
