@@ -18,7 +18,7 @@
             <div class="ensemblefahne projekt move anim">Projektchöre</div>
         </div>
     </div>
-    <div style=margin-top:3em>
+    <div style=padding-top:3em>
             
             <h2>Magst du Cookies?</h2>
             <p><input type=radio name=cookie value=yep>klar
