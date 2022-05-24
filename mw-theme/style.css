@@ -1,467 +1,457 @@
-/*
+        /*
 Theme Name: MW-Github
 Author: admin (all of the glorious ones) 
 Version: 0.5
 */
-
-body {
-    text-align: left;
-    color: #2c3e50;
-    font-size: 0.9375rem;
-    font-family: "Montserrat", "Arial", "Helvetica Neue", "Helvetica", sans-serif !important;
-    font-size: 100%;
-}
-
-@font-face {
-    font-family: 'AntiqueOlive';
-    src: url('assets/fonts/AntiqueOli-Lig.woff') format('woff');
-    font-weight: lighter;
-    font-style: normal;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'AntiqueOlive';
-}
-
-h1,
-h2,
-h3 {
-    margin-top: 2.125rem;
-    margin-bottom: 1.125rem;
-}
-
-h5,
-h6 {
-    margin-top: 1rem;
-}
-
-.musikwerkverbindet {
-    margin-top: 0.125rem;
-    margin-bottom: 1.125rem
-}
-
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-    font-weight: bold;
-    font-family: Verdana, Arial, Helvetica, sans-serif
-}
-
-h1,
-.h1 {
-    font-size: 2.125rem;
-}
-
-h2,
-.h2 {
-    font-size: 1.75rem;
-}
-
-h3,
-.h3 {
-    font-size: 1.625rem
-}
-
-h4,
-.h4 {
-    font-size: 1.125rem
-}
-
-h5,
-.h5 {
-    font-size: 1rem
-}
-
-h6,
-.h6 {
-    font-size: 0.875rem
-}
-
-#title {
-    margin-bottom: 2em;
-}
-
-a {
-    text-decoration: underline;
-    color: #16a085;
-    cursor: pointer
-}
-
-a:hover {
-    text-decoration: none
-}
-
-a.arrow:before {
-    content: ' ';
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0.4em 0.15em 0;
-    height: 0;
-    width: 0;
-    padding: 0;
-    text-indent: -999px;
-    background: none;
-    border: solid transparent;
-    border-width: 0.25em 0 0.25em 0.5em;
-    border-left-color: #000
-}
-
-#footer {
-    width: 100%;
-    border-top: 1px #a2a2a2 solid;
-    text-align: center;
-}
-
-.bg-light {
-    background-color: white !important;
-}
-
-p {
-    line-height: 1.6;
-    color: #2c3e50;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.navbar-nav {
-    font-size: 1.6rem;
-    padding-left: 15%;
-    font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
-    line-height: 1;
-    font-weight: normal;
-}
-
-.navbar-toggler {
-    width: 3em;
-    margin-left: 0rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-}
-
-.navbar-brand {
-    width: 30%;
-    max-width: 14em;
-    min-width: 10em;
-    margin-top: 0.8em;
-    margin-bottom: 0.3em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.nav-link {
-    padding-left: 0 !important;
-    padding-right: 1.58rem !important;
-}
-
-.dropdown-item {
-    font-size: 1.2rem;
-    font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
-}
-
-.rectangle {
-    height: 1.4rem;
-    width: 2.7rem;
-    margin: 0.8rem 1.8rem 0.8rem 0.8rem;
-}
-
-.rectangle.small {
-    height: 1rem;
-    width: 1.9rem;
-    margin: 0 0.8rem 0 0.8rem;
-}
-
-.pop {
-    background-color: #EC5F6A;
-}
-
-.kinder {
-    background-color: #57BCB3;
-}
-
-.jugend {
-    background-color: #EEE24A;
-}
-
-.offener {
-    background-color: #5C79BB;
-}
-
-.projekt {
-    background-color: #A2D9F1;
-}
-
-.ensemblefahne {
-    padding: .2rem .6rem;
-    font-family: AntiqueOlive;
-    font-size: 2.125rem;
-    color: #000;
-    display: inline-block;
-    margin: 0rem 1rem 1rem 0rem;
-    align-items: center;
-}
-
-
-/* Animierter Fahnenflug */
-
-.kinder.anim {
-    animation: fly-kinder 5s ease-in-out forwards;
-}
-
-.jugend.anim {
-    animation: fly-jugend 5s ease-in-out forwards;
-}
-
-.pop.anim {
-    animation: fly-pop 5s ease-in-out forwards;
-}
-
-.offener.anim {
-    animation: fly-offener 5s ease-in-out forwards;
-}
-
-.projekt.anim {
-    animation: fly-projekt 5s ease-in-out forwards;
-}
-
-.ensemblefahne {
-    padding: .2rem .6rem;
-    font-family: AntiqueOlive;
-    font-size: 2.0rem;
-    color: #000;
-    display: inline;
-    margin: 0rem 1rem 1rem 0rem;
-    align-items: center;
-    white-space: nowrap;
-}
-
-.move {
-    position: absolute;
-}
-
-.startanimation {
-    background-image: url("./img/logo.svg");
-    background-repeat: no-repeat;
-    background-size: 90rem;
-    width: 22rem;
-    height: 22rem;
-    animation: shrink-logo 5s ease-in-out forwards;
-}
-
-@keyframes shrink-logo {
-    0% {
-        transform: translate(2rem, 5rem) scale(100%);
-        opacity: 0%;
-    }
-    30% {
-        opacity: 100%;
-    }
-    70% {
-        transform: translate(2rem, 5rem) scale(100%);
-    }
-    80% {
-        transform: translate(3rem) scale(100%);
-        background-size: 90rem;
-    }
-    100% {
-        transform: translate(3rem) scale(80%);
-        background-size: 70%;
-    }
-}
-
-@keyframes fly-kinder {
-    0% {
-        transform: translate(15rem, -5.5rem);
-        opacity: 0%;
-    }
-    30% {
-        opacity: 100%;
-    }
-    70% {
-        transform: translate(15rem, -5.5rem);
-        color: #000;
-    }
-    100% {
-        transform: translate(20rem, 0.5rem) scale(0.45, 0.8);
-        color: #57BCB3;
-    }
-}
-
-@keyframes fly-jugend {
-    0% {
-        transform: translate(15rem, -2.3rem);
-        opacity: 0%;
-    }
-    30% {
-        opacity: 100%;
-    }
-    70% {
-        transform: translate(15rem, -2.3rem);
-        color: #000;
-    }
-    100% {
-        transform: translate(28rem, 0.5rem) scale(0.4, 0.8);
-        color: #EEE24A;
-    }
-}
-
-@keyframes fly-pop {
-    0% {
-        transform: translate(15rem, 0.9rem);
-        opacity: 0%;
-    }
-    30% {
-        opacity: 100%;
-    }
-    70% {
-        transform: translate(15rem, 0.9rem);
-        color: #000;
-    }
-    100% {
-        transform: translate(38rem, 0.5rem) scale(0.5, 0.8);
-        color: #EC5F6A;
-    }
-}
-
-@keyframes fly-offener {
-    0% {
-        transform: translate(15rem, 4.1rem);
-        opacity: 0%;
-    }
-    30% {
-        opacity: 100%;
-    }
-    70% {
-        transform: translate(15rem, 4.1rem);
-        color: #000;
-    }
-    100% {
-        transform: translate(46rem, 0.5rem) scale(0.35, 0.8);
-        color: #5C79BB;
-    }
-}
-
-@keyframes fly-projekt {
-    0% {
-        transform: translate(15rem, 7.3rem);
-        opacity: 0%;
-    }
-    30% {
-        opacity: 100%;
-    }
-    70% {
-        transform: translate(15rem, 7.3rem);
-        color: #000;
-    }
-    100% {
-        transform: translate(55rem, 0.5rem) scale(0.35, 0.8);
-        color: #A2D9F1;
-    }
-}
-
-
-/* Animiertes Hamburger-Menü */
-
-.navbar-toggler span {
-    display: block;
-    background-color: #4f4f4f;
-    height: 3px;
-    width: 25px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    position: relative;
-    left: 0;
-    opacity: 1;
-    transition: all 0.35s ease-out;
-    transform-origin: center left;
-}
-
-
-/* top line needs a little padding */
-
-.navbar-toggler span:nth-child(1) {
-    margin-top: 0.3em;
-}
-
-
-/**
+        
+        body {
+            text-align: left;
+            color: #2c3e50;
+            font-size: 0.9375rem;
+            font-family: "Montserrat", "Arial", "Helvetica Neue", "Helvetica", sans-serif !important;
+            font-size: 100%;
+        }
+        
+        @font-face {
+            font-family: 'AntiqueOlive';
+            src: url('assets/fonts/AntiqueOli-Lig.woff') format('woff');
+            font-weight: lighter;
+            font-style: normal;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'AntiqueOlive';
+        }
+        
+        h1,
+        h2,
+        h3 {
+            margin-top: 2.125rem;
+            margin-bottom: 1.125rem;
+        }
+        
+        h5,
+        h6 {
+            margin-top: 1rem;
+        }
+        
+        .musikwerkverbindet {
+            margin-top: 0.125rem;
+            margin-bottom: 1.125rem
+        }
+        
+        h4,
+        .h4,
+        h5,
+        .h5,
+        h6,
+        .h6 {
+            font-weight: bold;
+            font-family: Verdana, Arial, Helvetica, sans-serif
+        }
+        
+        h1,
+        .h1 {
+            font-size: 2.125rem;
+        }
+        
+        h2,
+        .h2 {
+            font-size: 1.75rem;
+        }
+        
+        h3,
+        .h3 {
+            font-size: 1.625rem
+        }
+        
+        h4,
+        .h4 {
+            font-size: 1.125rem
+        }
+        
+        h5,
+        .h5 {
+            font-size: 1rem
+        }
+        
+        h6,
+        .h6 {
+            font-size: 0.875rem
+        }
+        
+        #title {
+            margin-bottom: 2em;
+        }
+        
+        a {
+            text-decoration: underline;
+            color: #16a085;
+            cursor: pointer
+        }
+        
+        a:hover {
+            text-decoration: none
+        }
+        
+        a.arrow:before {
+            content: ' ';
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 0.4em 0.15em 0;
+            height: 0;
+            width: 0;
+            padding: 0;
+            text-indent: -999px;
+            background: none;
+            border: solid transparent;
+            border-width: 0.25em 0 0.25em 0.5em;
+            border-left-color: #000
+        }
+        
+        #footer {
+            width: 100%;
+            border-top: 1px #a2a2a2 solid;
+            text-align: center;
+        }
+        
+        .bg-light {
+            background-color: white !important;
+        }
+        
+        p {
+            line-height: 1.6;
+            color: #2c3e50;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .navbar-nav {
+            font-size: 1.6rem;
+            padding-left: 15%;
+            font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+            line-height: 1;
+            font-weight: normal;
+        }
+        
+        .navbar-toggler {
+            width: 3em;
+            margin-left: 0rem;
+            margin-right: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        @media (min-width: 576px) {
+            .navbar-brand {
+                width: 30%;
+                max-width: 14em;
+                min-width: 10em;
+                margin-top: 0.8em;
+                margin-bottom: 0.3em;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            .navbar-brand {
+                width: 30%;
+                max-width: 14em;
+                min-width: 10em;
+                margin-top: 0.8em;
+                margin-bottom: 0.3em;
+                margin-left: auto;
+                margin-right: 0;
+            }
+        }
+        
+        .nav-link {
+            padding-left: 0 !important;
+            padding-right: 1.58rem !important;
+        }
+        
+        .dropdown-item {
+            font-size: 1.2rem;
+            font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+        }
+        
+        .rectangle {
+            height: 1.4rem;
+            width: 2.7rem;
+            margin: 0.8rem 1.8rem 0.8rem 0.8rem;
+        }
+        
+        .rectangle.small {
+            height: 1rem;
+            width: 1.9rem;
+            margin: 0 0.8rem 0 0.8rem;
+        }
+        
+        .pop {
+            background-color: #EC5F6A;
+        }
+        
+        .kinder {
+            background-color: #57BCB3;
+        }
+        
+        .jugend {
+            background-color: #EEE24A;
+        }
+        
+        .offener {
+            background-color: #5C79BB;
+        }
+        
+        .projekt {
+            background-color: #A2D9F1;
+        }
+        
+        .ensemblefahne {
+            padding: .2rem .6rem;
+            font-family: AntiqueOlive;
+            font-size: 2.125rem;
+            color: #000;
+            display: inline-block;
+            margin: 0rem 1rem 1rem 0rem;
+            align-items: center;
+        }
+        /* Animierter Fahnenflug */
+        
+        .kinder.anim {
+            animation: fly-kinder 5s ease-in-out forwards;
+        }
+        
+        .jugend.anim {
+            animation: fly-jugend 5s ease-in-out forwards;
+        }
+        
+        .pop.anim {
+            animation: fly-pop 5s ease-in-out forwards;
+        }
+        
+        .offener.anim {
+            animation: fly-offener 5s ease-in-out forwards;
+        }
+        
+        .projekt.anim {
+            animation: fly-projekt 5s ease-in-out forwards;
+        }
+        
+        .ensemblefahne {
+            padding: .2rem .6rem;
+            font-family: AntiqueOlive;
+            font-size: 2.0rem;
+            color: #000;
+            display: inline;
+            margin: 0rem 1rem 1rem 0rem;
+            align-items: center;
+            white-space: nowrap;
+        }
+        
+        .move {
+            position: absolute;
+        }
+        
+        .startanimation {
+            background-image: url("./img/logo.svg");
+            background-repeat: no-repeat;
+            background-size: 90rem;
+            width: 22rem;
+            height: 22rem;
+            animation: shrink-logo 5s ease-in-out forwards;
+        }
+        
+        @keyframes shrink-logo {
+            0% {
+                transform: translate(2rem, 5rem) scale(100%);
+                opacity: 0%;
+            }
+            30% {
+                opacity: 100%;
+            }
+            70% {
+                transform: translate(2rem, 5rem) scale(100%);
+            }
+            80% {
+                transform: translate(3rem) scale(100%);
+                background-size: 90rem;
+            }
+            100% {
+                transform: translate(3rem) scale(80%);
+                background-size: 70%;
+            }
+        }
+        
+        @keyframes fly-kinder {
+            0% {
+                transform: translate(15rem, -5.5rem);
+                opacity: 0%;
+            }
+            30% {
+                opacity: 100%;
+            }
+            70% {
+                transform: translate(15rem, -5.5rem);
+                color: #000;
+            }
+            100% {
+                transform: translate(20rem, 0.5rem) scale(0.45, 0.8);
+                color: #57BCB3;
+            }
+        }
+        
+        @keyframes fly-jugend {
+            0% {
+                transform: translate(15rem, -2.3rem);
+                opacity: 0%;
+            }
+            30% {
+                opacity: 100%;
+            }
+            70% {
+                transform: translate(15rem, -2.3rem);
+                color: #000;
+            }
+            100% {
+                transform: translate(28rem, 0.5rem) scale(0.4, 0.8);
+                color: #EEE24A;
+            }
+        }
+        
+        @keyframes fly-pop {
+            0% {
+                transform: translate(15rem, 0.9rem);
+                opacity: 0%;
+            }
+            30% {
+                opacity: 100%;
+            }
+            70% {
+                transform: translate(15rem, 0.9rem);
+                color: #000;
+            }
+            100% {
+                transform: translate(38rem, 0.5rem) scale(0.5, 0.8);
+                color: #EC5F6A;
+            }
+        }
+        
+        @keyframes fly-offener {
+            0% {
+                transform: translate(15rem, 4.1rem);
+                opacity: 0%;
+            }
+            30% {
+                opacity: 100%;
+            }
+            70% {
+                transform: translate(15rem, 4.1rem);
+                color: #000;
+            }
+            100% {
+                transform: translate(46rem, 0.5rem) scale(0.35, 0.8);
+                color: #5C79BB;
+            }
+        }
+        
+        @keyframes fly-projekt {
+            0% {
+                transform: translate(15rem, 7.3rem);
+                opacity: 0%;
+            }
+            30% {
+                opacity: 100%;
+            }
+            70% {
+                transform: translate(15rem, 7.3rem);
+                color: #000;
+            }
+            100% {
+                transform: translate(55rem, 0.5rem) scale(0.35, 0.8);
+                color: #A2D9F1;
+            }
+        }
+        /* Animiertes Hamburger-Menü */
+        
+        .navbar-toggler span {
+            display: block;
+            background-color: #4f4f4f;
+            height: 3px;
+            width: 25px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            position: relative;
+            left: 0;
+            opacity: 1;
+            transition: all 0.35s ease-out;
+            transform-origin: center left;
+        }
+        /* top line needs a little padding */
+        
+        .navbar-toggler span:nth-child(1) {
+            margin-top: 0.3em;
+        }
+        /**
  * Animate collapse into X.
  */
-
-
-/* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
-
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-    transform: translate(15%, -33%) rotate(45deg);
-}
-
-
-/* center line goes transparent */
-
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
-    opacity: 0;
-}
-
-
-/* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
-
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
-    transform: translate(15%, 33%) rotate(-45deg);
-}
-
-
-/**
+        /* top line rotates 45 degrees clockwise and moves up and in a bit to close the center of the X in the center of the button */
+        
+        .navbar-toggler:not(.collapsed) span:nth-child(1) {
+            transform: translate(15%, -33%) rotate(45deg);
+        }
+        /* center line goes transparent */
+        
+        .navbar-toggler:not(.collapsed) span:nth-child(2) {
+            opacity: 0;
+        }
+        /* bottom line rotates 45 degrees counter clockwise, in, and down a bit to close the center of the X in the center of the button  */
+        
+        .navbar-toggler:not(.collapsed) span:nth-child(3) {
+            transform: translate(15%, 33%) rotate(-45deg);
+        }
+        /**
  * Animate collapse open into hamburger menu
  */
-
-
-/* top line moves back to initial position and rotates back to 0 degrees */
-
-.navbar-toggler span:nth-child(1) {
-    transform: translate(0%, 0%) rotate(0deg);
-}
-
-
-/* middle line goes back to regular color and opacity */
-
-.navbar-toggler span:nth-child(2) {
-    opacity: 1;
-}
-
-
-/* bottom line goes back to initial position and rotates back to 0 degrees */
-
-.navbar-toggler span:nth-child(3) {
-    transform: translate(0%, 0%) rotate(0deg);
-}
-
-.testClass {
-    color: orange;
-}
-
-
-/* Mobile menu styles */
-
-@media (max-width: 576px) {
-    #menu-hauptmenue li a {
-        border-bottom: 1px solid #999;
-    }
-    .dropdown-menu {
-        border: 0;
-        padding-left: 20px;
-    }
-    .dropdown-menu li a {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
+        /* top line moves back to initial position and rotates back to 0 degrees */
+        
+        .navbar-toggler span:nth-child(1) {
+            transform: translate(0%, 0%) rotate(0deg);
+        }
+        /* middle line goes back to regular color and opacity */
+        
+        .navbar-toggler span:nth-child(2) {
+            opacity: 1;
+        }
+        /* bottom line goes back to initial position and rotates back to 0 degrees */
+        
+        .navbar-toggler span:nth-child(3) {
+            transform: translate(0%, 0%) rotate(0deg);
+        }
+        
+        .testClass {
+            color: orange;
+        }
+        /* Mobile menu styles */
+        
+        @media (max-width: 576px) {
+            #menu-hauptmenue li a {
+                border-bottom: 1px solid #999;
+            }
+            .dropdown-menu {
+                border: 0;
+                padding-left: 20px;
+            }
+            .dropdown-menu li a {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }

@@ -21,7 +21,7 @@
 
                 <nav class="navbar navbar-expand-sm navbar-light bg-light" role="navigation">
                     
-                    <div class="row align-items-baseline">
+                    <div class="row align-items-baseline ">
                         
                             <!-- Toggle for mobile menu -->
                             <a class="navbar-toggler collapsed border-0 " type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
@@ -41,7 +41,7 @@
                             }
                             else {
                             ?>
-                                <div class="navbar-brand">
+                                <div class="navbar-brand ">
                                     <img src=" <?php echo get_stylesheet_directory_uri() . '/img/logo.svg'; ?>" width=100%>
                                 </div>
                             <?php
