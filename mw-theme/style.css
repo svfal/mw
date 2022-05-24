@@ -510,7 +510,6 @@ Version: 0.5
         @media (max-width: 576px) {
             #menu-hauptmenue li a {
                 border-bottom: 1px solid #999;
-                vertical-align: middle;
             }
             .dropdown-menu {
                 border: 0;
