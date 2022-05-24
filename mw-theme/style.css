@@ -318,14 +318,14 @@ Version: 0.5
         
         @keyframes shrink-logo {
             0% {
-                transform: translate(2em, 6em) scale(100%);
+                transform: translate(1em, 6em) scale(100%);
                 opacity: 0%;
             }
             30% {
                 opacity: 100%;
             }
             70% {
-                transform: translate(2em, 6em) scale(100%);
+                transform: translate(1em, 6em) scale(100%);
             }
             80% {
                 transform: translate(var(--x-target-logo)) scale(100%);
