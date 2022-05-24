@@ -253,12 +253,11 @@ Version: 0.5
         }
         
         .ensemblefahne {
-            padding: .2rem .6rem;
             font-family: AntiqueOlive;
-            font-size: 2.0rem;
+            font-size: var(--fahnen-font-size);
             color: #000;
             display: inline;
-            margin: 0rem 1rem 1rem 0rem;
+            margin: 0em 1em 1em 0em;
             align-items: center;
             white-space: nowrap;
         }
@@ -269,12 +268,21 @@ Version: 0.5
         
         @media (min-width: 576px) {
              :root {
-                --anim-speed: 1s;
+                --anim-speed: 5s;
+                --logo-bg-size: 80em;
+                --logo-crop: 18em;
+                --logo-shrink: 80%;
                 --x-margin-logo: 3em;
                 --x-versatz-fahnen: 15rem;
+                --y-versatz-kinder: -5.5rem;
+                --y-versatz-jugend: -2.3rem;
+                --y-versatz-pop: 0.9rem;
+                --y-versatz-offener: 4.1rem;
+                --y-versatz-projekt: 7.3rem;
+                --fahnen-font-size: 2em;
                 --y-target: 0.5rem;
                 --y-shrink-fahnen: 0.56;
-                --x-target-logo: 0.5em;
+                --x-target-logo: 3em;
                 --x-target-kinder: 20rem;
                 --x-shrink-kinder: 0.32;
                 --x-target-jugend: 26rem;
@@ -290,21 +298,30 @@ Version: 0.5
         
         @media (max-width: 576px) {
              :root {
-                --anim-speed: 1s;
+                --anim-speed: 5s;
+                --logo-bg-size: 40em;
+                --logo-crop: 9em;
+                --logo-shrink: 70%;
                 --x-margin-logo: 0;
-                --x-versatz-fahnen: 15rem;
-                --y-target: 4rem;
+                --x-versatz-fahnen: 6.5rem;
+                --y-versatz-kinder: -3.5rem;
+                --y-versatz-jugend: -1.7rem;
+                --y-versatz-pop: 0.1rem;
+                --y-versatz-offener: 1.9rem;
+                --y-versatz-projekt: 3.7rem;
+                --fahnen-font-size: 1em;
+                --y-target: 3rem;
                 --y-shrink-fahnen: 0.4;
-                --x-target-logo: 3em;
-                --x-target-kinder: -4rem;
+                --x-target-logo: 0;
+                --x-target-kinder: -2.2rem;
                 --x-shrink-kinder: 0.23;
                 --x-target-jugend: 0rem;
                 --x-shrink-jugend: 0.23;
-                --x-target-pop: 5.5rem;
+                --x-target-pop: 3.2em;
                 --x-shrink-pop: 0.27;
-                --x-target-offener: 8.5rem;
+                --x-target-offener: 5.2rem;
                 --x-shrink-offener: 0.2;
-                --x-target-projekt: 13rem;
+                --x-target-projekt: 7.9rem;
                 --x-shrink-projekt: 0.21;
             }
         }
@@ -312,9 +329,9 @@ Version: 0.5
         .logo-animation {
             background-image: url("./img/logo.svg");
             background-repeat: no-repeat;
-            background-size: 80em;
-            width: 18em;
-            height: 18em;
+            background-size: var(--logo-bg-size);
+            width: var(--logo-crop);
+            height: var(--logo-crop);
             animation: shrink-logo var(--anim-speed) ease-in-out forwards;
         }
         
@@ -331,24 +348,24 @@ Version: 0.5
             }
             80% {
                 transform: translate(var(--x-target-logo)) scale(100%);
-                background-size: 80rem;
+                background-size: var(--logo-bg-size);
             }
             100% {
                 transform: translate(var(--x-target-logo)) scale(90%);
-                background-size: 80%;
+                background-size: var(--logo-shrink);
             }
         }
         
         @keyframes fly-kinder {
             0% {
-                transform: translate(var(--x-versatz-fahnen), -5.5rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-kinder));
                 opacity: 0%;
             }
             30% {
                 opacity: 100%;
             }
             70% {
-                transform: translate(var(--x-versatz-fahnen), -5.5rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-kinder));
                 color: #000;
             }
             100% {
@@ -359,14 +376,14 @@ Version: 0.5
         
         @keyframes fly-jugend {
             0% {
-                transform: translate(var(--x-versatz-fahnen), -2.3rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-jugend));
                 opacity: 0%;
             }
             30% {
                 opacity: 100%;
             }
             70% {
-                transform: translate(var(--x-versatz-fahnen), -2.3rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-jugend));
                 color: #000;
             }
             100% {
@@ -377,14 +394,14 @@ Version: 0.5
         
         @keyframes fly-pop {
             0% {
-                transform: translate(var(--x-versatz-fahnen), 0.9rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-pop));
                 opacity: 0%;
             }
             30% {
                 opacity: 100%;
             }
             70% {
-                transform: translate(var(--x-versatz-fahnen), 0.9rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-pop));
                 color: #000;
             }
             100% {
@@ -395,14 +412,14 @@ Version: 0.5
         
         @keyframes fly-offener {
             0% {
-                transform: translate(var(--x-versatz-fahnen), 4.1rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-offener));
                 opacity: 0%;
             }
             30% {
                 opacity: 100%;
             }
             70% {
-                transform: translate(var(--x-versatz-fahnen), 4.1rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-offener));
                 color: #000;
             }
             100% {
@@ -413,14 +430,14 @@ Version: 0.5
         
         @keyframes fly-projekt {
             0% {
-                transform: translate(var(--x-versatz-fahnen), 7.3rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-projekt));
                 opacity: 0%;
             }
             30% {
                 opacity: 100%;
             }
             70% {
-                transform: translate(var(--x-versatz-fahnen), 7.3rem);
+                transform: translate(var(--x-versatz-fahnen), var(--y-versatz-projekt));
                 color: #000;
             }
             100% {
