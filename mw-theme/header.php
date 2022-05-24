@@ -74,18 +74,17 @@
                                     <div class="projekt rectangle"></div> 
                                     
                                 </div>
-                                             <!-- Colored Boxes (x-Small Screens)-->
-                                             <div class="row d-xs-inline-flex d-sm-none flex-row flex-nowrap justify-content-between ">
-                                                                
-                                                                <div class="kinder rectangle small"></div>
-                                                                <div class="jugend rectangle small"></div> 
-                                                                <div class="pop rectangle small"></div> 
-                                                                <div class="offener rectangle small"></div>                               
-                                                                <div class="projekt rectangle small"></div>                                                             
-                                                                                              
-                                    
-                              </div>
-                                <div class="row justify-content-start ">
+
+                                <!-- Colored Boxes (x-Small Screens)-->
+                                <div class="row d-xs-inline-flex d-sm-none flex-row flex-nowrap justify-content-between ">
+                                    <div class="kinder rectangle small"></div>
+                                    <div class="jugend rectangle small"></div> 
+                                    <div class="pop rectangle small"></div> 
+                                    <div class="offener rectangle small"></div>                               
+                                    <div class="projekt rectangle small"></div>                                                             
+                                </div>
+                                
+                                <div class="row justify-content-start">
                         
                                 <?php
                                 wp_nav_menu(array(
