@@ -176,8 +176,8 @@ img {
 }
 
 .rectangle.small {
-    height: 1.1rem;
-    width: 2.15rem;
+    height: 0.9rem;
+    width: 1.7rem;
     margin: 0 0.8rem 0 0.8rem;
 }
 
@@ -199,7 +199,6 @@ img {
 
 .projekt {
     background-color: #A2D9F1;
-    margin: 0;
 }
 
 .ensemblefahne {
