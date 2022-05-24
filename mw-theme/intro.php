@@ -18,8 +18,8 @@
             <div class="ensemblefahne projekt move anim">Projektchöre</div>
         </div>
     </div>
-    <div>
-            <p>
+    <div style=margin-top:2em;>
+            
             <h2>Magst du Cookies?</h2>
             <p><input type=radio name=cookie value=yep>klar
             <p><input type=radio name=cookie value=maybe>kommt drauf an
