@@ -516,6 +516,7 @@ Version: 0.5
                 padding-left: 20px;
             }
             .dropdown-menu li a {
+                margin-top: 0.5em;
                 padding: 0;
             }
         }
