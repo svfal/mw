@@ -512,12 +512,10 @@ Version: 0.5
                 border-bottom: 1px solid #999;
             }
             .dropdown-menu {
-                vertical-align: middle;
                 border: 0;
                 padding-left: 20px;
             }
             .dropdown-menu li a {
-                padding-left: 0;
-                padding-right: 0;
+                padding: 0 0 0 0.5rem;
             }
         }
