@@ -270,10 +270,11 @@ Version: 0.5
         @media (min-width: 576px) {
              :root {
                 --anim-speed: 1s;
+                --x-margin-logo: 3em;
                 --x-versatz-fahnen: 15rem;
                 --y-target: 0.5rem;
                 --y-shrink-fahnen: 0.56;
-                --x-target-logo: 3em;
+                --x-target-logo: 0.5em;
                 --x-target-kinder: 20rem;
                 --x-shrink-kinder: 0.32;
                 --x-target-jugend: 26rem;
@@ -290,6 +291,7 @@ Version: 0.5
         @media (max-width: 576px) {
              :root {
                 --anim-speed: 1s;
+                --x-margin-logo: 0;
                 --x-versatz-fahnen: 15rem;
                 --y-target: 4rem;
                 --y-shrink-fahnen: 0.4;
@@ -318,14 +320,14 @@ Version: 0.5
         
         @keyframes shrink-logo {
             0% {
-                transform: translate(1em, 6em) scale(100%);
+                transform: translate(var(--x-margin-logo), 6em) scale(100%);
                 opacity: 0%;
             }
             30% {
                 opacity: 100%;
             }
             70% {
-                transform: translate(1em, 6em) scale(100%);
+                transform: translate(var(--x-margin-logo), 6em) scale(100%);
             }
             80% {
                 transform: translate(var(--x-target-logo)) scale(100%);
