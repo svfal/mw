@@ -29,7 +29,7 @@
                             <span> </span>
                             <span> </span>
                             </a> 
-                                                               
+                                                                      
                             <?php if ( !is_front_page() ) { ?>
                                 
                                 <div class="navbar-brand" >
@@ -47,17 +47,8 @@
                             <?php
                             }	
                             ?>
-                                        <!-- Colored Boxes (x-Small Screens)-->
-                                <div class="row d-xs-inline-flex d-sm-none flex-row flex-nowrap justify-content-between ">
-                                                                
-                                                                  <div class="kinder rectangle small"></div>
-                                                                  <div class="jugend rectangle small"></div> 
-                                                                  <div class="pop rectangle small"></div> 
-                                                                  <div class="offener rectangle small"></div>                               
-                                                                  <div class="projekt rectangle small"></div>                                                             
-                                                                                                
-                                      
-                                </div>
+                            
+
                                 <!-- Colored Boxes (Small Screens)-->
                                 <div class="col d-none d-sm-flex d-lg-none flex-row flex-nowrap ">
                                                                   
@@ -100,11 +91,9 @@
                                 </div>
                             
                         </div>
-               
                     </div>
-                
                 </nav>
-                           
+
             </div>
  
         </div>
