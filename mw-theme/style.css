@@ -40,11 +40,10 @@ h6 {
     margin-top: 1rem;
 }
 
-.musikwerkverbindet{
-    margin-top:0.125rem;
+.musikwerkverbindet {
+    margin-top: 0.125rem;
     margin-bottom: 1.125rem
 }
-
 
 h4,
 .h4,
@@ -173,13 +172,13 @@ img {
 .rectangle {
     height: 1.4rem;
     width: 2.7rem;
-    margin: 0.8rem 0.8rem 0.8rem 0.8rem;
+    margin: 0.8rem 2.8rem 0.8rem 0.8rem;
 }
 
 .rectangle.small {
     height: 1.2rem;
     width: 2.3rem;
-    margin: 0 0 0 0.8rem;
+    margin: 0 0.8rem 0 0.8rem;
 }
 
 .pop {
@@ -201,24 +200,23 @@ img {
 .projekt {
     background-color: #A2D9F1;
 }
+
 .ensemblefahne {
     padding: .2rem .6rem;
     font-family: AntiqueOlive;
-    font-size:2.125rem;
-    color:#000;
-    display:inline-block;
-    margin:0rem 1rem 1rem 0rem;
+    font-size: 2.125rem;
+    color: #000;
+    display: inline-block;
+    margin: 0rem 1rem 1rem 0rem;
     align-items: center;
-
 }
+
+
 /* Animierter Fahnenflug */
-
-
 
 .kinder.anim {
     animation: fly-kinder 5s ease-in-out forwards;
 }
-
 
 .jugend.anim {
     animation: fly-jugend 5s ease-in-out forwards;
@@ -228,11 +226,9 @@ img {
     animation: fly-pop 5s ease-in-out forwards;
 }
 
-
 .offener.anim {
     animation: fly-offener 5s ease-in-out forwards;
 }
-
 
 .projekt.anim {
     animation: fly-projekt 5s ease-in-out forwards;
@@ -241,159 +237,138 @@ img {
 .ensemblefahne {
     padding: .2rem .6rem;
     font-family: AntiqueOlive;
-    font-size:2.0rem;
-    color:#000;
-    display:inline;
-    margin:0rem 1rem 1rem 0rem;
+    font-size: 2.0rem;
+    color: #000;
+    display: inline;
+    margin: 0rem 1rem 1rem 0rem;
     align-items: center;
-    white-space:nowrap;
-
+    white-space: nowrap;
 }
+
 .move {
-    position:absolute;
-    
+    position: absolute;
 }
 
-
-
-.startanimation{
+.startanimation {
     background-image: url("./img/logo.svg");
     background-repeat: no-repeat;
     background-size: 90rem;
-    width:22rem;
-    height:22rem;
-   
-    
+    width: 22rem;
+    height: 22rem;
     animation: shrink-logo 5s ease-in-out forwards;
 }
+
 @keyframes shrink-logo {
     0% {
-        transform:translate(2rem,5rem) scale(100%);
-        
+        transform: translate(2rem, 5rem) scale(100%);
         opacity: 0%;
     }
     30% {
-        
         opacity: 100%;
     }
     70% {
-        transform:translate(2rem,5rem) scale(100%);
-        
+        transform: translate(2rem, 5rem) scale(100%);
     }
-    80%{
-        transform:translate(3rem) scale(100%);
-        background-size:90rem;
+    80% {
+        transform: translate(3rem) scale(100%);
+        background-size: 90rem;
     }
     100% {
-        transform:translate(3rem) scale(80%);
-        background-size:70%;
+        transform: translate(3rem) scale(80%);
+        background-size: 70%;
     }
-
 }
 
 @keyframes fly-kinder {
     0% {
-        transform:translate(15rem,-5.5rem);
-       
+        transform: translate(15rem, -5.5rem);
         opacity: 0%;
     }
     30% {
-         opacity: 100%;
+        opacity: 100%;
     }
-    70%{
-        transform:translate(15rem,-5.5rem);
-        color:#000;
-        
+    70% {
+        transform: translate(15rem, -5.5rem);
+        color: #000;
     }
     100% {
-        transform:translate(20rem,0.5rem) scale(0.45,0.8);
+        transform: translate(20rem, 0.5rem) scale(0.45, 0.8);
         color: #57BCB3;
-        
     }
-    
 }
+
 @keyframes fly-jugend {
     0% {
-        transform:translate(15rem,-2.3rem);
-        
+        transform: translate(15rem, -2.3rem);
         opacity: 0%;
     }
     30% {
-         opacity: 100%;
+        opacity: 100%;
     }
-    70%{
-        transform:translate(15rem,-2.3rem);
-        color:#000;
+    70% {
+        transform: translate(15rem, -2.3rem);
+        color: #000;
     }
     100% {
-        transform:translate(28rem,0.5rem) scale(0.4,0.8);
+        transform: translate(28rem, 0.5rem) scale(0.4, 0.8);
         color: #EEE24A;
     }
-    
 }
-
-
 
 @keyframes fly-pop {
     0% {
-        transform:translate(15rem,0.9rem);
-        
+        transform: translate(15rem, 0.9rem);
         opacity: 0%;
     }
     30% {
-         opacity: 100%;
+        opacity: 100%;
     }
-    70%{
-        transform:translate(15rem,0.9rem);
-        color:#000;
+    70% {
+        transform: translate(15rem, 0.9rem);
+        color: #000;
     }
     100% {
-        transform:translate(38rem,0.5rem) scale(0.5,0.8);
-        
-        color:#EC5F6A;
+        transform: translate(38rem, 0.5rem) scale(0.5, 0.8);
+        color: #EC5F6A;
     }
-    
 }
+
 @keyframes fly-offener {
     0% {
-        transform:translate(15rem,4.1rem);
-       
+        transform: translate(15rem, 4.1rem);
         opacity: 0%;
     }
     30% {
-         opacity: 100%;
+        opacity: 100%;
     }
-    70%{
-        transform:translate(15rem,4.1rem);
-        color:#000;
+    70% {
+        transform: translate(15rem, 4.1rem);
+        color: #000;
     }
     100% {
-        transform:translate(46rem,0.5rem) scale(0.35,0.8);
+        transform: translate(46rem, 0.5rem) scale(0.35, 0.8);
         color: #5C79BB;
-        
     }
-    
 }
+
 @keyframes fly-projekt {
     0% {
-        transform:translate(15rem,7.3rem);
-       
+        transform: translate(15rem, 7.3rem);
         opacity: 0%;
     }
     30% {
-         opacity: 100%;
+        opacity: 100%;
     }
-    70%{
-        transform:translate(15rem,7.3rem);
-        color:#000;
-        
+    70% {
+        transform: translate(15rem, 7.3rem);
+        color: #000;
     }
     100% {
-        transform:translate(55rem,0.5rem) scale(0.35,0.8);
+        transform: translate(55rem, 0.5rem) scale(0.35, 0.8);
         color: #A2D9F1;
     }
-    
 }
+
 
 /* Animiertes Hamburger-Menü */
 
@@ -474,7 +449,9 @@ img {
     color: orange;
 }
 
+
 /* Mobile menu styles */
+
 @media (max-width: 576px) {
     #menu-hauptmenue li a {
         border-bottom: 1px solid #999;
