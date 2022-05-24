@@ -9,7 +9,7 @@
     <link rel='stylesheet' href='style.css'>
 </head>
 <body>
-    <div style=position:relative>
+    <div style=position:relative;height:100%>
         <div class=logo-animation>
             <div class="ensemblefahne kinder move anim">Kinderchor</div>
             <div class="ensemblefahne jugend move anim">Jugendchor</div>
