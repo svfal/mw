@@ -525,3 +525,8 @@ Version: 0.5
                 background-color: #F8F8F8;
             }
         }
+
+        /* Woocommerce */
+        .woocommerce-product-gallery {
+            opacity: 1;
+        }
