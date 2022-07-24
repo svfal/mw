@@ -62,7 +62,7 @@ function prefix_bs5_dropdown_data_attribute( $atts, $item, $args ) {
  */
 function mw_theme_add_woocommerce_support() {
 	add_theme_support( 'woocommerce', array(
-		'thumbnail_image_width' => 150,
+		'thumbnail_image_width' => 300,
 		'single_image_width'    => 300,
 
         'product_grid'          => array(
