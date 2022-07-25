@@ -122,6 +122,7 @@ Version: 0.5
             text-decoration: none;
             text-align: center;
             padding: 10em;
+            border-top: #16a085 3px solid;
         }
         
         .bg-light {
