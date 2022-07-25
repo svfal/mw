@@ -1,11 +1,17 @@
 <div id="footer">
     <!--h1>FOOTER</h1-->
-    <a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a>
-    <a href=impressum target=_NEW style=text-decoration:none;>Impressum</a>
-    <a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a>
-    <a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/fb.png' ?> width=35 ></a>
-    <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/insta.png' ?> width=35></a>
-    <a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/yt.png' ?> width=35> </a>
+    <div class=container>
+        <div class="row justify-content-right" >
+            <div class="col-xs-12 col-md-6">
+                <a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a>
+                <a href=impressum target=_NEW style=text-decoration:none;>Impressum</a>
+                <a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a>
+                <a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/fb.png' ?> width=35 ></a>
+                <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/insta.png' ?> width=35></a>
+                <a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/yt.png' ?> width=35> </a>
+            <div>
+        </div>
+    </div>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

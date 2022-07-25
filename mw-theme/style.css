@@ -115,17 +115,7 @@ Version: 0.5
         }
         
         #footer {
-            display: flex;
-            justify-content: space-between;
-            width: 40%;
-            margin-right: 10%;
-            margin-top: 20px;
-            margin-left: auto;
-            margin-bottom: 20px;
-            text-decoration: none;
-            text-align: center;
             border-top: #16a085 2px solid;
-            vertical-align: text-bottom;
         }
         
         .bg-light {
