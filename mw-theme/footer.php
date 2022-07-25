@@ -1,7 +1,7 @@
 <div id="footer">
     <!--h1>FOOTER</h1-->
     <div class=container>
-        <div class="row xs-justify-center md-justify-content-between" >
+        <div class="row xs-justify-center md-justify-between" >
             <div class="col-xs-12 col-md-6 offset-md-6">
                 <a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a>
                 <a href=impressum target=_NEW style=text-decoration:none;>Impressum</a>
