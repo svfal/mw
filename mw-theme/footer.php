@@ -3,7 +3,7 @@
     <div class=container>
         <div class="row " >
             <!-- Desktop -->
-            <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-5 flex-row justify-content-between mt-1 py-2" style= 'border-top: #16a085 2px solid;'>
+            <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-5 flex-row justify-content-between py-2" style= 'border-top: #16a085 2px solid;'>
                 
                      <div><a href=index.php class=footerlink>Home</a></div>
                     <div><a href=datenschutz target=_NEW class=footerlink>Datenschutz</a></div>
@@ -22,7 +22,7 @@
                     <div><a href=impressum target=_NEW class=footerlink>Impressum</a></div>
                     <div><a href=kontakt target=_NEW class=footerlink>Kontakt</a></div>
             </div>
-            <div class="d-flex d-sm-none flex-row col-12 justify-content-center" >       
+            <div class="d-flex d-sm-none flex-row col-12 justify-content-center " >       
                     <div class=footerlogo><a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/fb4.png' ?> width=35 ></a></div>
                     <div class=footerlogo> <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/insta.png' ?> width=35></a></div>
                     <div class=footerlogo><a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/yt.png' ?> width=35></a></div>
