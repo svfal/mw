@@ -232,6 +232,10 @@ Version: 0.5
             text-align:center;
             
         }
+        .footerlink {
+            font-size:0.8em;
+            text-decoration:none;
+        }
         /* Animierter Fahnenflug */
         
         .kinder.anim {
