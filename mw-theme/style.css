@@ -230,6 +230,7 @@ Version: 0.5
         .footerlogo {
             width:6em;
             text-align:center;
+            border:#EC5F6A solid 1px;
         }
         /* Animierter Fahnenflug */
         
