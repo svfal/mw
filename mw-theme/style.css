@@ -115,8 +115,9 @@ Version: 0.5
         }
         
         #footer {
-            width: 100%;
-            border-top: 1px #a2a2a2 solid;
+            margin-right: 0;
+            margin-top: 20px;
+            text-decoration: none;
             text-align: center;
         }
         
