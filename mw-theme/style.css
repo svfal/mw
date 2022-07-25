@@ -502,6 +502,10 @@ Version: 0.5
             transform: translate(0%, 0%) rotate(0deg);
         }
         
+        .social_link {
+            width: 2em;
+        }
+        
         .testClass {
             color: orange;
         }
@@ -517,7 +521,6 @@ Version: 0.5
             }
             .dropdown-item {
                 font-size: 1.6rem;
-                
             }
             .dropdown-menu li a {
                 padding-left: 0;
@@ -525,8 +528,8 @@ Version: 0.5
                 background-color: #F8F8F8;
             }
         }
-
         /* Woocommerce */
+        
         .woocommerce-product-gallery {
             opacity: 1 !important;
         }
