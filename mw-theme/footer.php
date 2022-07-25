@@ -1,5 +1,6 @@
 <div id="footer">
     <!--h1>FOOTER</h1-->
+    <a href=datenschutz>Datenschutz</a>
 </div>
 </div>
 <!-- Optional JavaScript -->
