@@ -115,14 +115,14 @@ Version: 0.5
         }
         
         #footer {
-            width: fit-content;
+            width: 50%;
             margin-right: 0;
             margin-top: 20px;
             margin-left: auto;
             margin-bottom: 20px;
             text-decoration: none;
             text-align: center;
-            border-top: #16a085 3px solid;
+            border-top: #16a085 2px solid;
         }
         
         .bg-light {
