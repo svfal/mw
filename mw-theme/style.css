@@ -125,7 +125,7 @@ Version: 0.5
             text-decoration: none;
             text-align: center;
             border-top: #16a085 2px solid;
-            vertical-align: middle;
+            vertical-align: bottom;
         }
         
         .bg-light {
