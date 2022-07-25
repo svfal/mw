@@ -5,7 +5,7 @@
             <!-- Desktop -->
             <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-5 flex-row justify-content-between mt-1 py-2" style= 'border-top: #16a085 2px solid;'>
                 
-                     <div><a href=home style=text-decoration:none;>Home</a></div>
+                     <div><a href=index.php style=text-decoration:none;>Home</a></div>
                     <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                     <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
                     <div><a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a></div>
