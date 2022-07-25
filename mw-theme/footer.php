@@ -2,7 +2,7 @@
     <!--h1>FOOTER</h1-->
     <div class=container>
         <div class="row justify-between" >
-            <div class="col-xs-12 col-lg-6 col-xl-5 offset-lg-5 offset-xl-6" style= 'margin-top:1em; border-top: #16a085 2px solid;'>
+            <div class="col-xs-12 col-lg-6 offset-lg-5 " style= 'margin-top:1em; border-top: #16a085 2px solid;'>
                 <a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a>
                 <a href=impressum target=_NEW style=text-decoration:none;>Impressum</a>
                 <a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a>
