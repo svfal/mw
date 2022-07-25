@@ -2,7 +2,7 @@
     <!--h1>FOOTER</h1-->
     <div class=container>
         <div class="row " >
-            <div class="col-xs-12 col-lg-6 offset-lg-5 justify-content-between flex-nowrap " style= 'margin-top:1em; border-top: #16a085 2px solid;'>
+            <div class="col-xs-12 col-lg-6 offset-lg-5 justify-content-between flex-nowrap flex-row" style= 'margin-top:1em; border-top: #16a085 2px solid;'>
                 <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                 <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
                 <div><a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a></div>
