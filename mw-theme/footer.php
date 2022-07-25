@@ -2,7 +2,7 @@
     <!--h1>FOOTER</h1-->
     <div class=container>
         <div class="row " >
-            <div class="col-xs-12 col-lg-6 offset-lg-5 d-flex flex-row flex-wrap justify-content-between mt-1 pt-1" style= 'border-top: #16a085 2px solid;'>
+            <div class="col-xs-12 col-lg-6 offset-lg-5 d-flex flex-row flex-nowrap justify-content-between mt-1 pt-1" style= 'border-top: #16a085 2px solid;'>
                 
                     <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                     <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
