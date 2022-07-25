@@ -15,7 +15,7 @@
                 
             </div>
             <!-- Mobile -->
-            <div class="d-flex d-sm-none flex-row col-12 justify-content-between" style= 'border-top: #16a085 2px solid;'>
+            <div class="d-flex d-sm-none flex-row col-12 justify-content-evenly" style= 'border-top: #16a085 2px solid;'>
                 
                     <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                     <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
