@@ -114,9 +114,7 @@ Version: 0.5
             border-left-color: #000
         }
         
-        #footer {
-            border-top: #16a085 2px solid;
-        }
+        #footer {}
         
         .bg-light {
             background-color: white !important;
