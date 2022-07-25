@@ -3,9 +3,9 @@
     <a href=datenschutz target=_NEW>Datenschutz</a>
     <a href=impressum target=_NEW>Impressum</a>
     <a href=kontakt target=_NEW>Kontakt</a>
-    <a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . 'img/fb.png' ?> </a>
-    <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . 'img/insta.png' ?> </a>
-    <a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><?php echo get_stylesheet_directory_uri() . 'img/yt.png' ?> </a>
+    <a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/fb.png' ?> ></a>
+    <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/insta.png' ?> ></a>
+    <a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src=<?php echo get_stylesheet_directory_uri() . '/img/yt.png' ?> ></a>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
