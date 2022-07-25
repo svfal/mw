@@ -3,8 +3,8 @@
 		<div class="container">
 
 			<div class="row justify-content-center">
- 				<div class="col-12 col-lg-10 ">
-     	     		<img src= "<?php echo get_stylesheet_directory_uri().'/img/mw-start-2018.jpg'; ?>">
+ 				<div class="col-12 col-lg-10">
+     	     		<img src= "<?php echo get_stylesheet_directory_uri().'/img/mw-start-2018.jpg'; ?>" width=100%>
 				</div>
 			</div>
       		
