@@ -3,9 +3,9 @@
     <a href=datenschutz target=_NEW>Datenschutz</a>
     <a href=impressum target=_NEW>Impressum</a>
     <a href=kontakt target=_NEW>Kontakt</a>
-    <a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src=img/fb.png></a>
-    <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src=img/insta.png></a>
-    <a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src=img/yt.png></a>
+    <a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src=<?php get_theme_root() ?>img/fb.png></a>
+    <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src= <?php get_theme_root() ?>/img/insta.png></a>
+    <a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src=<?php get_theme_root() ?>img/yt.png></a>
 </div>
 </div>
 <!-- Optional JavaScript -->
