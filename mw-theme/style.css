@@ -226,6 +226,10 @@ Version: 0.5
             margin: 0rem 1rem 1rem 0rem;
             align-items: center;
         }
+
+        .footerlogo {
+            margin: 10 10 0 0;
+        }
         /* Animierter Fahnenflug */
         
         .kinder.anim {
