@@ -3,7 +3,7 @@
     <div class=container>
         <div class="row " >
             <!-- Desktop -->
-            <div class="col-xs-12 col-lg-6 offset-lg-5 d-none d-sm-flex flex-row justify-content-between mt-1 pt-1" style= 'border-top: #16a085 2px solid;'>
+            <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-5 flex-row justify-content-between mt-1 pt-1" style= 'border-top: #16a085 2px solid;'>
                 
                     <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                     <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
@@ -15,13 +15,13 @@
                 
             <div>
             <!-- Mobile -->
-            <div class="d-xs-flex flex-row d-sm-none col-12 justify-content-between " style= 'border-top: #16a085 2px solid;'>
+            <div class="d-xs-flex d-sm-none flex-row col-12 justify-content-between " style= 'border-top: #16a085 2px solid;'>
                 
                     <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                     <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
                     <div><a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a></div>
             </div>
-            <div class="d-xs-flex flex-row d-sm-none col-12 justify-content-between mt-1 pt-1" >       
+            <div class="d-xs-flex d-sm-none flex-row col-12 justify-content-between" >       
                     <div ><a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/fb.png' ?> width=35 ></a></div>
                     <div> <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/insta.png' ?> width=35></a></div>
                     <div><a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/yt.png' ?> width=35></a></div>
