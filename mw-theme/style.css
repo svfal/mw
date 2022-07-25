@@ -230,6 +230,7 @@ Version: 0.5
         .footerlogo {
             width:6em;
             text-align:center;
+            vertical-align: middle;
             
         }
         .footerlink {
