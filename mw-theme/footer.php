@@ -3,7 +3,7 @@
     <div class=container>
         <div class="row " >
             <div class="col-xs-12 col-lg-6 offset-lg-5 d-flex flex-row flex-nowrap justify-content-between " style= 'margin-top:1em; border-top: #16a085 2px solid;'>
-                <div class="flex-nowrap">
+                <div class="d-flex flex-row">
                     <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                     <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
                     <div><a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a></div>
