@@ -4,8 +4,8 @@
         <div class="row " >
             <div class="col-xs-12 col-lg-6 offset-lg-5 d-flex flex-row flex-nowrap justify-content-between mt-1 pt-1" style= 'border-top: #16a085 2px solid;'>
                 
-                    <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
-                    <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
+                    <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz </a></div>
+                    <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum </a></div>
                     <div><a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a></div>
                 
                     <div><a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/fb.png' ?> width=35 ></a></div>
