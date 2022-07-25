@@ -10,9 +10,9 @@
 </head>
 
 <body>
-<!-- Animation-Demo -->
+<!-- Animation-Demo 
 <a href=" <?php echo get_stylesheet_directory_uri() . '/intro.php' ?>" target=_NEW>Demo Intro</a>
-  
+  -->
     <div class="container">  
 
         <div class="row justify-content-center">
