@@ -2,13 +2,13 @@
     <!--h1>FOOTER</h1-->
     <div class=container>
         <div class="row " >
-            <div class="col-xs-12 col-lg-6 offset-lg-5 d-flex flex-row  " style= 'margin-top:1em; border-top: #16a085 2px solid;'>
-                <div class="d-flex flex-row col-6 justify-content-between ">
+            <div class="col-xs-12 col-lg-6 offset-lg-5 d-flex " style= 'margin-top:1em; border-top: #16a085 2px solid;'>
+                <div class="d-flex flex-row col-6 justify-content-around ">
                     <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                     <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
                     <div><a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a></div>
                 </div>
-                <div class="d-flex flex-row col-6 justify-content-between ">
+                <div class="d-flex flex-row col-6 justify-content-around ">
                     <div><a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/fb.png' ?> width=35 ></a></div>
                     <div> <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/insta.png' ?> width=35></a></div>
                     <div><a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/yt.png' ?> width=35></a></div>
