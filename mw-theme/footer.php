@@ -15,13 +15,13 @@
                 
             </div>
             <!-- Mobile -->
-            <div class="d-flex d-sm-none flex-row col-12 justify-content-evenly" style= 'border-top: #16a085 2px solid;'>
+            <div class="d-flex d-sm-none flex-row col-12 justify-content-center" style= 'border-top: #16a085 2px solid;'>
                 
                     <div><a href=datenschutz target=_NEW style=text-decoration:none;>Datenschutz</a></div>
                     <div><a href=impressum target=_NEW style=text-decoration:none;>Impressum</a></div>
                     <div><a href=kontakt target=_NEW style=text-decoration:none;>Kontakt</a></div>
             </div>
-            <div class="d-flex d-sm-none flex-row col-12 justify-content-evenly" >       
+            <div class="d-flex d-sm-none flex-row col-12 justify-content-center" >       
                     <div ><a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/fb.png' ?> width=35 ></a></div>
                     <div> <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/insta.png' ?> width=35></a></div>
                     <div><a href=https://www.youtube.com/channel/UCFCTETiuBqXwtfRiCnhDBCw target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/yt.png' ?> width=35></a></div>
