@@ -3,7 +3,7 @@
     <div class=container>
         <div class="row " >
             <!-- Desktop -->
-            <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-5 flex-row justify-content-between align-items-center py-2" style= 'border-top: #16a085 2px solid;'>
+            <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-5 flex-row justify-content-between align-items-center py-2 mt-3" style= 'border-top: #16a085 2px solid;'>
                 
                      <div><a href=index.php class=footerlink>Home</a></div>
                     <div><a href=datenschutz target=_NEW class=footerlink>Datenschutz</a></div>
