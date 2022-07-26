@@ -1,7 +1,7 @@
 <div id="footer">
     <!--h1>FOOTER</h1-->
-    <div class=container>
-        <div class="row mt-3" >
+    <div class="container mt-3">
+        <div class="row " >
             <!-- Desktop -->
             <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-5 flex-row justify-content-between align-items-center py-2" style= 'border-top: #16a085 2px solid;'>
                 
