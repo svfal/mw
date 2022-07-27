@@ -11,13 +11,7 @@ function musikwerk_files(){
 }
 add_action('wp_enqueue_scripts', 'musikwerk_files');
 
-  /**
- * Necessary to use FooGallery Plugin
- */
-function force_load_foogallery($hook) {
-    foogallery_enqueue_core_gallery_template_script();
-    foogallery_enqueue_core_gallery_template_style();
-}
+ 
 add_action('wp_enqueue_scripts', 'force_load_foogallery');
 
   /**
