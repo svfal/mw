@@ -6,12 +6,14 @@
      				    <h1> 
      						<? the_title(); ?>     
      					</h1>
-    					<? the_content(); ?>    
+						<div class=container>
+    						<? the_content(); ?>   
+						</div> 
      
     			</div>
 			</div>
 		</div>
      
- </div>
+    </div>
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
