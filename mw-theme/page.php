@@ -6,9 +6,9 @@
      				    <h1> 
      						<? the_title(); ?>     
      					</h1>
-						
-    					<? the_content(); ?>   
-						
+						<div style='display:block;'>
+    						<? the_content(); ?>   
+						</div>
      
     			</div>
 			</div>
