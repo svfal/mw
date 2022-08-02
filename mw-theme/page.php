@@ -6,9 +6,9 @@
      				    <h1> 
      						<? the_title(); ?>     
      					</h1>
-						<div class=container>
-    						<? the_content(); ?>   
-						</div> 
+						
+    					<? the_content(); ?>   
+						
      
     			</div>
 			</div>
