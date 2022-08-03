@@ -210,7 +210,7 @@ Version: 0.5
         }
         
         .offener {
-            background-color: #5C79BB;
+            background-color: #6d8acd;
         }
         
         .projekt {
@@ -226,18 +226,15 @@ Version: 0.5
             margin: 0rem 1rem 1rem 0rem;
             align-items: center;
         }
-
+        
         .footerlogo {
-            width:6em;
-            text-align:center;
-            
-            
+            width: 6em;
+            text-align: center;
         }
+        
         .footerlink {
-            font-size:0.9em;
-            text-decoration:none;
-            
-            
+            font-size: 0.9em;
+            text-decoration: none;
         }
         /* Animierter Fahnenflug */
         
