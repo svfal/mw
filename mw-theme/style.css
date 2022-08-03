@@ -430,7 +430,7 @@ Version: 0.5
             }
             100% {
                 transform: translate(var(--x-target-offener), var(--y-target)) scale(var(--x-shrink-offener), var(--y-shrink-fahnen));
-                color: #5C79BB;
+                color: #6d8acd;
             }
         }
         
