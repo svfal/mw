@@ -53,7 +53,8 @@
                                     <div class="jugend rectangle small"></div> 
                                     <div class="pop rectangle small"></div> 
                                     <div class="offener rectangle small"></div>                               
-                                    <div class="projekt rectangle small"></div>                                                             
+                                    <div class="projekt rectangle small"></div>
+                                    <div class="projekt rectangle small"></div>      
                                 </div>
                             
 
@@ -65,6 +66,7 @@
                                     <div class="pop rectangle small"></div> 
                                     <div class="offener rectangle small"></div> 
                                     <div class="projekt rectangle small"></div> 
+                                    <div class="projekt rectangle small"></div> 
                                     
                                 </div>
 
@@ -75,6 +77,7 @@
                                     <div class="jugend rectangle medium"></div> 
                                     <div class="pop rectangle medium"></div> 
                                     <div class="offener rectangle medium"></div> 
+                                    <div class="projekt rectangle medium"></div> 
                                     <div class="projekt rectangle medium"></div> 
                                     
                                 </div>
@@ -89,6 +92,7 @@
                                         <div class="jugend rectangle"></div> 
                                         <div class="pop rectangle"></div> 
                                         <div class="offener rectangle"></div> 
+                                        <div class="projekt rectangle"></div> 
                                         <div class="projekt rectangle"></div> 
                                     
                                     </div>
