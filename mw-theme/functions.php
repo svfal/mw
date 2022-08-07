@@ -9,6 +9,7 @@ function musikwerk_files(){
     wp_enqueue_style('bootstrap_style', get_stylesheet_directory_uri() . '/style.css');
     
 }
+
 add_action('wp_enqueue_scripts', 'musikwerk_files');
 
  
