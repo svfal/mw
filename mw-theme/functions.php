@@ -71,4 +71,11 @@ function mw_theme_add_woocommerce_support() {
 }
 
 add_action( 'after_setup_theme', 'mw_theme_add_woocommerce_support' );
-?>
+
+/**
+ * Loco translate
+ */
+
+load_theme_textdomain ('mw-theme', get_template_directory().'/languages');
+
+load_plugin_textdomain('mw-theme', dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
