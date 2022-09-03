@@ -13,5 +13,10 @@ nav:
   - Events: events.md
   - Fotos: fotos.md
   - Shop: shop.md
+  - Übersetzung: translation.md
 
-theme: readthedocs
+theme: 
+  name: readthedocs
+  logo: docs/img/Logo_Signet_Quadrat.jpg
+  locale: de
+
