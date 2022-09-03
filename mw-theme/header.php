@@ -19,9 +19,9 @@
 
             <div class="col-12 col-lg-10 px-lg-0">
 
-                <nav class="navbar navbar-expand-sm navbar-light bg-light " role="navigation">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light" role="navigation">
                     
-                    <div class="row align-items-center">
+                    <div class="row align-items-center ">
                         
                             <!-- Toggle for mobile menu -->
                             <a class="navbar-toggler collapsed border-0 " type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'your-theme-slug'); ?>">
@@ -47,7 +47,14 @@
                             <?php
                             }	
                             ?>
-                                
+                                <!-- Colored Boxes (x-Small Screens)-->
+                                <div class="row d-xs-inline-flex d-sm-none flex-row flex-nowrap justify-content-between ">
+                                    <div class="kinder rectangle small"></div>
+                                    <div class="jugend rectangle small"></div> 
+                                    <div class="pop rectangle small"></div> 
+                                    <div class="offener rectangle small"></div>                               
+                                    <div class="projekt rectangle small"></div>                                                             
+                                </div>
                             
 
                                 <!-- Colored Boxes (Small Screens)-->
@@ -70,7 +77,6 @@
                                     <div class="offener rectangle medium"></div> 
                                     <div class="projekt rectangle medium"></div> 
                                     
-                                    
                                 </div>
                         
                                 <div class="col-lg-8 col-xl-7 offset-xl-1">
@@ -84,7 +90,6 @@
                                         <div class="pop rectangle"></div> 
                                         <div class="offener rectangle"></div> 
                                         <div class="projekt rectangle"></div> 
-                                        
                                     
                                     </div>
 
@@ -109,15 +114,7 @@
                                 </div>
                     </div>
                 </nav>
-                <!-- Colored Boxes (x-Small Screens)-->
-                <div class="row d-xs-inline-flex d-sm-none flex-row flex-nowrap justify-content-between ">
-                                    <div class="kinder rectangle small"></div>
-                                    <div class="jugend rectangle small"></div> 
-                                    <div class="pop rectangle small"></div> 
-                                    <div class="offener rectangle small"></div>                               
-                                    <div class="projekt rectangle small"></div>
-                                        
-                </div>
+
             </div>
  
         </div>
