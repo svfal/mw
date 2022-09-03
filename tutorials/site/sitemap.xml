@@ -45,4 +45,9 @@
      <lastmod>2022-09-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    <url>
+     <loc>http://www.example.com/translation/</loc>
+     <lastmod>2022-09-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>
