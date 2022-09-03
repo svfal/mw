@@ -13,3 +13,5 @@ nav:
   - Events: events.md
   - Fotos: fotos.md
   - Shop: shop.md
+
+theme: readthedocs
