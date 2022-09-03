@@ -1,0 +1,9 @@
+site_name: MW Tutorials
+site_url: http://www.example.com
+
+nav:
+  - Home: index.md
+  - Verein:
+    - Künstlerische Leitung: leitung.md
+    - Kontakt: kontakt.md
+    - Dokumente: dokumente.md
