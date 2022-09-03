@@ -58,7 +58,6 @@
                                     <div class="pop rectangle small"></div> 
                                     <div class="offener rectangle small"></div> 
                                     <div class="projekt rectangle small"></div> 
-                                    <div class="projekt rectangle small"></div> 
                                     
                                 </div>
 
@@ -70,7 +69,7 @@
                                     <div class="pop rectangle medium"></div> 
                                     <div class="offener rectangle medium"></div> 
                                     <div class="projekt rectangle medium"></div> 
-                                    <div class="projekt rectangle medium"></div> 
+                                    
                                     
                                 </div>
                         
