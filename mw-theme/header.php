@@ -47,15 +47,7 @@
                             <?php
                             }	
                             ?>
-                                <!-- Colored Boxes (x-Small Screens)-->
-                                <div class="row d-xs-inline-flex d-sm-none flex-row flex-nowrap justify-content-between ">
-                                    <div class="kinder rectangle small"></div>
-                                    <div class="jugend rectangle small"></div> 
-                                    <div class="pop rectangle small"></div> 
-                                    <div class="offener rectangle small"></div>                               
-                                    <div class="projekt rectangle small"></div>
-                                    <div class="projekt rectangle small"></div>      
-                                </div>
+                                
                             
 
                                 <!-- Colored Boxes (Small Screens)-->
@@ -118,7 +110,15 @@
                                 </div>
                     </div>
                 </nav>
-
+                <!-- Colored Boxes (x-Small Screens)-->
+                <div class="row d-xs-inline-flex d-sm-none flex-row flex-nowrap justify-content-between ">
+                                    <div class="kinder rectangle small"></div>
+                                    <div class="jugend rectangle small"></div> 
+                                    <div class="pop rectangle small"></div> 
+                                    <div class="offener rectangle small"></div>                               
+                                    <div class="projekt rectangle small"></div>
+                                    <div class="projekt rectangle small"></div>      
+                </div>
             </div>
  
         </div>
