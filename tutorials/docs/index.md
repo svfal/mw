@@ -4,7 +4,7 @@ Die Musikwerk-Website läuft auf Wordpress und verwendet eine Reihe von Plugins,
 
 ## Bevor du beginnst
 
-Du brauchst zuerst einen User für den Wordpress-Administrationsbereich unter (www.dev.musikwerk-stuttgart.de). Folgende Personen können einen User für dich anlegen:
+Du brauchst zuerst einen User für den Wordpress-Administrationsbereich unter [www.dev.musikwerk-stuttgart.de](www.dev.musikwerk-stuttgart.de). Folgende Personen können einen User für dich anlegen:
 
 - Arnd Pohlmann
 - Daniel Kimmich
