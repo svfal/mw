@@ -51,7 +51,7 @@
                             
 
                                 <!-- Colored Boxes (Small Screens)-->
-                                <div class="col-8 d-none d-sm-flex d-md-none flex-row flex-nowrap ">
+                                <div class="col-10 d-none d-sm-flex d-md-none flex-row flex-nowrap ">
                                                                   
                                     <div class="kinder rectangle small"></div>
                                     <div class="jugend rectangle small"></div> 
