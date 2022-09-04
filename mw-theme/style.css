@@ -537,8 +537,16 @@ Version: 0.5
                 background-color: #F8F8F8;
             }
         }
-        /* Woocommerce */
+/* Woocommerce */
         
-        .woocommerce-product-gallery {
-            opacity: 1 !important;
-        }
+.woocommerce-product-gallery {
+    opacity: 1 !important;
+    }
+
+/* EventIn */
+
+.etn-event-timezone {
+    display: none;
+    }
+
+    
