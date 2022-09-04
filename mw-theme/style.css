@@ -546,7 +546,7 @@ Version: 0.5
 /* EventIn */
 
 .etn-event-timezone,
-. etn-widget etn-add-calender-url {
+.etn-add-calender-url {
     display: none;
     }
 
