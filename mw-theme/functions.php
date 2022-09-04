@@ -70,6 +70,9 @@ function mw_theme_add_woocommerce_support() {
 	) );
 }
 
+/* Disable related products on product page */
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+
 add_action( 'after_setup_theme', 'mw_theme_add_woocommerce_support' );
 
 /**
