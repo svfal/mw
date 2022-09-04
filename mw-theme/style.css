@@ -221,7 +221,8 @@ Version: 0.5
             background-color: #A2D9F1;
         }
         
-        .ensemblefahne {
+        .ensemblefahne,
+        #title1854 {
             padding: .2rem .6rem;
             font-family: AntiqueOlive;
             font-size: 2.125rem;
