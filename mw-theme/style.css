@@ -150,12 +150,11 @@ Version: 0.5
                 width: 30%;
                 max-width: 14em;
                 min-width: 10em;
-                margin-top: 0.8em;
+                margin-top: .8em;
                 margin-bottom: 0.3em;
                 margin-left: auto;
                 margin-right: auto;
             }
-
             .nav-link {
                 padding-top: 0.75rem;
             }
@@ -198,7 +197,7 @@ Version: 0.5
         .rectangle.small {
             height: 1rem;
             width: 1.9rem;
-            margin: 0.8rem 0.8rem 0 0.8rem;
+            margin: 0.8rem 0.8rem 0.8rem;
         }
         
         .pop {
