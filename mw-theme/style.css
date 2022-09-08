@@ -556,3 +556,15 @@ Version: 0.5
         .etn-add-calender-url {
             display: none;
         }
+        
+        .etn-event-category {
+            opacity: 0.8;
+        }
+        
+        .etn-event-item .etn-event-thumb {
+            border-radius: 0;
+        }
+        
+        .etn-event-item .etn-event-category span {
+            border-radius: 0;
+        }
