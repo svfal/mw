@@ -114,7 +114,7 @@ Version: 0.5
             border-left-color: #000
         }
         
-        #footer {}
+        /* #footer {} */
         
         .bg-light {
             background-color: white !important;
@@ -567,4 +567,10 @@ Version: 0.5
         
         .etn-event-item .etn-event-category span {
             border-radius: 0;
+        }
+
+        /* Woocommerce Shopping Cart in menu */
+        .wooshoppingcart {
+            padding-top: 0.75rem;
+            white-space: nowrap;
         }

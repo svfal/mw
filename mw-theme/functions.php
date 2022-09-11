@@ -118,9 +118,9 @@ function sk_wcmenucart($menu, $args) {
 		// Uncomment the line below to hide nav menu cart item when there are no items in the cart
 		 if ( $cart_contents_count > 0 ) {
 			if ($cart_contents_count == 0) {
-				$menu_item = '<li class="right"><a class="wcmenucart-contents" href="'. $shop_page_url .'" title="'. $start_shopping .'">';
+				$menu_item = '<li class="wooshoppingcart"><a class="wcmenucart-contents" href="'. $shop_page_url .'" title="'. $start_shopping .'">';
 			} else {
-				$menu_item = '<li class="right"><a class="wcmenucart-contents" href="'. $cart_url .'" title="'. $viewing_cart .'">';
+				$menu_item = '<li class="wooshoppingcart"><a class="wcmenucart-contents" href="'. $cart_url .'" title="'. $viewing_cart .'">';
 			}
 
 			$menu_item .= '<i class="fa fa-shopping-cart"></i> ';
