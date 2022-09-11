@@ -113,6 +113,7 @@ Version: 0.5
             border-width: 0.25em 0 0.25em 0.5em;
             border-left-color: #000
         }
+        
         /* #footer {} */
         
         .bg-light {
@@ -567,12 +568,9 @@ Version: 0.5
         .etn-event-item .etn-event-category span {
             border-radius: 0;
         }
+
         /* Woocommerce Shopping Cart in menu */
-        
-        .wooshoppingcart,
-        .wooshoppingcart a {
+        .wooshoppingcart {
             padding-top: 0.75rem;
             white-space: nowrap;
-            text-decoration: none;
-            font-size: 0.95em;
         }
