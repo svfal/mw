@@ -572,5 +572,6 @@ Version: 0.5
         .wooshoppingcart {
             padding-top: 0.75rem;
             white-space: nowrap;
-            font-size: 0.8em;
+            font-size: 0.9em;
+            font-weight: 900;
         }
