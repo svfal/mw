@@ -108,7 +108,7 @@ function sk_wcmenucart($menu, $args) {
 
 	ob_start();
 		global $woocommerce;
-		$viewing_cart = __('View your shopping cart', 'your-theme-slug');
+		$viewing_cart = __('Warenkorb anzeigen', 'your-theme-slug');
 		$start_shopping = __('Start shopping', 'your-theme-slug');
 		$cart_url = $woocommerce->cart->get_cart_url();
 		$shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
