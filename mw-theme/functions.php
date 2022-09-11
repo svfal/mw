@@ -114,7 +114,7 @@ function sk_wcmenucart($menu, $args) {
 		$shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
 		$cart_contents_count = $woocommerce->cart->cart_contents_count;
 		$cart_contents = sprintf(_n('%d item', '%d items', $cart_contents_count, 'your-theme-slug'), $cart_contents_count);
-		$cart_total = $woocommerce->cart->get_cart_total();
+		//$cart_total = $woocommerce->cart->get_cart_total();
 		// Uncomment the line below to hide nav menu cart item when there are no items in the cart
 		 if ( $cart_contents_count > 0 ) {
 			if ($cart_contents_count == 0) {
@@ -126,7 +126,7 @@ function sk_wcmenucart($menu, $args) {
 			//$menu_item .= '<i class="fa fa-shopping-cart"></i> ';
 
 			//$menu_item .= $cart_contents.' - '. $cart_total;
-            $menu_item .= $cart_contents;
+            $menu_item .= $cart_contents.'';
 			$menu_item .= '</a></li>';
 		// Uncomment the line below to hide nav menu cart item when there are no items in the cart
 		}
