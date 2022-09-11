@@ -569,7 +569,8 @@ Version: 0.5
         }
         /* Woocommerce Shopping Cart in menu */
         
-        .wooshoppingcart {
+        .wooshoppingcart,
+        .wooshoppingcart a {
             padding-top: 0.75rem;
             white-space: nowrap;
             font-size: 0.9em;
