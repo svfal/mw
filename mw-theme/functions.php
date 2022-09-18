@@ -144,11 +144,17 @@ add_filter('woocommerce_add_to_cart_fragments', 'woocommerce_header_add_to_cart_
 function woocommerce_header_add_to_cart_fragment($fragments)
 {
 	global $woocommerce;
+	$viewing_cart = __('Warenkorb anzeigen', 'my-theme');
+	$start_shopping = __('Start shopping', 'my-theme');
+	$cart_url = $woocommerce->cart->get_cart_url();
+	$shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
+	$cart_contents_count = $woocommerce->cart->cart_contents_count;
+	$cart_contents = sprintf(_n('%d item', '%d items', $cart_contents_count, 'my-theme'), $cart_contents_count);
 
 	ob_start();
 
 ?>
-	<a class="wcmenucart-contents" href="<?php echo esc_url(wc_get_cart_url()); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>"><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count); ?> – <?php echo $woocommerce->cart->get_cart_total(); ?></a>
+	<a class="wcmenucart-contents" href="'. $cart_url .'" title="'. $viewing_cart .'">'</a>
 <?php
 	$fragments['a.wcmenucart-contents'] = ob_get_clean();
 	return $fragments;
