@@ -143,6 +143,6 @@ function wc_refresh_mini_cart_count($fragments){
     ?>
     <div id="wcmenucart-contents"><?php echo $items_count ? $items_count : '&nbsp;'; ?></div>
     <?php
-        $fragments['#wcmenucart-contents'] = ob_get_clean();
+        $fragments['.wcmenucart-contents'] = ob_get_clean();
     return $fragments;
 }
