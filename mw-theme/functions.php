@@ -147,10 +147,10 @@ function woocommerce_header_add_to_cart_fragment($fragments)
 	ob_start();
 
 ?>
-	<a class="cart-contents" href="cart->get_cart_url(); ?>” title=””>cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – cart->get_cart_total(); ?>
+	<a class="wcmenucart-contents" href="cart->get_cart_url(); ?>” title=””>cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – cart->get_cart_total(); ?>
 <?php
 
-	$fragments['a.cart-contents'] = ob_get_clean();
+	$fragments['a.wcmenucart-contents'] = ob_get_clean();
 
 	return $fragments;
 }
