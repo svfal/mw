@@ -135,3 +135,22 @@ function sk_wcmenucart($menu, $args) {
 	return $menu . $social;
 
 }
+
+/**
+ * Ensure cart contents update when products are added to the cart via AJAX
+ * https://docs.woocommerce.com/document/show-cart-contents-total/
+ */
+add_filter(‘woocommerce_add_to_cart_fragments’, ‘woocommerce_header_add_to_cart_fragment’);
+
+function woocommerce_header_add_to_cart_fragment($fragments)
+{
+	ob_start();
+
+?>
+	<a class="cart-contents" href="cart->get_cart_url(); ?>” title=””>cart->get_cart_contents_count() ), WC()->cart->get_cart_contents_count() ); ?> – cart->get_cart_total(); ?>
+<?php
+
+	$fragments['a.cart-contents'] = ob_get_clean();
+
+	return $fragments;
+}
