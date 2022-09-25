@@ -577,5 +577,5 @@ Version: 0.5
 
 /*Remove Add to Cart Button on Product Overview Page*/
 .wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button {
-    display: none;
+    display: none !important; 
 }
