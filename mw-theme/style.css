@@ -574,3 +574,8 @@ Version: 0.5
             padding-top: 0.75rem;
             white-space: nowrap;
         }
+
+/*Remove Add to Cart Button on Product Overview Page*/
+.wp-block-button {
+    display: none;
+}
