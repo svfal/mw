@@ -576,6 +576,6 @@ Version: 0.5
         }
 
 /*Remove Add to Cart Button on Product Overview Page*/
-.wc-block-grid.has-aligned-buttons .wc-block-grid__product > :last-child {
+.theme-twentytwenty .wc-block-grid.has-aligned-buttons .wc-block-grid__product > :last-child, .wc-block-grid.has-aligned-buttons .wc-block-grid__product > :last-child {
     display: none !important; 
 }
