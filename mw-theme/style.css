@@ -600,7 +600,7 @@ Version: 0.5
     padding-left: 0;
 }
 
-.single_add_to_cart_button button {
+.single_add_to_cart_button {
     background-color: #fb830b;
     color: #fff;
     border: none;
@@ -608,5 +608,4 @@ Version: 0.5
     font-weight: bold;
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: center;
 }
