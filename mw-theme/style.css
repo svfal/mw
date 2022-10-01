@@ -579,3 +579,12 @@ Version: 0.5
 .theme-twentytwenty .wc-block-grid.has-aligned-buttons .wc-block-grid__product > :last-child, .wc-block-grid.has-aligned-buttons .wc-block-grid__product > :last-child {
     display: none; 
 }
+
+/* Woocommerce Single Product Page */
+.product_title .entry-title {
+    margin-top: 0;
+}
+
+.woocommerce-product-gallery .woocommerce-product-gallery--with-images .woocommerce-product-gallery--columns-4 > img {
+    width: 100%;
+}
