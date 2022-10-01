@@ -34,6 +34,7 @@ if ( post_password_required() ) {
 <div id="product-<?php the_ID(); ?>" <?php wc_product_class( '', $product ); ?>>
 	<div class="container">
 	<div class="row justify-content-center">
+	<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
 		<div class="col-4">
 			<?php
 				/**
@@ -76,6 +77,7 @@ if ( post_password_required() ) {
 			?>
 	</div>
 		</div>
+	</div>
 	</div>
 	</div>
 
