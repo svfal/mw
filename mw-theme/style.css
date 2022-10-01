@@ -616,7 +616,7 @@ Version: 0.5
     font-weight: bold;
 }
 
-.qty text {
+.qty {
     height: 40px;
     border: 1px solid #dadae5;
 }
