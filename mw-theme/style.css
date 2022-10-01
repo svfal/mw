@@ -595,3 +595,7 @@ Version: 0.5
 .mw-shop-col {
     float: left;
 }
+
+.mw-shop-col:first-of-type {
+    padding-left: 0;
+}
