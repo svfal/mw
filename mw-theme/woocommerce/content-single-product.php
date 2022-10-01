@@ -24,7 +24,7 @@ global $product;
  *
  * @hooked woocommerce_output_all_notices - 10
  */
-do_action( 'woocommerce_before_single_product' );
+/*do_action( 'woocommerce_before_single_product' );*/
 
 if ( post_password_required() ) {
 	echo get_the_password_form(); // WPCS: XSS ok.
@@ -35,9 +35,7 @@ if ( post_password_required() ) {
 	<div class="container">
 	<div class="row justify-content-center">
 	<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
-		<?php
-			do_action( 'woocommerce_breadcrumb' );
-		?>
+		
 		<div class="mw-shop-col col-md-6 etn-col-lg-5">
 			<?php
 				/**
