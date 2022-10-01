@@ -590,6 +590,7 @@ Version: 0.5
 .woocommerce-product-gallery--with-images,
 .woocommerce-product-gallery--columns-4 img {
     width: 100%;
+    max-height: 750px;
 }
 
 .mw-shop-col {
@@ -613,4 +614,9 @@ Version: 0.5
 .woocommerce-Price-amount bdi {
     font-size: 2.1875rem;
     font-weight: bold;
+}
+
+.qty text {
+    height: 40px;
+    border: 1px solid #dadae5;
 }
