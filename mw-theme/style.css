@@ -582,7 +582,7 @@ Version: 0.5
 
 /* Woocommerce Single Product Page */
 .product_title .entry-title {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
 
 .woocommerce-product-gallery .woocommerce-product-gallery--with-images .woocommerce-product-gallery--columns-4 > img {
