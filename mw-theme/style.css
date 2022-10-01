@@ -581,10 +581,10 @@ Version: 0.5
 }
 
 /* Woocommerce Single Product Page */
-.product_title .entry-title > h1 {
-    margin-top: 0 !important;
+.product_title .entry-title  h1 {
+    margin-top: 0;
 }
 
-.woocommerce-product-gallery .woocommerce-product-gallery--with-images .woocommerce-product-gallery--columns-4 > img {
+.woocommerce-product-gallery .woocommerce-product-gallery--with-images .woocommerce-product-gallery--columns-4 img {
     width: 100%;
 }
