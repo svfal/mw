@@ -591,3 +591,7 @@ Version: 0.5
 .woocommerce-product-gallery--columns-4 img {
     width: 100%;
 }
+
+.mw-shop-col {
+    float: left;
+}
