@@ -2,7 +2,7 @@
 
 Die Bilder und die Galerien werden mit einem Plugin namens **Modula** erstellt.
 
-Allgemeine Informationen zum Module-Plugin ist in der Dokumentation unter [https://wp-modula.com/knowledge-base/](https://wp-modula.com/knowledge-base/) zu finden.
+Allgemeine Informationen zum Modula-Plugin ist in der Dokumentation unter [https://wp-modula.com/knowledge-base/](https://wp-modula.com/knowledge-base/) zu finden.
 
 ## Bevor du loslegst
 
