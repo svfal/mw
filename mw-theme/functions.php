@@ -108,12 +108,12 @@ function sk_wcmenucart($menu, $args) {
 
 	ob_start();
 		global $woocommerce;
-		$viewing_cart = __('View your shopping cart', 'your-theme-slug');
-		$start_shopping = __('Start shopping', 'your-theme-slug');
+		$viewing_cart = __('Warenkorb anzeigen', 'my-theme');
+		$start_shopping = __('Start shopping', 'my-theme');
 		$cart_url = $woocommerce->cart->get_cart_url();
 		$shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
 		$cart_contents_count = $woocommerce->cart->cart_contents_count;
-		$cart_contents = sprintf(_n('%d item', '%d items', $cart_contents_count, 'your-theme-slug'), $cart_contents_count);
+		$cart_contents = sprintf(_n('%d item', '%d items', $cart_contents_count, 'my-theme'), $cart_contents_count);
 		//$cart_total = $woocommerce->cart->get_cart_total();
 		// Uncomment the line below to hide nav menu cart item when there are no items in the cart
 		 if ( $cart_contents_count > 0 ) {
@@ -134,4 +134,23 @@ function sk_wcmenucart($menu, $args) {
 	$social = ob_get_clean();
 	return $menu . $social;
 
+}
+
+
+/**
+ * Show cart contents / total Ajax
+ */
+add_filter('woocommerce_add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment');
+
+function woocommerce_header_add_to_cart_fragment($fragments)
+{
+	global $woocommerce;
+
+	ob_start();
+
+?>
+	<a class="wcmenucart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Warenkorb anzeigen', 'my-theme'); ?>"><i class="fa fa-shopping-cart"></i><?php echo sprintf(_n(' %d item', ' %d items', $woocommerce->cart->cart_contents_count, 'my-theme'), $woocommerce->cart->cart_contents_count);?></a>
+<?php
+	$fragments['a.wcmenucart-contents'] = ob_get_clean();
+	return $fragments;
 }
