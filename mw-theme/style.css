@@ -179,6 +179,8 @@ Version: 0.5
         .dropdown-item {
             font-size: 1.2rem;
             font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
         }
 
         /*Align menu arrows middle*/
