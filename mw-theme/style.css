@@ -180,6 +180,11 @@ Version: 0.5
             font-size: 1.2rem;
             font-family: "AntiqueOlive", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
         }
+
+        /*Align menu arrows middle*/
+        .dropdown-toggle::after {
+            vertical-align: middle;
+        }
         
         .rectangle {
             height: 1.4rem;
