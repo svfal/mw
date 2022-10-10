@@ -113,7 +113,6 @@ Version: 0.5
             border-width: 0.25em 0 0.25em 0.5em;
             border-left-color: #000
         }
-        
         /* #footer {} */
         
         .bg-light {
@@ -542,8 +541,8 @@ Version: 0.5
             .dropdown-menu li a {
                 padding-left: 0;
                 padding-right: 0;
-                padding-top: 0.5em;
-                padding-bottom: 0.5em;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
                 background-color: #F8F8F8;
             }
         }
@@ -570,55 +569,56 @@ Version: 0.5
         .etn-event-item .etn-event-category span {
             border-radius: 0;
         }
-
         /* Woocommerce Shopping Cart in menu */
+        
         .wooshoppingcart {
             padding-top: 0.75rem;
             white-space: nowrap;
         }
-
-/*Remove Add to Cart Button on Product Overview Page*/
-.theme-twentytwenty .wc-block-grid.has-aligned-buttons .wc-block-grid__product > :last-child, .wc-block-grid.has-aligned-buttons .wc-block-grid__product > :last-child {
-    display: none; 
-}
-
-/* Woocommerce Single Product Page */
-.product_title,
-.entry-title {
-    margin-top: 0;
-}
-
-.woocommerce-product-gallery,
-.woocommerce-product-gallery--with-images,
-.woocommerce-product-gallery--columns-4 img {
-    width: 100%;
-    max-height: 750px;
-}
-
-.mw-shop-col {
-    float: left;
-}
-
-.mw-shop-col:first-of-type {
-    padding-left: 0;
-}
-
-.single_add_to_cart_button {
-    background-color: #fb830b;
-    color: #fff;
-    border: none;
-    width: calc((100% / 12 * 7) - 10px);
-    font-weight: bold;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-.woocommerce-Price-amount bdi {
-    font-size: 2.1875rem;
-    font-weight: bold;
-}
-
-.qty {
-    height: 40px;
-    border: 1px solid #dadae5;
-}
+        /*Remove Add to Cart Button on Product Overview Page*/
+        
+        .theme-twentytwenty .wc-block-grid.has-aligned-buttons .wc-block-grid__product> :last-child,
+        .wc-block-grid.has-aligned-buttons .wc-block-grid__product> :last-child {
+            display: none;
+        }
+        /* Woocommerce Single Product Page */
+        
+        .product_title,
+        .entry-title {
+            margin-top: 0;
+        }
+        
+        .woocommerce-product-gallery,
+        .woocommerce-product-gallery--with-images,
+        .woocommerce-product-gallery--columns-4 img {
+            width: 100%;
+            max-height: 750px;
+        }
+        
+        .mw-shop-col {
+            float: left;
+        }
+        
+        .mw-shop-col:first-of-type {
+            padding-left: 0;
+        }
+        
+        .single_add_to_cart_button {
+            background-color: #fb830b;
+            color: #fff;
+            border: none;
+            width: calc((100% / 12 * 7) - 10px);
+            font-weight: bold;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        
+        .woocommerce-Price-amount bdi {
+            font-size: 2.1875rem;
+            font-weight: bold;
+        }
+        
+        .qty {
+            height: 40px;
+            border: 1px solid #dadae5;
+        }
