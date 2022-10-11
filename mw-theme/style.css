@@ -560,6 +560,8 @@ Version: 0.5
         
         .etn-event-category {
             opacity: 0.8;
+            position: relative;
+            top: -20px;
         }
         
         .etn-event-item .etn-event-thumb {
