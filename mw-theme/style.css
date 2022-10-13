@@ -630,6 +630,6 @@ Version: 0.5
             border: 1px solid #dadae5;
         }
 
-        .quantity {
+        div.quantity {
             margin-bottom: 1em;
         }
