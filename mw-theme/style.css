@@ -633,3 +633,7 @@ Version: 0.5
         div.quantity {
             margin-bottom: 1em;
         }
+
+        .wc-tabs {
+            display: none;
+        }
