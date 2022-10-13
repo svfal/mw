@@ -640,7 +640,7 @@ Version: 0.5
 
         .variations th {
             padding-left: 2em;
-            padding-bottom: 2em;
+    
 
         .reset_variations {
             padding-left: 2em;
@@ -648,6 +648,4 @@ Version: 0.5
 
         .woocommerce-breadcrumb {
             padding-left: 2em;
-            padding-bottom: 2em;
-            
         }
