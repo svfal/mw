@@ -628,6 +628,7 @@ Version: 0.5
         .qty {
             height: 40px;
             border: 1px solid #dadae5;
+            text-align: center;
         }
 
         div.quantity {
