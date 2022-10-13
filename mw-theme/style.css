@@ -637,3 +637,11 @@ Version: 0.5
         .wc-tabs {
             display: none;
         }
+
+        .variations th {
+            padding-right: 2em;
+        }
+
+        .reset_variations {
+            display: block;
+        }
