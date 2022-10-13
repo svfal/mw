@@ -639,7 +639,8 @@ Version: 0.5
         }
 
         .variations th {
-            padding: 0em 2em 2em 0em;
+            padding-left: 2em;
+            padding-bottom: 2em;
 
         .reset_variations {
             padding-left: 2em;
