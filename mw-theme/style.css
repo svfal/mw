@@ -639,8 +639,7 @@ Version: 0.5
         }
 
         .variations th {
-            padding-right: 2em;
-        }
+            padding: 0em 2em 2em 0em;
 
         .reset_variations {
             padding-left: 2em;
