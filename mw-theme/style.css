@@ -647,5 +647,6 @@ Version: 0.5
         }
 
         .woocommerce-breadcrumb {
-            padding-left: 2em;
+            margin-left: 2em;
+            margin-bottom: 1em;
         }
