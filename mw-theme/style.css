@@ -643,5 +643,5 @@ Version: 0.5
         }
 
         .reset_variations {
-            display: block;
+            padding-left: 2em;
         }
