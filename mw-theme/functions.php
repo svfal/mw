@@ -75,6 +75,9 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_r
 
 add_action( 'after_setup_theme', 'mw_theme_add_woocommerce_support' );
 
+/* Disable product metas on product details page */
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+
 /**
  * Loco translate
  */
