@@ -628,5 +628,8 @@ Version: 0.5
         .qty {
             height: 40px;
             border: 1px solid #dadae5;
+        }
+
+        .quantity {
             margin-bottom: 1em;
         }
