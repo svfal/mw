@@ -640,13 +640,13 @@ Version: 0.5
 
         .variations th {
             padding-right: 2em;
-    
+        }
 
         .reset_variations {
             padding-left: 2em;
         }
 
         .woocommerce-breadcrumb {
-            margin-left: !important 2em;
-            margin-bottom: !important 1em;
+            margin-left: 2em;
+            margin-bottom: 1em;
         }
