@@ -645,3 +645,7 @@ Version: 0.5
         .reset_variations {
             padding-left: 2em;
         }
+
+        .woocommerce-breadcrumb {
+            padding-left: 2em;
+        }
