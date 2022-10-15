@@ -561,7 +561,7 @@ Version: 0.5
         /* EventIn */
         
         .etn-event-timezone,
-        .etn-add-calender-url
+        .etn-add-calender-url,
         .etn-event-speakers,
         .etn-event-meta {
             display: none;
