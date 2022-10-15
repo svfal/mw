@@ -561,7 +561,9 @@ Version: 0.5
         /* EventIn */
         
         .etn-event-timezone,
-        .etn-add-calender-url {
+        .etn-add-calender-url
+        .etn-event-speakers,
+        .etn-event-meta {
             display: none;
         }
         
@@ -577,10 +579,6 @@ Version: 0.5
             border-radius: 0;
         }
 
-        .etn-event-meta {
-            display: none;
-        }
-        
         /* Woocommerce Shopping Cart in menu */
         
         .wooshoppingcart {
