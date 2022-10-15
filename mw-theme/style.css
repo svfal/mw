@@ -576,6 +576,11 @@ Version: 0.5
         .etn-event-item .etn-event-category span {
             border-radius: 0;
         }
+
+        .etn-event-meta {
+            display: none;
+        }
+        
         /* Woocommerce Shopping Cart in menu */
         
         .wooshoppingcart {
@@ -648,6 +653,5 @@ Version: 0.5
         }
 
         .woocommerce-breadcrumb {
-            margin-left: 2em;
-            margin-bottom: 1em;
+            display: none;
         }
