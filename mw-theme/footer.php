@@ -7,9 +7,9 @@
             <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-3 flex-row justify-content-between align-items-center mt-5 py-3" style= 'border-top: #16a085 2px solid;'>
                 
                      <div><a href=index.php class=footerlink>Home</a></div>
-                    <div><a href=datenschutz target=_NEW class=footerlink>Datenschutz</a></div>
-                    <div><a href=impressum target=_NEW class=footerlink>Impressum</a></div>
-                    <div><a href=kontakt target=_NEW class=footerlink>Kontakt</a></div>
+                    <div><a href=datenschutz class=footerlink>Datenschutz</a></div>
+                    <div><a href=impressum class=footerlink>Impressum</a></div>
+                    <div><a href=kontakt class=footerlink>Kontakt</a></div>
                     
                     <div ><a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/fb4.png' ?> width=35 ></a></div>
                     <div> <a href=https://www.instagram.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/insta.png' ?> width=35></a></div>
