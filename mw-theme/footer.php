@@ -19,9 +19,9 @@
             <!-- Mobile -->
             <div class="d-flex d-sm-none flex-row col-12 justify-content-evenly align-items-center py-2" style= 'border-top: #16a085 2px solid;'>
                     <div><a href=index.php class=footerlink>Home</a></div>
-                    <div><a href=datenschutz target=_NEW class=footerlink>Datenschutz</a></div>
-                    <div><a href=impressum target=_NEW class=footerlink>Impressum</a></div>
-                    <div><a href=kontakt target=_NEW class=footerlink>Kontakt</a></div>
+                    <div><a href=datenschutz class=footerlink>Datenschutz</a></div>
+                    <div><a href=impressum class=footerlink>Impressum</a></div>
+                    <div><a href=kontakt class=footerlink>Kontakt</a></div>
             </div>
             <div class="d-flex d-sm-none flex-row col-12 justify-content-center align-items-center" >       
                     <div class=footerlogo><a href=https://www.facebook.com/musikwerk.stuttgart target=_NEW><img src= <?php echo get_stylesheet_directory_uri() . '/img/fb4.png' ?> width=35 ></a></div>
