@@ -6,7 +6,7 @@
             <!-- Desktop -->
             <div class="d-none d-sm-flex col-sm-12 col-lg-6 offset-lg-3 flex-row justify-content-between align-items-center mt-5 py-3" style= 'border-top: #16a085 2px solid;'>
                 
-                     <div><a href=index.php class=footerlink>Home</a></div>
+                     <div><a href="/" class=footerlink>Home</a></div>
                     <div><a href=datenschutz class=footerlink>Datenschutz</a></div>
                     <div><a href=impressum class=footerlink>Impressum</a></div>
                     <div><a href=kontakt class=footerlink>Kontakt</a></div>
@@ -18,7 +18,7 @@
             </div>
             <!-- Mobile -->
             <div class="d-flex d-sm-none flex-row col-12 justify-content-evenly align-items-center py-2" style= 'border-top: #16a085 2px solid;'>
-                    <div><a href=index.php class=footerlink>Home</a></div>
+                    <div><a href="/" class=footerlink>Home</a></div>
                     <div><a href=datenschutz class=footerlink>Datenschutz</a></div>
                     <div><a href=impressum class=footerlink>Impressum</a></div>
                     <div><a href=kontakt class=footerlink>Kontakt</a></div>
