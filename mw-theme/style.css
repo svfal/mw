@@ -561,7 +561,9 @@ Version: 0.5
         /* EventIn */
         
         .etn-event-timezone,
-        .etn-add-calender-url {
+        .etn-add-calender-url,
+        .etn-event-speakers,
+        .etn-event-meta {
             display: none;
         }
         
@@ -629,8 +631,29 @@ Version: 0.5
             height: 40px;
             border: 1px solid #dadae5;
         }
+        
+        div.quantity {
+            margin-bottom: 1em;
+        }
+        
+        .wc-tabs {
+            display: none;
+        }
+        
+        .variations th {
+            padding-right: 2em;
+        }
+        
+        .reset_variations {
+            padding-left: 2em;
+        }
+        
+        .woocommerce-breadcrumb {
+            display: none;
+        }
         /* Crowdfunding */
         
         .income {
             font-size: 1rem;
+            text-align: center;
         }
