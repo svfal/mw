@@ -654,6 +654,6 @@ Version: 0.5
         /* Crowdfunding */
         
         .give-goal-progress .income {
-            font-size: 1rem;
+            font-size: 20px;
             text-align: center;
         }
