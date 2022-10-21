@@ -653,7 +653,7 @@ Version: 0.5
         }
         /* Crowdfunding */
         
-        .give-goal-progress .income {
+        .give-goal-progress .raised .income {
             font-size: 20px;
             text-align: center;
         }
