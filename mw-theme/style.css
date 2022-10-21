@@ -629,3 +629,8 @@ Version: 0.5
             height: 40px;
             border: 1px solid #dadae5;
         }
+        /* Crowdfunding */
+        
+        .income {
+            font-size: 1rem;
+        }
