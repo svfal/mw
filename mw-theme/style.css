@@ -657,3 +657,8 @@ Version: 0.5
             font-size: 20px;
             text-align: center;
         }
+        
+        .crowdbox {
+            border: 1px solid grey;
+            padding: 1em;
+        }
