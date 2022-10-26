@@ -10,8 +10,17 @@ nav:
   - Mitmachen:
     - Unsere Chorgruppen: chorgruppen.md
     - Fördermöglichkeiten: foerderung.md
-  - Events: events.md
-  - Fotos: fotos.md
+  - Events: topics/events/events.md
+  - Fotos: 
+    - Fotos: topics/fotos/fotos.md
+    - Galerie erstellen: topics/fotos/galerie_erstellen.md
+    - Galerie kopieren: topics/fotos/galerie_kopieren.md
+    - Galerie konfigurieren: topics/fotos/galerie_konfigurieren.md
+    - Bilder hinzufügen: topics/fotos/bilder_hinzufugen.md
+    - Galerie veröffentlichen: topics/fotos/galerie_veroffentlichen.md
+    - Fotoseite anlegen: topics/fotos/fotoseite_anlegen.md
+    - Fotoseite anordnen: topics/fotos/fotoseite_anordnen.md
+    - Hauptseite anpassen: topics/fotos/hauptseite_anpassen.md
   - Shop: shop.md
   - Übersetzung: translation.md
 

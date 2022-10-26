@@ -1,4 +1,4 @@
-# Events
+# Einführung
 
 Events werden mit dem Plugin **Eventin** gepflegt.
 
@@ -8,21 +8,21 @@ Allgemeine Informationen zum Eventin-Plugin ist in der Dokumentation unter [http
 
 Melde dich in den Wordpress-Administratoren-Bereich unter [www.dev.musikwerk-stuttgart.de/wp-admin](http://www.dev.musikwerk-stuttgart.de/wp-admin) an und klick auf *Eventin*.
 
-![Eventin-Eintrag im Menü](img/eventin/eventin_menu.png)
+![Eventin-Eintrag im Menü](../../img/eventin/eventin_menu.png)
 
 ## Event hinzufügen
 
 1. Im Kopfbereich auf *Add New* klicken.
-![Add New-Knopf](img/eventin/eventin_add_new_button.png)
+![Add New-Knopf](../../img/eventin/eventin_add_new_button.png)
 
 1. Einen Namen und eine Beschreibung für den Event eingeben und die beteiligten Chöre im Bereich *Category* selektieren.
-![Eventdetails](img/eventin/eventin_details.png)
+![Eventdetails](../../img/eventin/eventin_details.png)
 
 1. Im Bereich *Event Settings* den Reiter *Einstellungen allgemein* aufmachen und den Eintrag im Dropdown-Menü auf *Schedule Without Speaker* ändern.
-![Schedule Without Speaker](img/eventin/eventin_schedule_without_speaker.png)
+![Schedule Without Speaker](../../img/eventin/eventin_schedule_without_speaker.png)
 
 1. Auf dem Reiter *Veranstaltungsort* die Adresse der Veranstaltung eingeben.
-![Veranstaltungsort](img/eventin/eventin_veranstaltungsort.png)
+![Veranstaltungsort](../../img/eventin/eventin_veranstaltungsort.png)
 
 1. Auf dem Reiter *Date & Time* das Datum und die Uhrzeit der Veranstaltung eingeben.
 
@@ -32,16 +32,25 @@ Melde dich in den Wordpress-Administratoren-Bereich unter [www.dev.musikwerk-stu
 Beim Datum musst du ein Start- und Enddatum eintragen. Wenn die Veranstaltung nur an einem Tag stattfindet, musst du das Datum zweimal anklicken.
 
 ---
+![Datum & Uhrzeit](../../img/eventin/eventin_date_time.png)
 
-![Datum & Uhrzeit](img/eventin/eventin_date_time.png)
+## Bild für die Veranstaltung hinzufügen
 
-1. Ein Bild für deine Veranstaltung hochladen, in dem du auf 
+1. Ein Bild für deine Veranstaltung hochladen, in dem du auf *Set featured image* klickst.
 
-## Event entfernen
+## Kategorien und Preise für die Karten definieren
 
-1. Pommy ipsum nowt teacakes well fit a bit wonky the old bill, nutter Bob's your uncle Geordie how's your father. 
-1. And we all like figgy pudding porky-pies bread and butter pudding wind up twiglets spiffing working class.
-1. It's cracking flags, sling one's hook what a doddle Southeners one would like therewith bag egg's old boy.
+Auf dem Reiter *Tickets & Pricing* kannst du die verschiedenen Kartenkategorien definieren:
+    
+1. Unter *Ticket Name* gibst du die Bezeichnung für die Karte ein z.B. "Erwachsener" oder "Kind".
+1. Unter *Ticket Price* gibst du den Preis für die Karte ein.
+1. Unter *Minimum Purchase Qty* gibst du "1" ein.
+1. Unter *Maximum Purchase Qty* kannst du die maximale Anzahl der verfügbaren Karten ein.
+1. **Optional:** Weitere Kategorien definieren, in dem du auf *Add* klickst und die Schritte wiederholst.
+
+ 
+
+
 
 ## Weitere Informationen
 

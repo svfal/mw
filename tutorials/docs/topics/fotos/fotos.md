@@ -1,4 +1,4 @@
-# Fotos
+# Einführung
 
 Die Bilder und die Galerien werden mit einem Plugin namens **Modula** erstellt.
 
