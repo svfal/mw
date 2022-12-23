@@ -36,7 +36,16 @@ Beim Datum musst du ein Start- und Enddatum eintragen. Wenn die Veranstaltung nu
 
 ## Bild für die Veranstaltung hinzufügen
 
-1. Ein Bild für deine Veranstaltung hochladen, in dem du auf *Set featured image* klickst.
+Du kannst ein Bild für die Veranstaltung hochladen, in dem du im Bereich *Featured Image* auf *Set featured image* klickst.
+
+![Set Featured Image](../../img/eventin/eventin_set_featured_image.png)
+
+---
+**HINWEIS**
+
+Die besten Ergebnisse kriegst du mit einem Bild in der Größe 1000 x 1000 px.
+
+---
 
 ## Kategorien und Preise für die Karten definieren
 
@@ -48,6 +57,19 @@ Auf dem Reiter *Tickets & Pricing* kannst du die verschiedenen Kartenkategorien 
 1. Unter *Maximum Purchase Qty* kannst du die maximale Anzahl der verfügbaren Karten ein.
 1. **Optional:** Weitere Kategorien definieren, in dem du auf *Add* klickst und die Schritte wiederholst.
 
+![Set Ticket Categories](../../img/eventin/eventin_ticket_variation.png)
+
+## Event veröffentlichen
+
+Sobald du alle Einstellungen vorgenommen hast, musst du den Event veröffentlichen, damit er auf die Seite *Aktuelles* erscheint.
+
+Einfach auf dem Kopf *Veröffentlichen* oben rechts drücken.
+
+![Publish event](../../img/eventin/eventin_event_veroffentlichen.png)
+
+Dein Event erscheint dann automatisch auf der Hauptseite:
+
+![Event result](../../img/eventin/eventin_result.png)
  
 
 
