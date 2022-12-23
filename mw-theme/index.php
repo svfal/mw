@@ -11,7 +11,9 @@
 			<div class="row justify-content-center">
 				<div class="col-12 col-lg-10 justify-content-left mt-1">	  	
      				<h3 class=musikwerkverbindet>Musikwerk verbindet</h3>
-					Wir sind das Musikwerk Stuttgart. Wir haben Spa&szlig; daran, gemeinsam tolle Konzerte und anspruchsvolle Projekte auf die Beine zu stellen, die uns und andere ber&uuml;hren, begeistern oder einfach gut unterhalten. Im Musikwerk kommen ganz verschiedene Leute zusammen, verbunden durch die Freude am gemeinsamen Singen.</p> <p>So vielf&auml;ltig wir selbst sind, so vielf&auml;ltig sind unsere Ensembles.
+					<p>Wir sind das Musikwerk Stuttgart. Wir haben Spa&szlig; daran, gemeinsam tolle Konzerte und anspruchsvolle Projekte auf die Beine zu stellen, die uns und andere ber&uuml;hren, begeistern oder einfach gut unterhalten. Im Musikwerk kommen ganz verschiedene Leute zusammen, verbunden durch die Freude am gemeinsamen Singen.</p> 
+					<p>So vielf&auml;ltig wir selbst sind, so vielf&auml;ltig sind unsere Ensembles.</p>
+					<p>ANOTHER PARAGRAPH</p>
 				</div>
 			</div>
      	</div>
