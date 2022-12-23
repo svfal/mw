@@ -13,3 +13,19 @@ Die Musikwerk-Website läuft auf Wordpress und verwendet eine Reihe von Plugins,
     - Sven Falkenhein
     - Carl Isaac
 
+- Du kennst dich mit git und GitHub etwas aus.
+
+# Homepage anpassen
+
+## Bild austauschen
+
+Blah blah
+
+## Text ändern
+
+Der Text auf dem Homepage ist Teil des Wordpress-Themes, das in unserem GitHub-Repository liegt. 
+
+1. Das GitHub-Repository (https://github.com/svfal/mw.git)[https://github.com/svfal/mw.git] klonen.
+1. Zur Datei mwtheme/index.php navigieren.
+1. Den Text dort wie gewünscht anpassen.
+1. Deine Änderungen ans Repository zurückpushen.
