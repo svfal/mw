@@ -24,7 +24,7 @@ Das Titelbild auf dem Homepage ist Teil des Wordpress-Themes, das in unserem Git
 1. Das GitHub-Repository [https://github.com/svfal/mw.git](https://github.com/svfal/mw.git) klonen.
 1. Zum Verzeichnis `mwtheme/img` navigieren.
 1. Dort das Bild `mw-start-2018.jpg` austauschen.
-   Am einfachsten ist es, das neue Bild den gleichen Namen zu geben. D.h. dein neues Bild sollte auch `mw-start-2018.jpg` heißen. Falls du aber ein anderes Namen vergibst, musst du den Namen auch in der Datei ´index.php´ ändern. Siehe [Text ändern](#text-ändern).
+   Am einfachsten ist es, das neue Bild den gleichen Namen zu geben. D.h. dein neues Bild sollte auch `mw-start-2018.jpg` heißen. Falls du aber ein anderes Namen vergibst, musst du den Namen auch in der Datei `index.php` ändern. Siehe [Text ändern](#text-ändern).
 1. Deine Änderungen ans Repository zurückpushen.
 
 ## Text ändern

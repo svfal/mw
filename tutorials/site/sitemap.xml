@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>http://www.example.com/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.example.com/leitung/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.example.com/kontakt/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.example.com/dokumente/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.example.com/chorgruppen/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.example.com/foerderung/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://www.example.com/events/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <loc>http://www.example.com/topics/events/</loc>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://www.example.com/fotos/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <loc>http://www.example.com/topics/fotos/</loc>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.example.com/shop/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://www.example.com/translation/</loc>
-     <lastmod>2022-09-11</lastmod>
+     <lastmod>2023-03-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

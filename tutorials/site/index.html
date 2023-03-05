@@ -62,6 +62,17 @@
         </ul>
     
 
+    <li class="toctree-l2"><a href="#homepage-anpassen">Homepage anpassen</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#bild-austauschen">Bild austauschen</a></li>
+        
+            <li><a class="toctree-l3" href="#text-andern">Text ändern</a></li>
+        
+        </ul>
+    
+
     </ul>
 	    </li>
           
@@ -101,12 +112,12 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="events/">Events</a>
+    <a class="" href="topics/events/">Events</a>
 	    </li>
           
             <li class="toctree-l1">
 		
-    <a class="" href="fotos/">Fotos</a>
+    <a class="" href="topics/fotos/">Fotos</a>
 	    </li>
           
             <li class="toctree-l1">
@@ -159,7 +170,7 @@
 <p>Du musst Wordpress installieren. Die neuste Version von Wordpress findest du unter <a href="https://de.wordpress.org/download/">https://de.wordpress.org/download/</a>.</p>
 </li>
 <li>
-<p>Du brauchst zuerst einen User für den Wordpress-Administrationsbereich unter <a href="http://www.dev.musikwerk-stuttgart.de">www.dev.musikwerk-stuttgart.de</a>. Folgende Personen können einen User für dich anlegen:</p>
+<p>Du brauchst zuerst einen User für den Wordpress-Administrationsbereich unter <a href="http://www.dev.musikwerk-stuttgart.de/wp-admin">www.dev.musikwerk-stuttgart.de/wp-admin</a>. Folgende Personen können einen User für dich anlegen:</p>
 <ul>
 <li>Arnd Pohlmann</li>
 <li>Daniel Kimmich</li>
@@ -167,7 +178,28 @@
 <li>Carl Isaac</li>
 </ul>
 </li>
+<li>
+<p>Du kennst dich mit git und GitHub etwas aus.</p>
+</li>
 </ul>
+<h1 id="homepage-anpassen">Homepage anpassen</h1>
+<h2 id="bild-austauschen">Bild austauschen</h2>
+<p>Das Titelbild auf dem Homepage ist Teil des Wordpress-Themes, das in unserem GitHub-Repository liegt. </p>
+<ol>
+<li>Das GitHub-Repository <a href="https://github.com/svfal/mw.git">https://github.com/svfal/mw.git</a> klonen.</li>
+<li>Zum Verzeichnis <code>mwtheme/img</code> navigieren.</li>
+<li>Dort das Bild <code>mw-start-2018.jpg</code> austauschen.
+   Am einfachsten ist es, das neue Bild den gleichen Namen zu geben. D.h. dein neues Bild sollte auch <code>mw-start-2018.jpg</code> heißen. Falls du aber ein anderes Namen vergibst, musst du den Namen auch in der Datei <code>index.php</code> ändern. Siehe <a href="#text-ändern">Text ändern</a>.</li>
+<li>Deine Änderungen ans Repository zurückpushen.</li>
+</ol>
+<h2 id="text-andern">Text ändern</h2>
+<p>Der Text auf dem Homepage ist Teil des Wordpress-Themes, das in unserem GitHub-Repository liegt. </p>
+<ol>
+<li>Das GitHub-Repository <a href="https://github.com/svfal/mw.git">https://github.com/svfal/mw.git</a> klonen.</li>
+<li>Zur Datei <code>mwtheme/index.php</code> navigieren.</li>
+<li>Den Text dort wie gewünscht anpassen.</li>
+<li>Deine Änderungen ans Repository zurückpushen.</li>
+</ol>
               
             </div>
           </div>
@@ -216,5 +248,5 @@
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2022-09-11 08:53:22
+Build Date UTC : 2023-03-05 10:10:45
 -->
