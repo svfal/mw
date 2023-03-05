@@ -3,15 +3,15 @@ site_url: http://www.example.com
 
 nav:
   - Home: index.md
+  - Events: topics/events.md
+  - Mitmachen:
+    - Unsere Chorgruppen: chorgruppen.md
+    - Fördermöglichkeiten: foerderung.md
+  - Fotos: topics/fotos.md
   - Verein:
     - Künstlerische Leitung: leitung.md
     - Kontakt: kontakt.md
     - Dokumente: dokumente.md
-  - Mitmachen:
-    - Unsere Chorgruppen: chorgruppen.md
-    - Fördermöglichkeiten: foerderung.md
-  - Events: topics/events.md
-  - Fotos: topics/fotos.md
   - Shop: shop.md
   - Übersetzung: translation.md
 
