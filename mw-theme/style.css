@@ -627,6 +627,15 @@ Version: 0.6
             font-weight: bold;
         }
 
+        .product table.variations {
+            width: 100%;
+        }
+
+        .product table.variations .value {
+            display: flex;
+            align-items: center;
+        }
+
         .woocommerce-variation-add-to-cart {
             display: flex;
             flex-direction: row;
