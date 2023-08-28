@@ -633,6 +633,8 @@ Version: 0.6
 
         .product table.variations .value {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
             align-items: center;
         }
 
@@ -663,6 +665,7 @@ Version: 0.6
         
         .variations th {
             padding-right: 2em;
+            vertical-align: baseline;
         }
         
         .reset_variations {
