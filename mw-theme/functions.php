@@ -161,7 +161,10 @@ function woocommerce_header_add_to_cart_fragment($fragments)
 /**
  * Add Bootstrap form-control class to the woocommerce quantity input field
  */
-add_filter('woocommerce_quantity_input_classes', function($classes) { return array_push($classes, 'form-control'); });
+add_filter('woocommerce_quantity_input_classes', function($classes) { 
+	array_push($classes, 'form-control'); 
+	return $classes;
+});
 
 /**
  * Add Bootstrap form-control class to the woocommerce variant select field
