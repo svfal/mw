@@ -671,6 +671,14 @@ Version: 0.6
         .reset_variations {
             padding-left: 2em;
         }
+
+        .wooshoppingcart .wcmenucart-contents.nav-link {
+            color: #16a085;
+        }
+
+        .wooshoppingcart .wcmenucart-contents i {
+            line-height: 0;
+        }
         
         .woocommerce-breadcrumb {
             display: none;
