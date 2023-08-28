@@ -151,7 +151,7 @@ function woocommerce_header_add_to_cart_fragment($fragments)
 	ob_start();
 
 ?>
-	<a class="wcmenucart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Warenkorb anzeigen', 'my-theme'); ?>"><i class="fa fa-shopping-cart"></i><?php echo sprintf(_n(' %d item', ' %d items', $woocommerce->cart->cart_contents_count, 'my-theme'), $woocommerce->cart->cart_contents_count);?></a>
+	<a class="wcmenucart-contents nav-link" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Warenkorb anzeigen', 'my-theme'); ?>"><i class="fa fa-shopping-cart"></i></a>
 <?php
 	$fragments['a.wcmenucart-contents'] = ob_get_clean();
 	return $fragments;
