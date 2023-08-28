@@ -619,7 +619,7 @@ Version: 0.6
             font-weight: bold;
             padding-top: 12px;
             padding-bottom: 12px;
-            flex: 1;
+            flex: 3;
         }
         
         .product .summary .price {
