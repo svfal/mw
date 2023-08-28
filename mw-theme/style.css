@@ -679,6 +679,18 @@ Version: 0.6
         .wooshoppingcart .wcmenucart-contents i {
             line-height: 0;
         }
+
+        .wc-proceed-to-checkout {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 1rem;
+        }
+
+        .wc-proceed-to-checkout a.checkout-button {
+            line-height: 2.2;
+            text-align: center;
+        }
         
         .woocommerce-breadcrumb {
             display: none;
