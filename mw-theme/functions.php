@@ -157,3 +157,18 @@ function woocommerce_header_add_to_cart_fragment($fragments)
 	$fragments['a.wcmenucart-contents'] = ob_get_clean();
 	return $fragments;
 }
+
+/**
+ * Add Bootstrap form-control class to the woocommerce quantity input field
+ */
+add_filter('woocommerce_quantity_input_classes', function($classes) { return array_push($classes, 'form-control'); });
+
+/**
+ * Add Bootstrap form-control class to the woocommerce variant select field
+ */
+add_filter('woocommerce_dropdown_variation_attribute_options_args', function($args) { 
+	$args += array('class' => 'form-control');
+	return $args; 
+});
+
+
