@@ -691,6 +691,11 @@ Version: 0.6
             line-height: 2.2;
             text-align: center;
         }
+
+        #place_order {
+            line-height: 2.2;
+            min-width: 20rem;
+        }
         
         .woocommerce-breadcrumb {
             display: none;
