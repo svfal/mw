@@ -157,3 +157,10 @@ function woocommerce_header_add_to_cart_fragment($fragments)
 	$fragments['a.wcmenucart-contents'] = ob_get_clean();
 	return $fragments;
 }
+
+/**
+ * Redirect to checkout page after clicking "add to cart" button
+ */
+add_filter ('woocommerce_add_to_cart_redirect', function( $url, $adding_to_cart ) {
+    return wc_get_checkout_url();
+}, 10, 2 );
