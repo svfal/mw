@@ -139,7 +139,6 @@ function sk_wcmenucart($menu, $args) {
 
 }
 
-
 /**
  * Show cart contents / total Ajax
  */
@@ -164,3 +163,13 @@ function woocommerce_header_add_to_cart_fragment($fragments)
 add_filter ('woocommerce_add_to_cart_redirect', function( $url, $adding_to_cart ) {
     return wc_get_checkout_url();
 }, 10, 2 );
+
+/**
+ * Make phone number optional
+ */
+add_filter( 'woocommerce_billing_fields', 'kb_no_required_phone', 10, 1 );
+
+function kb_no_required_phone( $address_fields ) {
+	$address_fields['billing_phone']['required'] = false;
+	return $address_fields;
+}
