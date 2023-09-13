@@ -196,9 +196,9 @@ add_filter('woocommerce_dropdown_variation_attribute_options_args', function($ar
 /**
  * Redirect to checkout page after clicking "add to cart" button
  */
-add_filter ('woocommerce_add_to_cart_redirect', function( $url, $adding_to_cart ) {
+/*add_filter ('woocommerce_add_to_cart_redirect', function( $url, $adding_to_cart ) {
     return wc_get_checkout_url();
-}, 10, 2 );
+}, 10, 2 );*/
 
 /**
  * Make phone number optional
