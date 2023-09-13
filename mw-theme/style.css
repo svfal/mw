@@ -1,7 +1,7 @@
         /*
 Theme Name: MW-Github
 Author: admin (all of the glorious ones) 
-Version: 0.5
+Version: 0.6
 */
         
         body {
@@ -616,24 +616,47 @@ Version: 0.5
             background-color: #fb830b;
             color: #fff;
             border: none;
-            width: calc((100% / 12 * 7) - 10px);
             font-weight: bold;
             padding-top: 12px;
             padding-bottom: 12px;
+            flex: 3;
         }
         
-        .woocommerce-Price-amount bdi {
+        .product .summary .price {
             font-size: 2.1875rem;
             font-weight: bold;
         }
-        
+
+        .product table.variations {
+            width: 100%;
+        }
+
+        .product table.variations .value {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .woocommerce-variation-add-to-cart {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: stretch;
+            gap: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
         .qty {
-            height: 40px;
+            height: 100%;
             border: 1px solid #dadae5;
         }
         
         div.quantity {
-            margin-bottom: 1em;
+            flex: 1;
         }
         
         .wc-tabs {
@@ -642,10 +665,36 @@ Version: 0.5
         
         .variations th {
             padding-right: 2em;
+            vertical-align: baseline;
         }
         
         .reset_variations {
             padding-left: 2em;
+        }
+
+        .wooshoppingcart .wcmenucart-contents.nav-link {
+            color: #16a085;
+        }
+
+        .wooshoppingcart .wcmenucart-contents i {
+            line-height: 0;
+        }
+
+        .wc-proceed-to-checkout {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 1rem;
+        }
+
+        .wc-proceed-to-checkout a.checkout-button {
+            line-height: 2.2;
+            text-align: center;
+        }
+
+        #place_order {
+            line-height: 2.2;
+            min-width: 20rem;
         }
         
         .woocommerce-breadcrumb {
