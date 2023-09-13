@@ -129,7 +129,7 @@ function sk_wcmenucart($menu, $args) {
 			$menu_item .= '<i class="fa fa-shopping-cart"></i> ';
 
 			//$menu_item .= $cart_contents.' - '. $cart_total;
-            $menu_item .= $cart_contents;
+            		//$menu_item .= $cart_contents;
 			$menu_item .= '</a></li>';
 		// Uncomment the line below to hide nav menu cart item when there are no items in the cart
 		}
@@ -152,8 +152,26 @@ function woocommerce_header_add_to_cart_fragment($fragments)
 	ob_start();
 
 ?>
-	<a class="wcmenucart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Warenkorb anzeigen', 'my-theme'); ?>"><i class="fa fa-shopping-cart"></i><?php echo sprintf(_n(' %d item', ' %d items', $woocommerce->cart->cart_contents_count, 'my-theme'), $woocommerce->cart->cart_contents_count);?></a>
+	<a class="wcmenucart-contents nav-link" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Warenkorb anzeigen', 'my-theme'); ?>"><i class="fa fa-shopping-cart"></i></a>
 <?php
 	$fragments['a.wcmenucart-contents'] = ob_get_clean();
 	return $fragments;
 }
+
+/**
+ * Add Bootstrap form-control class to the woocommerce quantity input field
+ */
+add_filter('woocommerce_quantity_input_classes', function($classes) { 
+	array_push($classes, 'form-control'); 
+	return $classes;
+});
+
+/**
+ * Add Bootstrap form-control class to the woocommerce variant select field
+ */
+add_filter('woocommerce_dropdown_variation_attribute_options_args', function($args) { 
+	$args += array('class' => 'form-control');
+	return $args; 
+});
+
+
