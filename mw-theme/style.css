@@ -578,6 +578,13 @@ Version: 0.6
         .etn-event-item .etn-event-category span {
             border-radius: 0;
         }
+        /* WooCommerce Notice on top of pages */
+        .woocommerce-message {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
         /* Woocommerce Shopping Cart in menu */
         
         .wooshoppingcart {
