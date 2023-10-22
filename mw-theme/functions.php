@@ -214,12 +214,13 @@ function kb_no_required_phone( $address_fields ) {
 /**
  * Overwrite WooCommerce Shop Link which is defined in WooCommerce > Settings > Products > Shop
  */
-add_filter('woocommerce_get_shop_page_id', 'mw_shop_page_id');
-function mw_shop_page_id($wooshop) {
+add_filter('woocommerce_get_shop_page_permalink', 'mw_shop_page_permalink');
+function mw_shop_page_permalink($wooshoplink) {
     $shop = get_page_by_path('shop');
     if ($shop) {
-        return $shop->ID;
+        $permalink = get_permalink($shop->ID);
+        return !$permalink ? get_home_url() : $permalink;
     } else {
-        return $wooshop;
+        return $wooshoplink;
     }
 }
