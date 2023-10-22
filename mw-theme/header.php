@@ -28,7 +28,8 @@
                             <span> </span>
                             <span> </span>
                             <span> </span>
-                            </a> 
+                            </a>
+                            <!-- Hier neues Menü mit Warenkorb? -->
                                                                       
                             <?php if ( !is_front_page() ) { ?>
                                 

@@ -657,3 +657,28 @@ Version: 0.5
             font-size: 20px;
             text-align: center;
         }
+
+
+
+        /**
+         * Event pages
+         */
+
+        .mw-event-container {
+            padding-top: 60px;
+        }
+        .mw-event-single-content-wrap {
+            box-shadow: 0px 0px 30px rgba(0,0,0,.03);
+            margin-bottom: 40px;
+            padding: 40px;
+
+            .mw-event-media {
+                margin-bottom: 40px;
+            }
+            .mw-event-content-body {}
+        }
+        .mw-event-sidebar .widget {
+            box-shadow: 0px 0px 30px rgba(0,0,0,.03);
+            padding: 35px;
+            margin-bottom: 30px;
+        }

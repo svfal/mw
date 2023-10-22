@@ -11,8 +11,6 @@ function musikwerk_files(){
 }
 add_action('wp_enqueue_scripts', 'musikwerk_files');
 
- 
-add_action('wp_enqueue_scripts', 'force_load_foogallery');
 
   /**
  * Register Custom Navigation Walker
@@ -118,6 +116,7 @@ function sk_wcmenucart($menu, $args) {
 		$cart_contents_count = $woocommerce->cart->cart_contents_count;
 		$cart_contents = sprintf(_n('%d item', '%d items', $cart_contents_count, 'my-theme'), $cart_contents_count);
 		//$cart_total = $woocommerce->cart->get_cart_total();
+		$menu_item = '';
 		// Uncomment the line below to hide nav menu cart item when there are no items in the cart
 		 if ( $cart_contents_count > 0 ) {
 			if ($cart_contents_count == 0) {
