@@ -209,3 +209,17 @@ function kb_no_required_phone( $address_fields ) {
 	$address_fields['billing_phone']['required'] = false;
 	return $address_fields;
 }
+
+
+/**
+ * Overwrite WooCommerce Shop Link which is defined in WooCommerce > Settings > Products > Shop
+ */
+add_filter('woocommerce_get_shop_page_id', 'mw_shop_page_id');
+function mw_shop_page_id($wooshop) {
+    $shop = get_page_by_path('shop');
+    if ($shop) {
+        return $shop->ID;
+    } else {
+        return $wooshop;
+    }
+}
