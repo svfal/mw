@@ -224,3 +224,20 @@ function mw_shop_page_permalink($wooshoplink) {
         return $wooshoplink;
     }
 }
+
+/**
+ * Prevent hidden shop items in WooCommerce to be shown on website
+ */
+add_action('pre_get_posts', 'wpse_search_query_pre');
+function wpse_search_query_pre($query) {
+    if ($query->is_search() && $query->is_main_query()) {
+        $tax_query = $query->get('tax_query', array());
+        $tax_query[] = array(
+            'taxonomy' => 'product_visibility',
+            'field' => 'name',
+            'terms' => 'exclude-from-catalog',
+            'operator' => 'NOT IN',
+        );
+        $query->set('tax_query', $tax_query);
+    }
+}
