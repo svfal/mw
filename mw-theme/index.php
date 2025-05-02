@@ -28,7 +28,6 @@
 
                     <div class="row justify-content-center">
                         <div class="col-12 col-lg-10 justify-content-left mt-1">
-                            <h3 class="musikwerkverbindet"><?php the_title(); ?></h3>
                             <?php the_content(); ?>
                         </div>
                     </div>
