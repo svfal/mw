@@ -1,4 +1,5 @@
  <?php get_header(); ?>
+ <!-- page.php -->
  	<div id="content" >  
 		<div class="container">
 			<div class="row justify-content-center">

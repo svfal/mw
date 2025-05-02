@@ -14,6 +14,7 @@ $latest_posts = new WP_Query($latest_posts_args);
 
 if ($latest_posts->have_posts()) :
 ?>
+    <!-- Start of latest posts section -->
     <div class="row justify-content-center mt-5">
         <div class="col-12 col-lg-10">
             <h3 class="latest-posts-heading"><?php echo __('Aktuelle Neuigkeiten', 'musikwerk'); ?></h3>
@@ -24,6 +25,7 @@ if ($latest_posts->have_posts()) :
         <div class="col-12 col-lg-10">
             <div class="row">
                 <?php while ($latest_posts->have_posts()) : $latest_posts->the_post(); ?>
+                    <!-- Start of single post card -->
                     <div class="col-md-4 mb-4">
                         <div class="card h-100">
                             <?php if (has_post_thumbnail()) : ?>
@@ -41,6 +43,7 @@ if ($latest_posts->have_posts()) :
                             </div>
                         </div>
                     </div>
+                    <!-- End of single post card -->
                 <?php endwhile; ?>
             </div>
         </div>
@@ -51,6 +54,7 @@ if ($latest_posts->have_posts()) :
             <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>" class="btn btn-primary"><?php _e('Alle Beiträge anzeigen', 'musikwerk'); ?></a>
         </div>
     </div>
+    <!-- End of latest posts section -->
 <?php
 endif;
 wp_reset_postdata();

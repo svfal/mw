@@ -5,6 +5,7 @@
 ?>
 
 <section class="no-results not-found mb-5">
+    <!-- Start of no results section -->
     <header class="page-header">
         <h2 class="page-title"><?php _e('Nichts gefunden', 'musikwerk'); ?></h2>
     </header>
@@ -41,4 +42,5 @@
 
         <?php endif; ?>
     </div><!-- .page-content -->
+    <!-- End of no results section -->
 </section><!-- .no-results -->

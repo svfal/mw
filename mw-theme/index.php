@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
+<!-- index.php -->
 <div id="content">
     <div class="container">
-        <!-- That's the new index.php -->
         <?php
         // Check if we're displaying the front page and it's set to show a static page
         if (is_front_page() && !is_home()) {
@@ -11,6 +11,7 @@
                 while (have_posts()) : the_post();
                     // Display the page content
                     ?>
+                    <!-- Start of static front page content -->
                     <div class="row justify-content-center">
                         <div class="col-12 col-lg-10">
                             <?php
@@ -32,17 +33,23 @@
                             <?php the_content(); ?>
                         </div>
                     </div>
+                    <!-- End of static front page content -->
                     <?php
                 endwhile;
             endif;
 
             // Get blog posts (even on static front page)
-            get_template_part('template-parts/latest-posts');
+            ?>
+            <!-- Start of latest posts section -->
+            <?php get_template_part('template-parts/latest-posts'); ?>
+            <!-- End of latest posts section -->
+            <?php
 
         } else {
             // This is the blog index
             if (have_posts()) :
                 ?>
+                <!-- Start of blog index content -->
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10">
                         <h1><?php echo is_home() && get_option('page_for_posts') ? get_the_title(get_option('page_for_posts')) : __('Neueste Beiträge', 'musikwerk'); ?></h1>
@@ -54,7 +61,11 @@
                         <?php
                         while (have_posts()) : the_post();
                             // Get blog post template part
-                            get_template_part('template-parts/content', get_post_format());
+                            ?>
+                            <!-- Start of blog post -->
+                            <?php get_template_part('template-parts/content', get_post_format()); ?>
+                            <!-- End of blog post -->
+                            <?php
                         endwhile;
 
                         // Pagination
@@ -66,9 +77,14 @@
                         ?>
                     </div>
                 </div>
+                <!-- End of blog index content -->
                 <?php
             else :
-                get_template_part('template-parts/content', 'none');
+                ?>
+                <!-- Start of no content message -->
+                <?php get_template_part('template-parts/content', 'none'); ?>
+                <!-- End of no content message -->
+                <?php
             endif;
         }
         ?>

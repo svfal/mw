@@ -5,6 +5,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('mb-5'); ?>>
+    <!-- Start of single post -->
     <header class="entry-header mb-4">
         <?php if (has_post_thumbnail()) : ?>
             <div class="post-thumbnail mb-4">
@@ -43,4 +44,5 @@
         </div>
     </footer>
     <?php endif; ?>
+    <!-- End of single post -->
 </article>
