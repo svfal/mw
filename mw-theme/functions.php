@@ -266,3 +266,12 @@ function musikwerk_display_front_announcement() {
     }
 }
 add_action('musikwerk_before_featured_image', 'musikwerk_display_front_announcement');
+
+// Registriere Menüpositionen
+function musikwerk_register_nav_menus() {
+    register_nav_menus(array(
+        'primary'       => __('Primary Menu', 'musikwerk'),
+        'footer'        => __('Footer Menü', 'musikwerk')
+    ));
+}
+add_action('after_setup_theme', 'musikwerk_register_nav_menus');
