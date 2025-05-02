@@ -46,8 +46,6 @@ get_header();
             endwhile;
         endif;
         
-        // Include latest posts section
-        get_template_part('template-parts/latest-posts');
         ?>
     </div>
 </div>
