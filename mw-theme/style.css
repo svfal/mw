@@ -256,6 +256,7 @@ Version: 0.6
 
         .footer-menu {
             gap: 0.8rem;
+            flex-wrap: wrap;
         }
 
         /* Animierter Fahnenflug */
