@@ -253,6 +253,11 @@ Version: 0.6
             font-size: 0.9em;
             text-decoration: none;
         }
+
+        .footer-menu {
+            gap: 0.8rem;
+        }
+
         /* Animierter Fahnenflug */
         
         .kinder.anim {
