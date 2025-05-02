@@ -258,7 +258,7 @@ add_action('widgets_init', 'musikwerk_widgets_init');
 // Display the front page announcement widget area
 function musikwerk_display_front_announcement() {
     if (is_active_sidebar('front-page-announcement')) {
-        echo '<div class="row justify-content-center mb-4">';
+        echo '<div class="row justify-content-center mb-4 mt-4">';
         echo '<div class="col-12 col-lg-10">';
         dynamic_sidebar('front-page-announcement');
         echo '</div>';
