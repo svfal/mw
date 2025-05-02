@@ -2,6 +2,7 @@
 
 <div id="content">
     <div class="container">
+        <!-- That's the new index.php -->
         <?php
         // Check if we're displaying the front page and it's set to show a static page
         if (is_front_page() && !is_home()) {
