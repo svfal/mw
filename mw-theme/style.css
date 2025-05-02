@@ -249,10 +249,16 @@ Version: 0.6
             text-align: center;
         }
         
-        .footerlink {
+        .footer-menu a {
             font-size: 0.9em;
             text-decoration: none;
         }
+
+        .footer-menu {
+            gap: 0.8rem;
+            flex-wrap: wrap;
+        }
+
         /* Animierter Fahnenflug */
         
         .kinder.anim {
