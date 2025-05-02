@@ -12,6 +12,9 @@ get_header();
     <div class="container">
         <!-- front-page.php is being used -->
         <?php
+        // Hook for special announcements/content above the featured image
+        do_action('musikwerk_before_featured_image');
+        
         if (have_posts()) :
             while (have_posts()) : the_post();
                 ?>

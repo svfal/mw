@@ -173,8 +173,6 @@ add_filter('woocommerce_dropdown_variation_attribute_options_args', function($ar
 	return $args;
 });
 
-
-
 /**
  * Add Bootstrap form-control class to the woocommerce quantity input field
  */
@@ -190,8 +188,6 @@ add_filter('woocommerce_dropdown_variation_attribute_options_args', function($ar
 	$args += array('class' => 'form-control');
 	return $args;
 });
-
-
 
 /**
  * Redirect to checkout page after clicking "add to cart" button
@@ -209,7 +205,6 @@ function kb_no_required_phone( $address_fields ) {
 	$address_fields['billing_phone']['required'] = false;
 	return $address_fields;
 }
-
 
 /**
  * Overwrite WooCommerce Shop Link which is defined in WooCommerce > Settings > Products > Shop
@@ -241,3 +236,33 @@ function wpse_search_query_pre($query) {
         $query->set('tax_query', $tax_query);
     }
 }
+
+// Register front page announcement widget area
+function musikwerk_widgets_init() {
+    register_sidebar(
+        array(
+            'name'          => __('Startseite Ankündigung', 'musikwerk'),
+            'id'            => 'front-page-announcement',
+            'description'   => __('Füge besondere Ankündigungen oder Inhalte über dem Beitragsbild der Startseite hinzu.', 'musikwerk'),
+            'before_widget' => '<div class="front-page-announcement mb-4">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="announcement-title">',
+            'after_title'   => '</h3>',
+        )
+    );
+    
+    // Your other widget registrations may be here...
+}
+add_action('widgets_init', 'musikwerk_widgets_init');
+
+// Display the front page announcement widget area
+function musikwerk_display_front_announcement() {
+    if (is_active_sidebar('front-page-announcement')) {
+        echo '<div class="row justify-content-center mb-4">';
+        echo '<div class="col-12 col-lg-10">';
+        dynamic_sidebar('front-page-announcement');
+        echo '</div>';
+        echo '</div>';
+    }
+}
+add_action('musikwerk_before_featured_image', 'musikwerk_display_front_announcement');
