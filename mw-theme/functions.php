@@ -11,9 +11,6 @@ function musikwerk_files(){
 }
 add_action('wp_enqueue_scripts', 'musikwerk_files');
 
- 
-add_action('wp_enqueue_scripts', 'force_load_foogallery');
-
   /**
  * Register Custom Navigation Walker
  */
