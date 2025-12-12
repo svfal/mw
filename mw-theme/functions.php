@@ -12,7 +12,7 @@ function musikwerk_files(){
 add_action('wp_enqueue_scripts', 'musikwerk_files');
 
  
-add_action('wp_enqueue_scripts', 'force_load_foogallery');
+//add_action('wp_enqueue_scripts', 'force_load_foogallery');
 
   /**
  * Register Custom Navigation Walker
@@ -277,11 +277,11 @@ function musikwerk_register_nav_menus() {
 add_action('after_setup_theme', 'musikwerk_register_nav_menus');
 
 /**
- * PDF-Anhang für bestimmtes Produkt in "Bestellung abgeschlossen" E-Mail
+ * PDF-Anhang für bestimmtes Produkt in "Bestellung in Bearbeitung" E-Mail
  */
 function mw_attach_pdf_to_order_email($attachments, $email_id, $order, $email) {
-    // Nur bei "Bestellung abgeschlossen" E-Mail
-    if ($email_id !== 'customer_completed_order') {
+    // Bei "Bestellung in Bearbeitung" E-Mail (wird nach Zahlungsbestätigung gesendet)
+    if ($email_id !== 'customer_processing_order') {
         return $attachments;
     }
 
