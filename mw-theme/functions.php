@@ -275,3 +275,34 @@ function musikwerk_register_nav_menus() {
     ));
 }
 add_action('after_setup_theme', 'musikwerk_register_nav_menus');
+
+/**
+ * PDF-Anhang für bestimmtes Produkt in "Bestellung abgeschlossen" E-Mail
+ */
+function mw_attach_pdf_to_order_email($attachments, $email_id, $order, $email) {
+    // Nur bei "Bestellung abgeschlossen" E-Mail
+    if ($email_id !== 'customer_completed_order') {
+        return $attachments;
+    }
+
+    // Produkt-ID für "Gutschein MW 11"
+    $target_product_id = 7948;
+
+    // Prüfen ob das Produkt in der Bestellung ist
+    if ($order) {
+        foreach ($order->get_items() as $item) {
+            if ($item->get_product_id() == $target_product_id) {
+                // PDF-Pfad
+                $pdf_path = get_template_directory() . '/assets/pdf/gutschein-mw11.pdf';
+
+                if (file_exists($pdf_path)) {
+                    $attachments[] = $pdf_path;
+                }
+                break;
+            }
+        }
+    }
+
+    return $attachments;
+}
+add_filter('woocommerce_email_attachments', 'mw_attach_pdf_to_order_email', 10, 4);
