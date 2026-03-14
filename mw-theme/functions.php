@@ -293,7 +293,7 @@ function mw_attach_pdf_to_order_email($attachments, $email_id, $order, $email) {
         foreach ($order->get_items() as $item) {
             if ($item->get_product_id() == $target_product_id) {
                 // PDF-Pfad
-                $pdf_path = get_template_directory() . '/assets/pdf/gutschein-mw11.pdf';
+                $pdf_path = get_template_directory() . '/assets/pdf/LeichtDrueber_Weihnachtsedition.pdf';
 
                 if (file_exists($pdf_path)) {
                     $attachments[] = $pdf_path;
