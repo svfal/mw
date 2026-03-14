@@ -383,7 +383,7 @@ function mw_tracking_admin_page() {
 
         echo '<tr>';
         echo '<td><strong>' . $i . '</strong></td>';
-        echo '<td><input type="text" name="mw_label_' . $i . '" value="' . $label . '" placeholder="z.B. Instagram" style="width:100%"></td>';
+        echo '<td><input type="text" name="mw_label_' . $i . '" value="' . $label . '" placeholder="Kanalname" style="width:100%"></td>';
         echo '<td><code>' . esc_html($url) . '</code></td>';
         echo '<td>' . $clicks . '</td>';
         echo '</tr>';
