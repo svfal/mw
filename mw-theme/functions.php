@@ -346,6 +346,15 @@ function mw_tracking_admin_page() {
         return;
     }
 
+    // Kanal-Labels speichern
+    if (isset($_POST['mw_save_labels']) && check_admin_referer('mw_tracking_labels')) {
+        for ($i = 1; $i <= 10; $i++) {
+            $label = isset($_POST['mw_label_' . $i]) ? sanitize_text_field($_POST['mw_label_' . $i]) : '';
+            update_option('mw_track_label_' . $i, $label, false);
+        }
+        echo '<div class="notice notice-success"><p>Kanal-Namen gespeichert.</p></div>';
+    }
+
     // Reset-Aktion verarbeiten
     if (isset($_POST['mw_reset_ref']) && check_admin_referer('mw_tracking_reset')) {
         $reset_ref = intval($_POST['mw_reset_ref']);
@@ -360,30 +369,51 @@ function mw_tracking_admin_page() {
     echo '<div class="wrap">';
     echo '<h1>Link-Tracking</h1>';
     echo '<p>Klickzahlen für trackbare Links mit <code>?ref=X</code> Parameter.</p>';
+
+    echo '<form method="post">';
+    wp_nonce_field('mw_tracking_labels');
     echo '<table class="widefat fixed striped">';
-    echo '<thead><tr><th>Nr.</th><th>Beispiel-URL</th><th>Klicks</th><th>Aktion</th></tr></thead>';
+    echo '<thead><tr><th style="width:50px">Nr.</th><th style="width:150px">Kanal</th><th>URL</th><th style="width:80px">Klicks</th></tr></thead>';
     echo '<tbody>';
 
     for ($i = 1; $i <= $max_links; $i++) {
         $clicks = (int) get_option('mw_track_clicks_' . $i, 0);
+        $label = esc_attr(get_option('mw_track_label_' . $i, ''));
         $url = home_url('/etn/leicht-drueber/?ref=' . $i);
 
         echo '<tr>';
         echo '<td><strong>' . $i . '</strong></td>';
+        echo '<td><input type="text" name="mw_label_' . $i . '" value="' . $label . '" placeholder="z.B. Instagram" style="width:100%"></td>';
         echo '<td><code>' . esc_html($url) . '</code></td>';
         echo '<td>' . $clicks . '</td>';
-        echo '<td>';
-        if ($clicks > 0) {
-            echo '<form method="post" style="display:inline">';
-            wp_nonce_field('mw_tracking_reset');
-            echo '<input type="hidden" name="mw_reset_ref" value="' . $i . '">';
-            echo '<button type="submit" class="button button-small" onclick="return confirm(\'Zähler für Link ' . $i . ' wirklich zurücksetzen?\')">Reset</button>';
-            echo '</form>';
-        }
-        echo '</td>';
         echo '</tr>';
     }
 
     echo '</tbody></table>';
+    echo '<p style="margin-top:10px"><button type="submit" name="mw_save_labels" value="1" class="button button-primary">Kanal-Namen speichern</button></p>';
+    echo '</form>';
+
+    // Reset-Buttons (separate Formulare)
+    $has_clicks = false;
+    for ($i = 1; $i <= $max_links; $i++) {
+        if ((int) get_option('mw_track_clicks_' . $i, 0) > 0) { $has_clicks = true; break; }
+    }
+    if ($has_clicks) {
+        echo '<h3>Zähler zurücksetzen</h3><p>';
+        for ($i = 1; $i <= $max_links; $i++) {
+            $clicks = (int) get_option('mw_track_clicks_' . $i, 0);
+            if ($clicks > 0) {
+                $label = get_option('mw_track_label_' . $i, '');
+                $display = $label ? $label . ' (#' . $i . ')' : 'Link ' . $i;
+                echo '<form method="post" style="display:inline; margin-right:10px">';
+                wp_nonce_field('mw_tracking_reset');
+                echo '<input type="hidden" name="mw_reset_ref" value="' . $i . '">';
+                echo '<button type="submit" class="button button-small" onclick="return confirm(\'Zähler für ' . esc_attr($display) . ' wirklich zurücksetzen?\')">Reset ' . esc_html($display) . '</button>';
+                echo '</form>';
+            }
+        }
+        echo '</p>';
+    }
+
     echo '</div>';
 }
