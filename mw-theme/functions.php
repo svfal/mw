@@ -315,6 +315,11 @@ function mw_track_ref_click() {
     if (isset($_GET['ref'])) {
         $ref = intval($_GET['ref']);
         if ($ref > 0 && $ref <= 100) {
+            $cookie_name = 'mw_tracked_ref_' . $ref;
+            if (isset($_COOKIE[$cookie_name])) {
+                return;
+            }
+            setcookie($cookie_name, '1', time() + 86400, '/'); // 24h
             $option_key = 'mw_track_clicks_' . $ref;
             $count = (int) get_option($option_key, 0);
             update_option($option_key, $count + 1, false);
