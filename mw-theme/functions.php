@@ -306,3 +306,79 @@ function mw_attach_pdf_to_order_email($attachments, $email_id, $order, $email) {
     return $attachments;
 }
 add_filter('woocommerce_email_attachments', 'mw_attach_pdf_to_order_email', 10, 4);
+
+/**
+ * Link-Tracking: Klicks über ?ref=X Parameter zählen
+ */
+add_action('template_redirect', 'mw_track_ref_click');
+function mw_track_ref_click() {
+    if (isset($_GET['ref'])) {
+        $ref = intval($_GET['ref']);
+        if ($ref > 0 && $ref <= 100) {
+            $option_key = 'mw_track_clicks_' . $ref;
+            $count = (int) get_option($option_key, 0);
+            update_option($option_key, $count + 1, false);
+        }
+    }
+}
+
+/**
+ * Link-Tracking: Admin-Seite unter Einstellungen → Link-Tracking
+ */
+add_action('admin_menu', 'mw_tracking_admin_menu');
+function mw_tracking_admin_menu() {
+    add_options_page(
+        'Link-Tracking',
+        'Link-Tracking',
+        'manage_options',
+        'mw-link-tracking',
+        'mw_tracking_admin_page'
+    );
+}
+
+function mw_tracking_admin_page() {
+    if (!current_user_can('manage_options')) {
+        return;
+    }
+
+    // Reset-Aktion verarbeiten
+    if (isset($_POST['mw_reset_ref']) && check_admin_referer('mw_tracking_reset')) {
+        $reset_ref = intval($_POST['mw_reset_ref']);
+        if ($reset_ref > 0) {
+            delete_option('mw_track_clicks_' . $reset_ref);
+            echo '<div class="notice notice-success"><p>Zähler für Link ' . esc_html($reset_ref) . ' zurückgesetzt.</p></div>';
+        }
+    }
+
+    $max_links = 10;
+
+    echo '<div class="wrap">';
+    echo '<h1>Link-Tracking</h1>';
+    echo '<p>Klickzahlen für trackbare Links mit <code>?ref=X</code> Parameter.</p>';
+    echo '<table class="widefat fixed striped">';
+    echo '<thead><tr><th>Nr.</th><th>Beispiel-URL</th><th>Klicks</th><th>Aktion</th></tr></thead>';
+    echo '<tbody>';
+
+    for ($i = 1; $i <= $max_links; $i++) {
+        $clicks = (int) get_option('mw_track_clicks_' . $i, 0);
+        $url = home_url('/etn/leicht-drueber/?ref=' . $i);
+
+        echo '<tr>';
+        echo '<td><strong>' . $i . '</strong></td>';
+        echo '<td><code>' . esc_html($url) . '</code></td>';
+        echo '<td>' . $clicks . '</td>';
+        echo '<td>';
+        if ($clicks > 0) {
+            echo '<form method="post" style="display:inline">';
+            wp_nonce_field('mw_tracking_reset');
+            echo '<input type="hidden" name="mw_reset_ref" value="' . $i . '">';
+            echo '<button type="submit" class="button button-small" onclick="return confirm(\'Zähler für Link ' . $i . ' wirklich zurücksetzen?\')">Reset</button>';
+            echo '</form>';
+        }
+        echo '</td>';
+        echo '</tr>';
+    }
+
+    echo '</tbody></table>';
+    echo '</div>';
+}
