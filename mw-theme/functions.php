@@ -370,6 +370,7 @@ function mw_tracking_admin_page() {
     echo '<h1>Link-Tracking</h1>';
     echo '<p>Klickzahlen für trackbare Links mit <code>?ref=X</code> Parameter.</p>';
 
+    echo '<style>.mw-tracking-input::placeholder { color: #aaa; opacity: 1; font-style: italic; }</style>';
     echo '<form method="post">';
     wp_nonce_field('mw_tracking_labels');
     echo '<table class="widefat fixed striped">';
@@ -383,7 +384,7 @@ function mw_tracking_admin_page() {
 
         echo '<tr>';
         echo '<td><strong>' . $i . '</strong></td>';
-        echo '<td><input type="text" name="mw_label_' . $i . '" value="' . $label . '" placeholder="Kanalname" style="width:100%"></td>';
+        echo '<td><input type="text" name="mw_label_' . $i . '" value="' . $label . '" placeholder="Kanalname" class="mw-tracking-input" style="width:100%"></td>';
         echo '<td><code>' . esc_html($url) . '</code></td>';
         echo '<td>' . $clicks . '</td>';
         echo '</tr>';
